@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
     $name=$_POST['name'];  
     $email=$_POST['email'];    
     $select=$_POST['select'];
-    $range=$_POST['range'];   
+      
   $from = 'Enquiry <'.$email.'>' . "\r\n";
   $sendTo = "Enquiry <yadavpriya1425@gmail.com>";
   $subject = 'Contact Form';
@@ -967,23 +967,7 @@ if(isset($_POST['submit'])){
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="get-insurance__progress">
-                                                        <div class="get-insurance__progress-single">
-                                                            <h4 class="get-insurance__progress-title">Limits of Balance:
-                                                            </h4>
-                                                            <div class="get-insurance__progress-range">
-                                                                <input type="text" name="range" class="balance-range-slider"
-                                                                    data-hide-min-max="true" data-step="100"
-                                                                    data-from="70000" data-min="0" data-max="90000"
-                                                                    value="" />
-                                                                <div class="get-insurance__balance-box">
-                                                                    <p class="get-insurance__balance">$<span></span></p>
-                                                                </div>
-                                                                <input type="hidden"
-                                                                    class="get-insurance__balance__input">
-                                                            </div><!-- /.get-insurance__progress-range -->
-                                                        </div>
-                                                    </div>
+                                                    
                                                     <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
                                                         Now</button>
                                                 </form>
@@ -1011,24 +995,8 @@ if(isset($_POST['submit'])){
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="get-insurance__progress">
-                                                        <div class="get-insurance__progress-single">
-                                                            <h4 class="get-insurance__progress-title">Limits of Balance:
-                                                            </h4>
-                                                            <div class="get-insurance__progress-range">
-                                                                <input type="text" class="balance-range-slider"
-                                                                    data-hide-min-max="true" data-step="100"
-                                                                    data-from="70000" data-min="0" data-max="90000"
-                                                                    value="" />
-                                                                <div class="get-insurance__balance-box">
-                                                                    <p class="get-insurance__balance">$<span></span></p>
-                                                                </div>
-                                                                <input type="hidden"
-                                                                    class="get-insurance__balance__input">
-                                                            </div><!-- /.get-insurance__progress-range -->
-                                                        </div>
-                                                    </div>
-                                                    <button type="submit" class="thm-btn get-insurance__btn">Get a Quote
+                                                    
+                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
                                                         Now</button>
                                                 </form>
                                             </div>
@@ -1055,24 +1023,8 @@ if(isset($_POST['submit'])){
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="get-insurance__progress">
-                                                        <div class="get-insurance__progress-single">
-                                                            <h4 class="get-insurance__progress-title">Limits of Balance:
-                                                            </h4>
-                                                            <div class="get-insurance__progress-range">
-                                                                <input type="text" class="balance-range-slider"
-                                                                    data-hide-min-max="true" data-step="100"
-                                                                    data-from="70000" data-min="0" data-max="90000"
-                                                                    value="" />
-                                                                <div class="get-insurance__balance-box">
-                                                                    <p class="get-insurance__balance">$<span></span></p>
-                                                                </div>
-                                                                <input type="hidden"
-                                                                    class="get-insurance__balance__input">
-                                                            </div><!-- /.get-insurance__progress-range -->
-                                                        </div>
-                                                    </div>
-                                                    <button type="submit" class="thm-btn get-insurance__btn">Get a Quote
+                                                    
+                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
                                                         Now</button>
                                                 </form>
                                             </div>
@@ -1099,25 +1051,9 @@ if(isset($_POST['submit'])){
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="get-insurance__progress">
-                                                        <div class="get-insurance__progress-single">
-                                                            <h4 class="get-insurance__progress-title">Limits of Balance:
-                                                            </h4>
-                                                            <div class="get-insurance__progress-range">
-                                                                <input type="text" class="balance-range-slider"
-                                                                    data-hide-min-max="true" data-step="100"
-                                                                    data-from="70000" data-min="0" data-max="90000"
-                                                                    value="" />
-                                                                <div class="get-insurance__balance-box">
-                                                                    <p class="get-insurance__balance">$<span></span></p>
-                                                                </div>
-                                                                <input type="hidden"
-                                                                    class="get-insurance__balance__input">
-                                                            </div><!-- /.get-insurance__progress-range -->
-                                                        </div>
-                                                    </div>
-                                                    <button type="submit" class="thm-btn get-insurance__btn">Get a Quote
-                                                        Now</button>
+                                                    
+                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
+                                                        </button>
                                                 </form>
                                             </div>
                                         </div>
@@ -1253,7 +1189,7 @@ if(isset($_POST['submit'])){
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="team-details.html">Thomas Jakson</a></h3>
+                                <h3 class="team-one__name"><a href="team-details.html">Vedant Naidu</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
@@ -1277,7 +1213,7 @@ if(isset($_POST['submit'])){
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="team-details.html">Hallen Smith</a></h3>
+                                <h3 class="team-one__name"><a href="team-details.html">Divyani Keshari</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
@@ -1301,7 +1237,7 @@ if(isset($_POST['submit'])){
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="team-details.html">David Cooper</a></h3>
+                                <h3 class="team-one__name"><a href="team-details.html">Aniket Nangare</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
@@ -1351,9 +1287,7 @@ if(isset($_POST['submit'])){
                         </div>
                         <div class="col-xl-6">
                             <div class="testimonial-one__top-right">
-                                <p class="testimonial-one__top-text">Pellentesque habitant morbi tristique senectus
-                                    netus et malesuada fames ac turp egestas. Aliquam viverra arcu. Donec aliquet
-                                    blandit enim feugiat mattis.</p>
+                                <p class="testimonial-one__top-text">Always helpful and always available. The folks at (IC) are my insurance people, for everything…cars, boats, houses and that makes my life easier. Peace of mind would be enough, but their bundled rates beat everyone else I’ve used before too. I Definitely recommend this family agency!</p>
                             </div>
                         </div>
                     </div>
@@ -1409,14 +1343,12 @@ if(isset($_POST['submit'])){
                                                         <i class="fa fa-star"></i>
                                                     </div>
                                                     <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Smith Vectoria</h3>
+                                                        <h3 class="testimonial-one__client-name">Sarvesh Bhosale</h3>
                                                         <p class="testimonial-one__client-sub-title">director</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text">Pellentesque habitant morbi tristique
-                                                senectus netus et malesuada fames ac turp egestas. Aliquam viverra arcu.
-                                                Donec aliquet blandit enim feugiat mattis.</p>
+                                            <p class="testimonial-one__text">Our goal is to epitomize the dedicated local independent insurance agency. We prioritize listening to our clients then educate and advise them on the best coverage options and provide the most competitive price in the insurance marketplace.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1443,14 +1375,12 @@ if(isset($_POST['submit'])){
                                                         <i class="fa fa-star"></i>
                                                     </div>
                                                     <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Christine Eve</h3>
+                                                        <h3 class="testimonial-one__client-name">Reema Varma</h3>
                                                         <p class="testimonial-one__client-sub-title">director</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text">Pellentesque habitant morbi tristique
-                                                senectus netus et malesuada fames ac turp egestas. Aliquam viverra arcu.
-                                                Donec aliquet blandit enim feugiat mattis.</p>
+                                            <p class="testimonial-one__text"> (the company) is committed to improving the quality of our community by insuring your life’s hard work. Setting a standard of excellence, our professional staff will help you understand your current and future risk exposures by building a lifelong relationship.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1477,14 +1407,12 @@ if(isset($_POST['submit'])){
                                                         <i class="fa fa-star"></i>
                                                     </div>
                                                     <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Hallen Smith</h3>
+                                                        <h3 class="testimonial-one__client-name">Ruhani Shekh</h3>
                                                         <p class="testimonial-one__client-sub-title">director</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text">Pellentesque habitant morbi tristique
-                                                senectus netus et malesuada fames ac turp egestas. Aliquam viverra arcu.
-                                                Donec aliquet blandit enim feugiat mattis.</p>
+                                            <p class="testimonial-one__text">This agency does a fantastic job finding me the right coverage and insurance company at a very competitive price every time my insurance renews. Very happy with them as my agent  all of your information will be  secure and private!</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1511,14 +1439,12 @@ if(isset($_POST['submit'])){
                                                         <i class="fa fa-star"></i>
                                                     </div>
                                                     <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Kevin Martin</h3>
+                                                        <h3 class="testimonial-one__client-name">Snehal Ambvale</h3>
                                                         <p class="testimonial-one__client-sub-title">director</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text">Pellentesque habitant morbi tristique
-                                                senectus netus et malesuada fames ac turp egestas. Aliquam viverra arcu.
-                                                Donec aliquet blandit enim feugiat mattis.</p>
+                                            <p class="testimonial-one__text">Great local insurance company for personal and business related insurance. Get immediate insurance proof and easy payment options. Our mission is to help people manage the risks of everyday life, recover from the unexpected and realize their dreams.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1534,38 +1460,7 @@ if(isset($_POST['submit'])){
       
         <!--News One End-->
 
-        <!--Tracking Start-->
-        <section class="tracking">
-            <div class="container">
-                <div class="tracking__inner">
-                    <div class="tracking-shape-1 float-bob-y">
-                        <img src="assets/images/shapes/tracking-shape-1.png" alt="">
-                    </div>
-                    <div class="tracking-shape-2 float-bob-x">
-                        <img src="assets/images/shapes/tracking-shape-2.png" alt="">
-                    </div>
-                    <div class="tracking-shape-3 float-bob-x">
-                        <img src="assets/images/shapes/tracking-shape-3.png" alt="">
-                    </div>
-                    <div class="tracking-shape-4 float-bob-y">
-                        <img src="assets/images/shapes/tracking-shape-4.png" alt="">
-                    </div>
-                    <div class="tracking__left">
-                        <div class="tracking__icon">
-                            <span class="icon-folder"></span>
-                        </div>
-                        <div class="tracking__content">
-                            <p class="tracking__sub-title">Quisque vel ortor</p>
-                            <h3 class="tracking__title">Start tracking your claims</h3>
-                        </div>
-                    </div>
-                    <div class="tracking__btn-box">
-                        <a href="about.html" class="thm-btn tracking__btn">Trak Your Claim</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Tracking End-->
+       
 
         <!--Site Footer Start-->
         <footer class="site-footer">
@@ -1584,10 +1479,9 @@ if(isset($_POST['submit'])){
                                         id quis ad et. Sunt qui esse pariatur duis deserunt.</p>
                                 </div>
                                 <div class="site-footer__social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
