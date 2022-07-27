@@ -1,3 +1,66 @@
+<?php
+
+if(isset($_POST['submit'])){
+    $status=1;
+    $name=$_POST['name'];  
+    $email=$_POST['email'];    
+    $select=$_POST['select'];
+    $range=$_POST['range'];   
+  $from = 'Enquiry <'.$email.'>' . "\r\n";
+  $sendTo = "Enquiry <yadavpriya1425@gmail.com>";
+  $subject = 'Contact Form';
+  // $fields = array( 'name' => 'name' );
+  $from = 'Aayushi water purifier';
+  $from .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+  
+  
+  $emailText = '
+  <html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="x-apple-disable-message-reformatting"> 
+      <title></title>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+      <style>
+        
+      </style>
+  </head>
+  <body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
+     <div>
+     <h1>'.$email.'</h1>
+     </div>
+  </body>
+  </html>';
+  
+  try{
+    foreach($_POST as $key => $value){
+      if(isset($fields[$key])){
+        $emailText.="$fields[$key]: $value\n";
+      }
+    }
+   if( mail($sendTo,$subject,$emailText, "From:" .$from)){
+  echo"message send sucessfully!";
+   
+   }else{
+      echo "$sendTo $subject $emailText $from";
+   }
+  }
+  catch(\Exception $e){
+    echo "not done";
+  }
+  if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest'){
+    $encode=json_encode($responseArray);
+    header('content-Type: application/json');
+    echo $encoded;
+  }
+  else{
+    echo $responseArray['message'];
+  }
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -575,9 +638,7 @@
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="services-one__top-right">
-                                <p class="services-one__top-text">Nullam eu nibh vitae est tempor molestie id sed ex.
-                                    Quisque dignissim maximus ipsum, sed rutrum metus tincidunt et. Sed eget tincidunt
-                                    ipsum.</p>
+                                <p class="services-one__top-text">Live a Long Life with Protection. We insure quality. We GO Where You Go. A Business of Caring. We'll chase the recession </p>
                             </div>
                         </div>
                     </div>
@@ -613,8 +674,7 @@
                                         <span class="icon-family"></span>
                                     </div>
                                     <h2 class="service-one__title"><a href="life-insurance.html">Life insurance</a></h2>
-                                    <p class="service-one__text">Lorem ipsum dolor sit amet, sed consectetur adipiscing
-                                        elit.</p>
+                                    <p class="service-one__text">A life insurance plan is a contract between an insurance policyholder, where the insurer promises to pay a sum of money in exchange for a premium after set period or upon the death of an insured person. Life insurance offers you and your family financial. </p>
                                 </div>
                             </div>
                         </div>
@@ -630,8 +690,7 @@
                                         <span class="icon-home"></span>
                                     </div>
                                     <h2 class="service-one__title"><a href="home-insurance.html">Home insurance</a></h2>
-                                    <p class="service-one__text">Lorem ipsum dolor sit amet, sed consectetur adipiscing
-                                        elit.</p>
+                                    <p class="service-one__text">Home insurance policy covers damage to the home and its contents against all the 12 perils specified under standard fire insurance policy including fire, lightning, explosion, aircraft damage, and impact damage.</p>
                                 </div>
                             </div>
                         </div>
@@ -648,8 +707,7 @@
                                     </div>
                                     <h2 class="service-one__title"><a href="health-insurance.html">Health insurance</a>
                                     </h2>
-                                    <p class="service-one__text">Lorem ipsum dolor sit amet, sed consectetur adipiscing
-                                        elit.</p>
+                                    <p class="service-one__text">Health insurance policy is a product that protects you against the financial implications of a wide variety of health-related expenses, ranging from those caused by minor illnesses and injuries to critical diseases.</p>
                                 </div>
                             </div>
                         </div>
@@ -666,8 +724,9 @@
                                     </div>
                                     <h2 class="service-one__title"><a href="business-insurance.html">Business
                                             insurance</a></h2>
-                                    <p class="service-one__text">Lorem ipsum dolor sit amet, sed consectetur adipiscing
-                                        elit.</p>
+                                    <p class="service-one__text">Business Insurance Policy (CGL) protects your organization and your business against any liability arising due to bodily injury, any personal injury caused to a third-party.Business insurance protects businesses from any financial loss
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -683,8 +742,7 @@
                                         <span class="icon-fire"></span>
                                     </div>
                                     <h2 class="service-one__title"><a href="fire-insurance.html">Fire insurance</a></h2>
-                                    <p class="service-one__text">Lorem ipsum dolor sit amet, sed consectetur adipiscing
-                                        elit.</p>
+                                    <p class="service-one__text">Fire insurance is property insurance that provides additional coverage for loss or damage to a structure damaged or destroyed in a fire.Fire insurance may be capped at a rate that is less than the cost of the losses accrued, fire insurance policy</p>
                                 </div>
                             </div>
                         </div>
@@ -701,8 +759,7 @@
                                     </div>
                                     <h2 class="service-one__title"><a href="marriage-insurance.html">Marriage
                                             insurance</a></h2>
-                                    <p class="service-one__text">Lorem ipsum dolor sit amet, sed consectetur adipiscing
-                                        elit.</p>
+                                    <p class="service-one__text">Wedding is an auspicious event that marks a beginning of a new chapter in your life. It is the starting point of creating a family of your own. It is a once in a lifetime event that continues to bring you joy for the rest of your life. </p>
                                 </div>
                             </div>
                         </div>
@@ -719,8 +776,7 @@
                                     </div>
                                     <h2 class="service-one__title"><a href="travel-insurance.html">Travel insurance</a>
                                     </h2>
-                                    <p class="service-one__text">Lorem ipsum dolor sit amet, sed consectetur adipiscing
-                                        elit.</p>
+                                    <p class="service-one__text">Travel insurance is a unique product that offers you financial help in case something were to go wrong while you’re travelling. It covers a range of scenarios, including medical and dental emergencies, theft of your money</p>
                                 </div>
                             </div>
                         </div>
@@ -902,7 +958,7 @@
                                                                 name="email">
                                                         </div>
                                                         <div class="get-insurance__input-box">
-                                                            <select class="selectpicker"
+                                                            <select class="selectpicker" name="select"
                                                                 aria-label="Default select example">
                                                                 <option selected>Select type of insurance</option>
                                                                 <option value="1">Car insurance</option>
@@ -916,7 +972,7 @@
                                                             <h4 class="get-insurance__progress-title">Limits of Balance:
                                                             </h4>
                                                             <div class="get-insurance__progress-range">
-                                                                <input type="text" class="balance-range-slider"
+                                                                <input type="text" name="range" class="balance-range-slider"
                                                                     data-hide-min-max="true" data-step="100"
                                                                     data-from="70000" data-min="0" data-max="90000"
                                                                     value="" />
@@ -928,7 +984,7 @@
                                                             </div><!-- /.get-insurance__progress-range -->
                                                         </div>
                                                     </div>
-                                                    <button type="submit" class="thm-btn get-insurance__btn">Get a Quote
+                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
                                                         Now</button>
                                                 </form>
                                             </div>
