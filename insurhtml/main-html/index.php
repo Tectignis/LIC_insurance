@@ -1469,14 +1469,13 @@ if(isset($_POST['submit'])){
             <div class="container">
                 <div class="site-footer__top">
                     <div class="row">
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
                                     <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
                                 </div>
                                 <div class="footer-widget__about-text-box">
-                                    <p class="footer-widget__about-text">Aliqua id fugiat nostrud irure ex duis ea quis
-                                        id quis ad et. Sunt qui esse pariatur duis deserunt.</p>
+                                    <p class="footer-widget__about-text">Caring You because your Life is important.</p>
                                 </div>
                                 <div class="site-footer__social">
                                     <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
@@ -1485,7 +1484,7 @@ if(isset($_POST['submit'])){
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="footer-widget__column footer-widget__contact clearfix">
                                 <h3 class="footer-widget__title">Contact</h3>
                                 <ul class="footer-widget__contact-list list-unstyled clearfix">
@@ -1513,50 +1512,8 @@ if(isset($_POST['submit'])){
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="footer-widget__column footer-widget__gallery clearfix">
-                                <h3 class="footer-widget__title">Instagram</h3>
-                                <ul class="footer-widget__gallery-list list-unstyled clearfix">
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-1.jpg" alt="">
-                                            <a href="#"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-2.jpg" alt="">
-                                            <a href="#"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-3.jpg" alt="">
-                                            <a href="#"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-4.jpg" alt="">
-                                            <a href="#"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-5.jpg" alt="">
-                                            <a href="#"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="footer-widget__gallery-img">
-                                            <img src="assets/images/resources/footer-widget-gallery-img-6.jpg" alt="">
-                                            <a href="#"><span class="fa fa-link"></span></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                       
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div class="footer-widget__column footer-widget__newsletter">
                                 <h3 class="footer-widget__title">Newsletter</h3>
                                 <p class="footer-widget__newsletter-text">Subscribe our newsletter to get our <br>
