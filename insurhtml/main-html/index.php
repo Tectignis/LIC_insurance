@@ -137,11 +137,9 @@ if(isset($_POST['submit'])){
                         <div class="main-header__top-address">
                             <ul class="list-unstyled main-header__top-address-list">
                                 <li>
-                                    <i class="icon">
-                                        <span class="icon-pin"></span>
-                                    </i>
+                                <i class="fas fa-phone"></i>
                                     <div class="text">
-                                        <p>30 Commercial Road Fratton, Australia</p>
+                                        <p> <a href="tel:9200368090">+92 (003) 68-090</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -155,19 +153,13 @@ if(isset($_POST['submit'])){
                             </ul>
                         </div>
                         <div class="main-header__top-right">
-                            <div class="main-header__top-menu-box">
-                                <ul class="list-unstyled main-header__top-menu">
-                                    <li><a href="about.html">Make a Claim</a></li>
-                                    <li><a href="faq.html"> FAQs</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                </ul>
-                            </div>
+                            
                             <div class="main-header__top-social-box">
                                 <div class="main-header__top-social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                                    
+                                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -186,172 +178,50 @@ if(isset($_POST['submit'])){
                                     <div class="main-menu__main-menu-box-inner">
                                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                         <ul class="main-menu__list">
-                                            <li class="dropdown current megamenu">
-                                                <a href="index.html">Home </a>
+                                            <li>
+                                                <a href="index.php">Home </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#insurance">Insurance</a>
+                                               
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="#services">Services</a>
                                                 <ul>
-                                                    <li>
-                                                        <section class="home-showcase">
-                                                            <div class="container">
-                                                                <div class="home-showcase__inner">
-                                                                    <div class="row">
-                                                                        <div class="col-lg-3">
-                                                                            <div class="home-showcase__item">
-                                                                                <div class="home-showcase__image">
-                                                                                    <img src="assets/images/home-showcase/home-showcase-1-1.jpg"
-                                                                                        alt="">
-                                                                                    <div class="home-showcase__buttons">
-                                                                                        <a href="index.html"
-                                                                                            class="thm-btn home-showcase__buttons__item">Multi
-                                                                                            Page</a>
-                                                                                        <a href="index-one-page.html"
-                                                                                            class="thm-btn home-showcase__buttons__item">One
-                                                                                            Page</a>
-                                                                                    </div>
-                                                                                    <!-- /.home-showcase__buttons -->
-                                                                                </div><!-- /.home-showcase__image -->
-                                                                                <h3 class="home-showcase__title">Home 01
-                                                                                </h3><!-- /.home-showcase__title -->
-                                                                            </div><!-- /.home-showcase__item -->
-                                                                        </div><!-- /.col-lg-3 -->
-                                                                        <div class="col-lg-3">
-                                                                            <div class="home-showcase__item">
-                                                                                <div class="home-showcase__image">
-                                                                                    <img src="assets/images/home-showcase/home-showcase-1-2.jpg"
-                                                                                        alt="">
-                                                                                    <div class="home-showcase__buttons">
-                                                                                        <a href="index2.html"
-                                                                                            class="thm-btn home-showcase__buttons__item">Multi
-                                                                                            Page</a>
-                                                                                        <a href="index2-one-page.html"
-                                                                                            class="thm-btn home-showcase__buttons__item">One
-                                                                                            Page</a>
-                                                                                    </div>
-                                                                                    <!-- /.home-showcase__buttons -->
-                                                                                </div><!-- /.home-showcase__image -->
-                                                                                <h3 class="home-showcase__title">Home 02
-                                                                                </h3><!-- /.home-showcase__title -->
-                                                                            </div><!-- /.home-showcase__item -->
-                                                                        </div><!-- /.col-lg-3 -->
-                                                                        <div class="col-lg-3">
-                                                                            <div class="home-showcase__item">
-                                                                                <div class="home-showcase__image">
-                                                                                    <img src="assets/images/home-showcase/home-showcase-1-3.jpg"
-                                                                                        alt="">
-                                                                                    <div class="home-showcase__buttons">
-                                                                                        <a href="index3.html"
-                                                                                            class="thm-btn home-showcase__buttons__item">Multi
-                                                                                            Page</a>
-                                                                                        <a href="index3-one-page.html"
-                                                                                            class="thm-btn home-showcase__buttons__item">One
-                                                                                            Page</a>
-                                                                                    </div>
-                                                                                    <!-- /.home-showcase__buttons -->
-                                                                                </div><!-- /.home-showcase__image -->
-                                                                                <h3 class="home-showcase__title">Home 03
-                                                                                </h3><!-- /.home-showcase__title -->
-                                                                            </div><!-- /.home-showcase__item -->
-                                                                        </div><!-- /.col-lg-3 -->
-                                                                        <div class="col-lg-3">
-                                                                            <div class="home-showcase__item">
-                                                                                <div class="home-showcase__image">
-                                                                                    <img src="assets/images/home-showcase/home-showcase-1-4.jpg"
-                                                                                        alt="">
-                                                                                    <div class="home-showcase__buttons">
-                                                                                        <a href="index-dark.html"
-                                                                                            class="thm-btn home-showcase__buttons__item">View
-                                                                                            Page</a>
-                                                                                    </div>
-                                                                                    <!-- /.home-showcase__buttons -->
-                                                                                </div><!-- /.home-showcase__image -->
-                                                                                <h3 class="home-showcase__title">Home
-                                                                                    Dark
-                                                                                </h3><!-- /.home-showcase__title -->
-                                                                            </div><!-- /.home-showcase__item -->
-                                                                        </div><!-- /.col-lg-3 -->
-                                                                    </div><!-- /.row -->
-                                                                </div><!-- /.home-showcase__inner -->
-
-                                                            </div><!-- /.container -->
-                                                        </section>
+                                                    
+                                                    <li><a href="#car">Car insurance</a></li>
+                                                    <li><a href="#life">Life insurance</a></li>
+                                                    <li><a href="#home">Home insurance</a>
                                                     </li>
+                                                    <li><a href="#health">Health insurance</a></li>
+                                                    <li><a href="#business">Business insurance</a></li>
+                                                    <li><a href="#fire">Fire insurance</a></li>
+                                                    <li><a href="#marriage">Marriage insurance</a></li>
+                                                    <li><a href="#travel">Travel insurance</a></li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown">
-                                                <a href="#">Pages</a>
-                                                <ul>
-                                                    <li><a href="about.html">About</a></li>
-                                                    <li><a href="team-page.html">Team</a></li>
-                                                    <li><a href="team-carousel.html">Team Carousel</a></li>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                    <li><a href="testimonial.html">Testimonials</a></li>
-                                                    <li><a href="testimonial-carousel.html">Teatimonials Carousel</a>
-                                                    </li>
-                                                    <li><a href="pricing.html">Pricing</a></li>
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="404.html">404 Error</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#">Insurance </a>
-                                                <ul>
-                                                    <li><a href="insurance-01.html">Insurance 01</a></li>
-                                                    <li><a href="insurance-02.html">Insurance 02</a></li>
-                                                    <li><a href="car-insurance.html">Car insurance</a></li>
-                                                    <li><a href="life-insurance.html">Life insurance</a></li>
-                                                    <li><a href="home-insurance.html">Home insurance</a>
-                                                    </li>
-                                                    <li><a href="health-insurance.html">Health insurance</a></li>
-                                                    <li><a href="business-insurance.html">Business insurance</a></li>
-                                                    <li><a href="fire-insurance.html">Fire insurance</a></li>
-                                                    <li><a href="marriage-insurance.html">Marriage insurance</a></li>
-                                                    <li><a href="travel-insurance.html">Travel insurance</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#">Portfolio</a>
-                                                <ul>
-                                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                                    <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
-                                                    <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="#">News</a>
-                                                <ul>
-                                                    <li><a href="news.html">News</a></li>
-                                                    <li><a href="news-carousel.html">News Carousel</a></li>
-                                                    <li><a href="news-sidebar.html">News Sidebar</a></li>
-                                                    <li><a href="news-details.html">News Details</a></li>
-                                                </ul>
+                                                <a href="#team">Team</a>
+                                                
                                             </li>
                                             <li>
-                                                <a href="contact.html">Contact </a>
+                                                <a href="#about">About </a>
+                                            </li>
+                                            <li>
+                                                <a href="#contact">Contact </a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="main-menu__main-menu-box-search-get-quote-btn">
-                                        <div class="main-menu__main-menu-box-search">
-                                            <a href="#"
-                                                class="main-menu__search search-toggler icon-magnifying-glass"></a>
-                                        </div>
-                                        <div class="main-menu__main-menu-box-get-quote-btn-box">
-                                            <a href="contact.html"
+                                      
+                                        <div class="main-menu__main-menu-box-get-quote-btn-box" >
+                                            <a href="#contact"
                                                 class="thm-btn main-menu__main-menu-box-get-quote-btn">Get a Quote</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="main-menu__right">
-                                <div class="main-menu__call">
-                                    <div class="main-menu__call-icon">
-                                        <i class="fas fa-phone"></i>
-                                    </div>
-                                    <div class="main-menu__call-content">
-                                        <a href="tel:9200368090">+92 (003) 68-090</a>
-                                        <p>Call to Our Experts</p>
-                                    </div>
-                                </div>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -382,7 +252,7 @@ if(isset($_POST['submit'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-1-1.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);"></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
@@ -395,7 +265,7 @@ if(isset($_POST['submit'])){
                                     <div class="main-slider__content">
                                         <h3 class="main-slider__title">Insurance <br> for the better <br> family
                                             <span>life.</span></h3>
-                                        <p class="main-slider__text"><b>Save Once... and realise Your Life Goals.</b> </p>
+                                        <p class="main-slider__text"><b>Save Once... and realise Your Life Goals..</b> </p>
                                         <div class="main-slider__btn-box">
                                             <a href="about.html" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
@@ -407,7 +277,7 @@ if(isset($_POST['submit'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-1-2.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-2-3.jpg);"></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
@@ -418,10 +288,9 @@ if(isset($_POST['submit'])){
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <h2 class="main-slider__title">Insurance <br> for the better <br> family
-                                            <span>life.</span></h2>
-                                        <p class="main-slider__text">Phasellus condimentum laoreet turpis, ut tincid
-                                            sodales <br> in. Integer leo arcu, mollis sit amet tempor.</p>
+                                        <h3 class="main-slider__title">Insurance <br> for the better <br> family
+                                            <span>life.</span></h3>
+                                        <p class="main-slider__text">Save Once... and realise Your Life Goals..</p>
                                         <div class="main-slider__btn-box">
                                             <a href="about.html" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
@@ -433,7 +302,7 @@ if(isset($_POST['submit'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-1-3.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-3-1.jpg);"></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
@@ -444,10 +313,9 @@ if(isset($_POST['submit'])){
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <h2 class="main-slider__title">Insurance <br> for the better <br> family
-                                            <span>life.</span></h2>
-                                        <p class="main-slider__text">Phasellus condimentum laoreet turpis, ut tincid
-                                            sodales <br> in. Integer leo arcu, mollis sit amet tempor.</p>
+                                        <h3 class="main-slider__title">Insurance <br> for the better <br> family
+                                            <span>life.</span></h3>
+                                        <p class="main-slider__text">Save Once... and realise Your Life Goals..</p>
                                         <div class="main-slider__btn-box">
                                             <a href="about.html" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
@@ -479,7 +347,7 @@ if(isset($_POST['submit'])){
                 <div class="feature-one__inner">
                     <div class="row">
                         <!--Feature One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms" id="insurance">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
                                     <div class="feature-one__icon">
@@ -499,7 +367,7 @@ if(isset($_POST['submit'])){
                         </div>
                         <!--Feature One Single End-->
                         <!--Feature One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms" id="insurance">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
                                     <div class="feature-one__icon">
@@ -516,7 +384,7 @@ if(isset($_POST['submit'])){
                         </div>
                         <!--Feature One Single End-->
                         <!--Feature One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms" id="insurance">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
                                     <div class="feature-one__icon">
@@ -550,10 +418,10 @@ if(isset($_POST['submit'])){
                             <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
                                 <div class="about-one__img">
-                                    <img src="assets/images/resources/about-one-img-1.jpg" alt="">
+                                    <img src="assets/images/shapes/b1.jpg" alt="">
                                 </div>
                                 <div class="about-one__img-two">
-                                    <img src="assets/images/resources/about-one-img-2.jpg" alt="">
+                                    <img src="assets/images/shapes/b2.jpg" alt="">
                                 </div>
                                 <div class="about-one__experience">
                                     <h2 class="about-one__experience-year">20</h2>
@@ -565,7 +433,7 @@ if(isset($_POST['submit'])){
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-6" id="about">
                         <div class="about-one__right">
                             <div class="section-title text-left">
                                 <div class="section-sub-title-box">
@@ -646,18 +514,18 @@ if(isset($_POST['submit'])){
             </div>
             <div class="services-one__bottom">
                 <div class="services-one__container">
-                    <div class="row">
+                    <div class="row" id="services">
                         <!--Services One Single Start-->
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/services/services-1-1.jpg" alt="">
+                                    <img src="assets/images/shapes/car1.jpg" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
                                         <span class="icon-drive"></span>
                                     </div>
-                                    <h2 class="service-one__title"><a href="car-insurance.html">Car insurance</a></h2>
+                                    <h2 class="service-one__title" id="car"><a href="#">Car insurance</a></h2>
                                     <p class="service-one__text">The fastest growing sector in India as it is compulsory for all new cars. The value of the car, state where the car is registered and the year of manufacture. This amount can be reduced by asking the insurer for a no claim bonus (NCB) if no claim is made for insurance in previous year.</p>
                                 </div>
                             </div>
@@ -667,13 +535,13 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/services/services-1-2.jpg" alt="">
+                                    <img src="assets/images/shapes/blog-1.jpg" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
                                         <span class="icon-family"></span>
                                     </div>
-                                    <h2 class="service-one__title"><a href="life-insurance.html">Life insurance</a></h2>
+                                    <h2 class="service-one__title" id="life"><a href="#">Life insurance</a></h2>
                                     <p class="service-one__text">A life insurance plan is a contract between an insurance policyholder, where the insurer promises to pay a sum of money in exchange for a premium after set period or upon the death of an insured person. Life insurance offers you and your family financial. </p>
                                 </div>
                             </div>
@@ -683,13 +551,13 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/services/services-1-3.jpg" alt="">
+                                    <img src="assets/images/shapes/blog-2.jpg" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
                                         <span class="icon-home"></span>
                                     </div>
-                                    <h2 class="service-one__title"><a href="home-insurance.html">Home insurance</a></h2>
+                                    <h2 class="service-one__title" id="home"><a href="#">Home insurance</a></h2>
                                     <p class="service-one__text">Home insurance policy covers damage to the home and its contents against all the 12 perils specified under standard fire insurance policy including fire, lightning, explosion, aircraft damage, and impact damage.</p>
                                 </div>
                             </div>
@@ -699,13 +567,13 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/services/services-1-4.jpg" alt="">
+                                    <img src="assets/images/shapes/medi1.jpg" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
                                         <span class="icon-heart-beat"></span>
                                     </div>
-                                    <h2 class="service-one__title"><a href="health-insurance.html">Health insurance</a>
+                                    <h2 class="service-one__title" id="health"><a href="#">Health insurance</a>
                                     </h2>
                                     <p class="service-one__text">Health insurance policy is a product that protects you against the financial implications of a wide variety of health-related expenses, ranging from those caused by minor illnesses and injuries to critical diseases.</p>
                                 </div>
@@ -716,13 +584,13 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/services/services-1-5.jpg" alt="">
+                                    <img src="assets/images/shapes/s2.jpg" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
                                         <span class="icon-briefcase"></span>
                                     </div>
-                                    <h2 class="service-one__title"><a href="business-insurance.html">Business
+                                    <h2 class="service-one__title" id="business"><a href="#">Business
                                             insurance</a></h2>
                                     <p class="service-one__text">Business Insurance Policy (CGL) protects your organization and your business against any liability arising due to bodily injury, any personal injury caused to a third-party.Business insurance protects businesses from any financial loss
 
@@ -735,13 +603,13 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/services/services-1-6.jpg" alt="">
+                                    <img src="assets/images/shapes/s3.jpg" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
                                         <span class="icon-fire"></span>
                                     </div>
-                                    <h2 class="service-one__title"><a href="fire-insurance.html">Fire insurance</a></h2>
+                                    <h2 class="service-one__title" id="fire"><a href="#">Fire insurance</a></h2>
                                     <p class="service-one__text">Fire insurance is property insurance that provides additional coverage for loss or damage to a structure damaged or destroyed in a fire.Fire insurance may be capped at a rate that is less than the cost of the losses accrued, fire insurance policy</p>
                                 </div>
                             </div>
@@ -751,13 +619,13 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/services/services-1-7.jpg" alt="">
+                                    <img src="assets/images/shapes/s4.jpg" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
                                         <span class="icon-ring"></span>
                                     </div>
-                                    <h2 class="service-one__title"><a href="marriage-insurance.html">Marriage
+                                    <h2 class="service-one__title" id="marriage"><a href="#">Marriage
                                             insurance</a></h2>
                                     <p class="service-one__text">Wedding is an auspicious event that marks a beginning of a new chapter in your life. It is the starting point of creating a family of your own. It is a once in a lifetime event that continues to bring you joy for the rest of your life. </p>
                                 </div>
@@ -768,13 +636,13 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/services/services-1-8.jpg" alt="">
+                                    <img src="assets/images/shapes/s5.jpg" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
                                         <span class="icon-plane"></span>
                                     </div>
-                                    <h2 class="service-one__title"><a href="travel-insurance.html">Travel insurance</a>
+                                    <h2 class="service-one__title"id="travel" ><a href="#">Travel insurance</a>
                                     </h2>
                                     <p class="service-one__text">Travel insurance is a unique product that offers you financial help in case something were to go wrong while you’re travelling. It covers a range of scenarios, including medical and dental emergencies, theft of your money</p>
                                 </div>
@@ -823,7 +691,7 @@ if(isset($_POST['submit'])){
                                         <img src="assets/images/shapes/section-title-shape-4.png" alt="">
                                     </div>
                                 </div>
-                                <h2 class="section-title__title">Few reasons for people choosing insur</h2>
+                                <h2 class="section-title__title">Few reasons for people choosing insurance</h2>
                             </div>
                             <p class="why-choose-one__text">Term Insurance plan is a simple and pure risk cover form of life insurance.<br> It provides financial protection to your family against a fixed premium paid for a specified term. <br>You can get a large amount of term insurance cover (sum assured)<br> at affordable premiums.<br> The nominee receives the term insurance amount in case of death of the policyholder</p>
                             <div class="why-choose-one__list-box">
@@ -835,11 +703,10 @@ if(isset($_POST['submit'])){
                                             </div>
                                             <div class="why-choose-one__list-title-box">
                                                 <div class="why-choose-one__list-title-inner">
-                                                    <h3 class="why-choose-one__list-title">Fast & easy process</h3>
+                                                    <h3 class="why-choose-one__list-title">Best Rates & Coverage</h3>
                                                 </div>
                                                 <div class="why-choose-one__list-text-box">
-                                                    <p class="why-choose-one__list-text">Lorem ipsum dolor sit amet,
-                                                        sectetur adipiscing elit.</p>
+                                                    <p class="why-choose-one__list-text">We help you discover any protection inclusions that are ideal for you.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -851,11 +718,10 @@ if(isset($_POST['submit'])){
                                             </div>
                                             <div class="why-choose-one__list-title-box">
                                                 <div class="why-choose-one__list-title-inner">
-                                                    <h3 class="why-choose-one__list-title">Fast & easy process</h3>
+                                                    <h3 class="why-choose-one__list-title">Easy Online Insurance</h3>
                                                 </div>
                                                 <div class="why-choose-one__list-text-box">
-                                                    <p class="why-choose-one__list-text">Lorem ipsum dolor sit amet,
-                                                        sectetur adipiscing elit.</p>
+                                                    <p class="why-choose-one__list-text">We can save you money.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -870,8 +736,7 @@ if(isset($_POST['submit'])){
                                                     <h3 class="why-choose-one__list-title">Control over policy</h3>
                                                 </div>
                                                 <div class="why-choose-one__list-text-box">
-                                                    <p class="why-choose-one__list-text">Lorem ipsum dolor sit amet,
-                                                        sectetur adipiscing elit.</p>
+                                                    <p class="why-choose-one__list-text">Our life insurance is flexible, Support banking loan.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -886,8 +751,8 @@ if(isset($_POST['submit'])){
                                                     <h3 class="why-choose-one__list-title">Save your money</h3>
                                                 </div>
                                                 <div class="why-choose-one__list-text-box">
-                                                    <p class="why-choose-one__list-text">Lorem ipsum dolor sit amet,
-                                                        sectetur adipiscing elit.</p>
+                                                    <p class="why-choose-one__list-text">LA fast & easy application and
+                                                    Growing your business</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -922,7 +787,7 @@ if(isset($_POST['submit'])){
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-6" id="contact">
                         <div class="get-insurance__right">
                             <div class="section-title text-left">
                                 <div class="section-sub-title-box">
@@ -1068,90 +933,7 @@ if(isset($_POST['submit'])){
         <!--Get Insurance End-->
 
         <!--Counter One Start-->
-        <Section class="counter-one">
-            <div class="counter-one-shape-1 float-bob-y">
-                <img src="assets/images/shapes/counter-one-shape-1.png" alt="">
-            </div>
-            <div class="counter-one-shape-2 float-bob-y">
-                <img src="assets/images/shapes/counter-one-shape-2.png" alt="">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <!--Counter One Single Start-->
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="counter-one__single">
-                            <div class="counter-one__top">
-                                <div class="counter-one__icon">
-                                    <span class="icon-insurance-1"></span>
-                                </div>
-                                <div class="counter-one__count-box">
-                                    <div class="counter-one__count-box-inner">
-                                        <h3 class="odometer" data-count="2.6">00</h3>
-                                        <span class="counter-one__plus">k</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="counter-one__text">Gave insurances</p>
-                        </div>
-                    </div>
-                    <!--Counter One Single End-->
-                    <!--Counter One Single Start-->
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="counter-one__single">
-                            <div class="counter-one__top">
-                                <div class="counter-one__icon">
-                                    <span class="icon-group"></span>
-                                </div>
-                                <div class="counter-one__count-box">
-                                    <div class="counter-one__count-box-inner">
-                                        <h3 class="odometer" data-count="89">00</h3>
-                                        <span class="counter-one__plus">+</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="counter-one__text">Professional team</p>
-                        </div>
-                    </div>
-                    <!--Counter One Single End-->
-                    <!--Counter One Single Start-->
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="counter-one__single">
-                            <div class="counter-one__top">
-                                <div class="counter-one__icon">
-                                    <span class="icon-life-insurance"></span>
-                                </div>
-                                <div class="counter-one__count-box">
-                                    <div class="counter-one__count-box-inner">
-                                        <h3 class="odometer" data-count="2.8">00</h3>
-                                        <span class="counter-one__plus">k</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="counter-one__text">Satisfied customers</p>
-                        </div>
-                    </div>
-                    <!--Counter One Single End-->
-                    <!--Counter One Single Start-->
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="counter-one__single">
-                            <div class="counter-one__top">
-                                <div class="counter-one__icon">
-                                    <span class="icon-success"></span>
-                                </div>
-                                <div class="counter-one__count-box">
-                                    <div class="counter-one__count-box-inner">
-                                        <h3 class="odometer" data-count="99">00</h3>
-                                        <span class="counter-one__plus">%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="counter-one__text">Our success rate</p>
-                        </div>
-                    </div>
-                    <!--Counter One Single End-->
-                </div>
-            </div>
-        </Section>
+     
         <!--Counter One End-->
 
         <!--Team One Start-->
@@ -1161,7 +943,7 @@ if(isset($_POST['submit'])){
             </div>
             <div class="container">
                 <div class="section-title text-center">
-                    <div class="section-sub-title-box">
+                    <div class="section-sub-title-box" id="team">
                         <p class="section-sub-title">Our experts</p>
                         <div class="section-title-shape-1">
                             <img src="assets/images/shapes/section-title-shape-1.png" alt="">
@@ -1178,7 +960,7 @@ if(isset($_POST['submit'])){
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
-                                    <img src="assets/images/team/team-1-1.jpg" alt="">
+                                    <img src="assets/images/shapes/t2.jpg" alt="">
                                 </div>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -1202,7 +984,7 @@ if(isset($_POST['submit'])){
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
-                                    <img src="assets/images/team/team-1-2.jpg" alt="">
+                                    <img src="assets/images/shapes/t1.jpg" alt="">
                                 </div>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -1213,7 +995,7 @@ if(isset($_POST['submit'])){
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="team-details.html">Divyani Keshari</a></h3>
+                                <h3 class="team-one__name"><a href="team-details.html">jatin Keshari</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
@@ -1226,7 +1008,7 @@ if(isset($_POST['submit'])){
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
-                                    <img src="assets/images/team/team-1-3.jpg" alt="">
+                                    <img src="assets/images/shapes/t3.jpg" alt="">
                                 </div>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -1246,14 +1028,7 @@ if(isset($_POST['submit'])){
                     </div>
                     <!--Team One Single End-->
                 </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="team-one__bottom">
-                            <p class="team-one__bottom-text">Contact Our Expert Team Memeber To Take Our <span>Best
-                                    Policies</span></p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
         <!--Team One End-->
@@ -1287,7 +1062,7 @@ if(isset($_POST['submit'])){
                         </div>
                         <div class="col-xl-6">
                             <div class="testimonial-one__top-right">
-                                <p class="testimonial-one__top-text">Always helpful and always available. The folks at (IC) are my insurance people, for everything…cars, boats, houses and that makes my life easier. Peace of mind would be enough, but their bundled rates beat everyone else I’ve used before too. I Definitely recommend this family agency!</p>
+                                <p class="testimonial-one__top-text">Always helpful and always available. The folks at (IC) are my insurance people, for everything…cars, boats, houses and that makes my life easier. Peace of mind would be enough, I Definitely recommend this family agency!</p>
                             </div>
                         </div>
                     </div>
@@ -1328,7 +1103,7 @@ if(isset($_POST['submit'])){
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/testimonial/testimonial-1-1.jpg" alt="">
+                                                    <img src="assets/images/shapes/t5.jpg" alt="">
                                                     <div class="testimonial-one__quote">
                                                         <img src="assets/images/testimonial/testimonial-1-quote.png"
                                                             alt="">
@@ -1343,7 +1118,7 @@ if(isset($_POST['submit'])){
                                                         <i class="fa fa-star"></i>
                                                     </div>
                                                     <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Sarvesh Bhosale</h3>
+                                                        <h3 class="testimonial-one__client-name">Sarikha Bhosale</h3>
                                                         <p class="testimonial-one__client-sub-title">director</p>
                                                     </div>
                                                 </div>
@@ -1360,7 +1135,7 @@ if(isset($_POST['submit'])){
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/testimonial/testimonial-1-2.jpg" alt="">
+                                                    <img src="assets/images/shapes/t4.jpg" alt="">
                                                     <div class="testimonial-one__quote">
                                                         <img src="assets/images/testimonial/testimonial-1-quote.png"
                                                             alt="">
@@ -1392,7 +1167,7 @@ if(isset($_POST['submit'])){
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/testimonial/testimonial-1-3.jpg" alt="">
+                                                    <img src="assets/images/shapes/t6.jpg" alt="">
                                                     <div class="testimonial-one__quote">
                                                         <img src="assets/images/testimonial/testimonial-1-quote.png"
                                                             alt="">
@@ -1407,7 +1182,7 @@ if(isset($_POST['submit'])){
                                                         <i class="fa fa-star"></i>
                                                     </div>
                                                     <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Ruhani Shekh</h3>
+                                                        <h3 class="testimonial-one__client-name">Aditya Shinde</h3>
                                                         <p class="testimonial-one__client-sub-title">director</p>
                                                     </div>
                                                 </div>
@@ -1424,7 +1199,7 @@ if(isset($_POST['submit'])){
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/testimonial/testimonial-1-4.jpg" alt="">
+                                                    <img src="assets/images/shapes/t7.jpg" alt="">
                                                     <div class="testimonial-one__quote">
                                                         <img src="assets/images/testimonial/testimonial-1-quote.png"
                                                             alt="">
