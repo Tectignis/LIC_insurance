@@ -69,7 +69,7 @@ if(isset($_POST['submit'])){
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Home One || Insur || Insur HTML 5 Template </title>
+    <title> Home One || Insur ||  </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -172,7 +172,7 @@ if(isset($_POST['submit'])){
                         <div class="main-menu__wrapper-inner clearfix">
                             <div class="main-menu__left">
                                 <div class="main-menu__logo">
-                                    <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                                    <a href="index.php"><img src="assets/images/resources/logo-1.png" alt=""></a>
                                 </div>
                                 <div class="main-menu__main-menu-box">
                                     <div class="main-menu__main-menu-box-inner">
@@ -267,7 +267,7 @@ if(isset($_POST['submit'])){
                                             <span>life.</span></h3>
                                         <p class="main-slider__text"><b>Save Once... and realise Your Life Goals..</b> </p>
                                         <div class="main-slider__btn-box">
-                                            <a href="about.html" class="thm-btn main-slider__btn">Let’s Get Started</a>
+                                            <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -292,7 +292,7 @@ if(isset($_POST['submit'])){
                                             <span>life.</span></h3>
                                         <p class="main-slider__text">Save Once... and realise Your Life Goals..</p>
                                         <div class="main-slider__btn-box">
-                                            <a href="about.html" class="thm-btn main-slider__btn">Let’s Get Started</a>
+                                            <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -317,7 +317,7 @@ if(isset($_POST['submit'])){
                                             <span>life.</span></h3>
                                         <p class="main-slider__text">Save Once... and realise Your Life Goals..</p>
                                         <div class="main-slider__btn-box">
-                                            <a href="about.html" class="thm-btn main-slider__btn">Let’s Get Started</a>
+                                            <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -357,7 +357,7 @@ if(isset($_POST['submit'])){
                                     <div class="feature-one__shape">
                                         <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
                                     </div>
-                                    <h3 class="feature-one__title"><a href="about.html">Life Insurance</a></h3>
+                                    <h3 class="feature-one__title"><a href="#">Life Insurance</a></h3>
                                     <p class="feature-one__text"> The life insurance calculator gives you the 
                                         flexibility to design your life plan as per your needs. You can pick, 
                                          choose the premium payment life and payout method as per your financial plan.
@@ -377,7 +377,7 @@ if(isset($_POST['submit'])){
                                     <div class="feature-one__shape">
                                         <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
                                     </div>
-                                    <h3 class="feature-one__title"><a href="about.html">Business Insurance</a></h3>
+                                    <h3 class="feature-one__title"><a href="#">Business Insurance</a></h3>
                                     <p class="feature-one__text">Business Insurance Policy (CGL) protects your organization and your business against any liability arising due to bodily injury, property damage or any personal injury caused to a third-party.</p>
                                 </div>
                             </div>
@@ -394,7 +394,7 @@ if(isset($_POST['submit'])){
                                     <div class="feature-one__shape">
                                         <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
                                     </div>
-                                    <h3 class="feature-one__title"><a href="about.html">Home Insurance 
+                                    <h3 class="feature-one__title"><a href="#">Home Insurance 
                                     </a></h3>
                                     <p class="feature-one__text">Home insurance policy covers damage to the home and its contents against all the 12 perils specified under standard fire insurance policy including fire, lightning, explosion, aircraft damage, and impact damage.</p>
                                 </div>
@@ -971,7 +971,7 @@ if(isset($_POST['submit'])){
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="team-details.html">Vedant Naidu</a></h3>
+                                <h3 class="team-one__name"><a href="#">Vedant Naidu</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
@@ -995,7 +995,7 @@ if(isset($_POST['submit'])){
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="team-details.html">jatin Keshari</a></h3>
+                                <h3 class="team-one__name"><a href="#">jatin Keshari</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
@@ -1019,7 +1019,7 @@ if(isset($_POST['submit'])){
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="team-details.html">Aniket Nangare</a></h3>
+                                <h3 class="team-one__name"><a href="#">Aniket Nangare</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
@@ -1247,7 +1247,7 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
-                                    <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
+                                    <a href="index.php"><img src="assets/images/resources/footer-logo.png" alt=""></a>
                                 </div>
                                 <div class="footer-widget__about-text-box">
                                     <p class="footer-widget__about-text">Caring You because your Life is important.</p>
@@ -1338,7 +1338,7 @@ if(isset($_POST['submit'])){
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="143"
+                <a href="index.php" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="143"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
