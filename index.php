@@ -253,7 +253,7 @@ if(isset($_POST['submit1'])){
 
         <!--Main Slider Start-->
         <section class="main-slider clearfix">
-            <div class="swiper-container thm-swiper__slider" style="height:450px;" data-swiper-options='{"slidesPerView": 1, "loop": true,
+            <div class="swiper-container thm-swiper__slider" style="height:430px;" data-swiper-options='{"slidesPerView": 1, "loop": true,
                 "effect": "fade",
                 "pagination": {
                 "el": "#main-slider-pagination",
@@ -271,11 +271,11 @@ if(isset($_POST['submit1'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/page-header-bg.webp);height:430px;" ></div>
+                            style="background-image: url(assets/images/backgrounds/page-header-bg.webp);height:420px;" ></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
-                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:430px;">
+                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:420px;">
                         </div>
 
                         <div class="container">
@@ -296,11 +296,11 @@ if(isset($_POST['submit1'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-2-3.webp);height:430px; "></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-2-3.webp);height:420px; "></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
-                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:430px;">
+                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:420px;">
                         </div>
 
                         <div class="container">
@@ -321,11 +321,11 @@ if(isset($_POST['submit1'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-3-1.webp);height:430px;"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-3-1.webp);height:420px;"></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
-                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:430px;">
+                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:420px;">
                         </div>
 
                         <div class="container">
@@ -1135,8 +1135,7 @@ if(isset($_POST['submit1'])){
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
+                                                        
                                                     </div>
                                                     <div class="testimonial-one__client-details">
                                                         <h3 class="testimonial-one__client-name">Sarikha Bhosale</h3>
@@ -1200,7 +1199,7 @@ if(isset($_POST['submit1'])){
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
+                                                        
                                                     </div>
                                                     <div class="testimonial-one__client-details">
                                                         <h3 class="testimonial-one__client-name">Aditya Shinde</h3>
@@ -1231,8 +1230,7 @@ if(isset($_POST['submit1'])){
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
+                                                        
                                                     </div>
                                                     <div class="testimonial-one__client-details">
                                                         <h3 class="testimonial-one__client-name">Snehal Ambvale</h3>
