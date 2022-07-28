@@ -175,7 +175,7 @@ if(isset($_POST['submit1'])){
                             
                             <div class="main-header__top-social-box">
                                 <div class="main-header__top-social">
-                                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                                    
                                     <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
                                     
                                     <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
@@ -194,17 +194,17 @@ if(isset($_POST['submit1'])){
                                     <a href="index.php"><img src="assets/images/resources/logo-1.png" alt=""></a>
                                 </div>
                                 <div class="main-menu__main-menu-box">
-                                    <div class="main-menu__main-menu-box-inner">
-                                        <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                    <div class="">
+                                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                         <ul class="main-menu__list">
-                                            <li>
+                                            <li class="activeclass">
                                                 <a href="index.php">Home </a>
                                             </li>
-                                            <li class="dropdown">
+                                            <li class="dropdown activeclass">
                                                 <a href="#insurance">Insurance</a>
                                                
                                             </li>
-                                            <li class="dropdown">
+                                            <li class="dropdown activeclass">
                                                 <a href="#services">Services</a>
                                                 <ul>
                                                     
@@ -219,14 +219,14 @@ if(isset($_POST['submit1'])){
                                                     <li><a href="#travel">Travel insurance</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown">
+                                            <li class="dropdown activeclass">
                                                 <a href="#team">Team</a>
                                                 
                                             </li>
-                                            <li>
+                                            <li class="activeclass">
                                                 <a href="#about">About </a>
                                             </li>
-                                            <li>
+                                            <li class="activeclass">
                                                 <a href="#contact">Contact </a>
                                             </li>
                                         </ul>
@@ -253,7 +253,7 @@ if(isset($_POST['submit1'])){
 
         <!--Main Slider Start-->
         <section class="main-slider clearfix">
-            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+            <div class="swiper-container thm-swiper__slider" style="height:450px;" data-swiper-options='{"slidesPerView": 1, "loop": true,
                 "effect": "fade",
                 "pagination": {
                 "el": "#main-slider-pagination",
@@ -271,20 +271,20 @@ if(isset($_POST['submit1'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/page-header-bg.webp);height:430px;" ></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
-                            <img src="assets/images/shapes/main-slider-shape-1.png" alt="">
+                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:430px;">
                         </div>
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <h3 class="main-slider__title">Insurance <br> for the better <br> family
-                                            <span>life.</span></h3>
-                                        <h3 class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </h3>
+                                    <h2>Insurance for the <br>  better family
+                                            <span>life.</span></h2>
+                                        <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
                                         <div class="main-slider__btn-box">
                                             <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
@@ -296,20 +296,20 @@ if(isset($_POST['submit1'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-2-3.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-2-3.webp);height:430px; "></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
-                            <img src="assets/images/shapes/main-slider-shape-1.png" alt="">
+                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:430px;">
                         </div>
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <h3 class="main-slider__title">Insurance <br> for the better <br> family
-                                            <span>life.</span></h3>
-                                        <p class="main-slider__text">Save Once... and realise Your Life Goals..</p>
+                                    <h2>Insurance for the <br>  better family
+                                            <span>life.</span></h2>
+                                        <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
                                         <div class="main-slider__btn-box">
                                             <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
@@ -321,20 +321,20 @@ if(isset($_POST['submit1'])){
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-3-1.jpg);"></div>
+                            style="background-image: url(assets/images/backgrounds/main-slider-3-1.webp);height:430px;"></div>
                         <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
-                            <img src="assets/images/shapes/main-slider-shape-1.png" alt="">
+                            <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:430px;">
                         </div>
 
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                        <h3 class="main-slider__title">Insurance <br> for the better <br> family
-                                            <span>life.</span></h3>
-                                        <p class="main-slider__text">Save Once... and realise Your Life Goals..</p>
+                                    <h2>Insurance for the <br>  better family
+                                            <span>life.</span></h2>
+                                        <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
                                         <div class="main-slider__btn-box">
                                             <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
@@ -374,7 +374,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
                                     </div>
                                     <h3 class="feature-one__title"><a href="#">Life Insurance</a></h3>
                                     <p class="feature-one__text"> The life insurance calculator gives you the 
@@ -394,7 +394,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
                                     </div>
                                     <h3 class="feature-one__title"><a href="#">Business Insurance</a></h3>
                                     <p class="feature-one__text">Business Insurance Policy (CGL) protects your organization and your business against any liability arising due to bodily injury, property damage or any personal injury caused to a third-party.</p>
@@ -411,7 +411,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
                                     </div>
                                     <h3 class="feature-one__title"><a href="#">Home Insurance 
                                     </a></h3>
@@ -429,7 +429,7 @@ if(isset($_POST['submit1'])){
         <!--About One Start-->
         <section class="about-one">
             <div class="about-one-bg wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"
-                style="background-image: url(assets/images/backgrounds/about-one-bg.png);"></div>
+                style="background-image: url(assets/images/backgrounds/about-one-bg.webp);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
@@ -437,17 +437,17 @@ if(isset($_POST['submit1'])){
                             <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
                                 <div class="about-one__img">
-                                    <img src="assets/images/shapes/b1.jpg" alt="">
+                                    <img src="assets/images/shapes/b1.webp" alt="">
                                 </div>
                                 <div class="about-one__img-two">
-                                    <img src="assets/images/shapes/b2.jpg" alt="">
+                                    <img src="assets/images/shapes/b2.webp" alt="">
                                 </div>
                                 <div class="about-one__experience">
                                     <h2 class="about-one__experience-year">20</h2>
                                     <p class="about-one__experience-text">Years of <br> Experience</p>
                                 </div>
                                 <div class="about-one__shape-1">
-                                    <img src="assets/images/shapes/about-one-shape-1.jpg" alt="">
+                                    <img src="assets/images/shapes/about-one-shape-1.webp" alt="">
                                 </div>
                             </div>
                         </div>
@@ -458,10 +458,10 @@ if(isset($_POST['submit1'])){
                                 <div class="section-sub-title-box">
                                     <p class="section-sub-title">About company</p>
                                     <div class="section-title-shape-1">
-                                        <img src="assets/images/shapes/section-title-shape-1.png" alt="">
+                                        <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
                                     </div>
                                     <div class="section-title-shape-2">
-                                        <img src="assets/images/shapes/section-title-shape-2.png" alt="">
+                                        <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
                                     </div>
                                 </div>
                                 <h2 class="section-title__title">We provide the best insurance policy</h2>
@@ -513,10 +513,10 @@ if(isset($_POST['submit1'])){
                                     <div class="section-sub-title-box">
                                         <p class="section-sub-title">Our services</p>
                                         <div class="section-title-shape-1">
-                                            <img src="assets/images/shapes/section-title-shape-1.png" alt="">
+                                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
                                         </div>
                                         <div class="section-title-shape-2">
-                                            <img src="assets/images/shapes/section-title-shape-2.png" alt="">
+                                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
                                         </div>
                                     </div>
                                     <h2 class="section-title__title">We’re covering all the insurance fields</h2>
@@ -586,7 +586,7 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/shapes/medi1.jpg" alt="">
+                                    <img src="assets/images/shapes/medi1.webp" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
@@ -603,7 +603,7 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/shapes/s2.jpg" alt="">
+                                    <img src="assets/images/shapes/s2.webp" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
@@ -622,7 +622,7 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/shapes/s3.jpg" alt="">
+                                    <img src="assets/images/shapes/s3.webp" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
@@ -638,7 +638,7 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/shapes/s4.jpg" alt="">
+                                    <img src="assets/images/shapes/s4.webp" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
@@ -655,7 +655,7 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/shapes/s5.jpg" alt="">
+                                    <img src="assets/images/shapes/s5.webp" alt="">
                                 </div>
                                 <div class="service-one__content">
                                     <div class="services-one__icon">
@@ -677,24 +677,24 @@ if(isset($_POST['submit1'])){
         <!--Why Choose One Start-->
         <section class="why-choose-one">
             <div class="why-choose-one-shape-1"
-                style="background-image: url(assets/images/shapes/why-choose-one-shape-1.png);"></div>
+                style="background-image: url(assets/images/shapes/why-choose-one-shape-1.webp);"></div>
             <div class="why-choose-one-shape-2 float-bob-y">
-                <img src="assets/images/shapes/why-choose-one-shape-2.png" alt="">
+                <img src="assets/images/shapes/why-choose-one-shape-2.webp" alt="">
             </div>
             <div class="why-choose-one-shape-3 float-bob-x">
-                <img src="assets/images/shapes/why-choose-one-shape-3.png" alt="">
+                <img src="assets/images/shapes/why-choose-one-shape-3.webp" alt="">
             </div>
             <div class="why-choose-one-shape-4 float-bob-y">
-                <img src="assets/images/shapes/why-choose-one-shape-4.png" alt="">
+                <img src="assets/images/shapes/why-choose-one-shape-4.webp" alt="">
             </div>
             <div class="why-choose-one-shape-5 float-bob-y">
-                <img src="assets/images/shapes/why-choose-one-shape-5.png" alt="">
+                <img src="assets/images/shapes/why-choose-one-shape-5.webp" alt="">
             </div>
             <div class="why-choose-one-shape-6 float-bob-x">
-                <img src="assets/images/shapes/why-choose-one-shape-6.png" alt="">
+                <img src="assets/images/shapes/why-choose-one-shape-6.webp" alt="">
             </div>
             <div class="why-choose-one-img wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img src="assets/images/resources/why-choose-one-img.png" alt="">
+                <img src="assets/images/shapes/img.webp" alt="">
             </div>
             <div class="container">
                 <div class="row">
@@ -704,10 +704,10 @@ if(isset($_POST['submit1'])){
                                 <div class="section-sub-title-box">
                                     <p class="section-sub-title">Why choose</p>
                                     <div class="section-title-shape-1">
-                                        <img src="assets/images/shapes/section-title-shape-3.png" alt="">
+                                        <img src="assets/images/shapes/section-title-shape-3.webp" alt="">
                                     </div>
                                     <div class="section-title-shape-2">
-                                        <img src="assets/images/shapes/section-title-shape-4.png" alt="">
+                                        <img src="assets/images/shapes/section-title-shape-4.webp" alt="">
                                     </div>
                                 </div>
                                 <h2 class="section-title__title">Few reasons for people choosing insurance</h2>
@@ -788,21 +788,21 @@ if(isset($_POST['submit1'])){
         <!--Get Insurance Start-->
         <section class="get-insurance">
             <div class="get-insurance-bg"
-                style="background-image: url(assets/images/backgrounds/get-insurance-bg.png);"></div>
+                style="background-image: url(assets/images/backgrounds/get-insurance-bg.webp);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="get-insurance__left">
                             <div class="get-insurance__img wow slideInLeft" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
-                                <img src="assets/images/resources/get-insurance-img-1.png" alt="">
+                                <img src="assets/images/resources/get-insurance-img-1.webp" alt="">
                             </div>
                             <div class="get-insurance__author">
                                 <p>Aleesha Rose</p>
                             </div>
                             <div class="get-insurance__circle"></div>
                             <div class="get-insurance__shape-1 float-bob-x">
-                                <img src="assets/images/shapes/get-insurance-shape-1.png" alt="">
+                                <img src="assets/images/shapes/get-insurance-shape-1.webp" alt="">
                             </div>
                         </div>
                     </div>
@@ -812,10 +812,10 @@ if(isset($_POST['submit1'])){
                                 <div class="section-sub-title-box">
                                     <p class="section-sub-title">Free quote</p>
                                     <div class="section-title-shape-1">
-                                        <img src="assets/images/shapes/section-title-shape-1.png" alt="">
+                                        <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
                                     </div>
                                     <div class="section-title-shape-2">
-                                        <img src="assets/images/shapes/section-title-shape-2.png" alt="">
+                                        <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
                                     </div>
                                 </div>
                                 <h2 class="section-title__title">Get an insurance quote <br> to get started!</h2>
@@ -958,24 +958,27 @@ if(isset($_POST['submit1'])){
         <!--Team One Start-->
         <section class="team-one">
             <div class="team-one__shape-1 float-bob-y">
-                <img src="assets/images/shapes/team-one-shape-1.png" alt="">
+                <img src="assets/images/shapes/team-one-shape-1.webp" alt="">
             </div>
             <div class="container">
+            <div class="row">
+            <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
                 <div class="section-title text-center">
                     <div class="section-sub-title-box" id="team">
                         <p class="section-sub-title">Our experts</p>
                         <div class="section-title-shape-1">
-                            <img src="assets/images/shapes/section-title-shape-1.png" alt="">
+                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
                         </div>
                         <div class="section-title-shape-2">
-                            <img src="assets/images/shapes/section-title-shape-2.png" alt="">
+                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
                         </div>
                     </div>
-                    <h2 class="section-title__title">Meet our experienced <br> team people</h2>
+                    <h2 class="section-title__title">Meet our experienced <br> team people</h2><br>
+                    <br><h4 >Caring You because your Life is important.</h4>
                 </div>
-                <div class="row">
+            </div>
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                    <!-- <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
@@ -996,10 +999,10 @@ if(isset($_POST['submit1'])){
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
@@ -1007,14 +1010,13 @@ if(isset($_POST['submit1'])){
                                 </div>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                    
+                                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="#">jatin Keshari</a></h3>
+                                <h3 class="team-one__name"><a href="#">Vaishali Salunkhe</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
@@ -1023,7 +1025,7 @@ if(isset($_POST['submit1'])){
                     </div>
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                    <!-- <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
@@ -1044,7 +1046,7 @@ if(isset($_POST['submit1'])){
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--Team One Single End-->
                 </div>
                 
@@ -1055,10 +1057,10 @@ if(isset($_POST['submit1'])){
         <!--Testimonial One Start-->
         <section class="testimonial-one">
             <div class="testimonial-one-shape-2 float-bob-y">
-                <img src="assets/images/shapes/testimonial-one-shape-2.png" alt="">
+                <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
             </div>
             <div class="testimonial-one-shape-3 float-bob-y">
-                <img src="assets/images/shapes/testimonial-one-shape-3.png" alt="">
+                <img src="assets/images/shapes/testimonial-one-shape-3.webp" alt="">
             </div>
             <div class="container">
                 <div class="testimonial-one__top">
@@ -1069,10 +1071,10 @@ if(isset($_POST['submit1'])){
                                     <div class="section-sub-title-box">
                                         <p class="section-sub-title">testimonials</p>
                                         <div class="section-title-shape-1">
-                                            <img src="assets/images/shapes/section-title-shape-1.png" alt="">
+                                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
                                         </div>
                                         <div class="section-title-shape-2">
-                                            <img src="assets/images/shapes/section-title-shape-2.png" alt="">
+                                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
                                         </div>
                                     </div>
                                     <h2 class="section-title__title">What our customers are <br> talking about</h2>
@@ -1118,13 +1120,13 @@ if(isset($_POST['submit1'])){
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
                                             <div class="testimonial-one__shape-1">
-                                                <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
+                                                <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t5.jpg" alt="">
+                                                    <img src="assets/images/shapes/t5.webp" alt="">
                                                     <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.png"
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
                                                             alt="">
                                                     </div>
                                                 </div>
@@ -1150,13 +1152,13 @@ if(isset($_POST['submit1'])){
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
                                             <div class="testimonial-one__shape-1">
-                                                <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
+                                                <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t4.jpg" alt="">
+                                                    <img src="assets/images/shapes/t4.webp" alt="">
                                                     <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.png"
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
                                                             alt="">
                                                     </div>
                                                 </div>
@@ -1182,13 +1184,13 @@ if(isset($_POST['submit1'])){
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
                                             <div class="testimonial-one__shape-1">
-                                                <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
+                                                <img src="assets/images/shapes/testimonial-one-shape-1.webp" alt="">
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t6.jpg" alt="">
+                                                    <img src="assets/images/shapes/t6.webp" alt="">
                                                     <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.png"
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
                                                             alt="">
                                                     </div>
                                                 </div>
@@ -1214,13 +1216,13 @@ if(isset($_POST['submit1'])){
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
                                             <div class="testimonial-one__shape-1">
-                                                <img src="assets/images/shapes/testimonial-one-shape-1.png" alt="">
+                                                <img src="assets/images/shapes/testimonial-one-shape-1.webp" alt="">
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t7.jpg" alt="">
+                                                    <img src="assets/images/shapes/t7.webp" alt="">
                                                     <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.png"
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
                                                             alt="">
                                                     </div>
                                                 </div>
@@ -1258,7 +1260,7 @@ if(isset($_POST['submit1'])){
 
         <!--Site Footer Start-->
         <footer class="site-footer">
-            <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.png);">
+            <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.webp);">
             </div>
             <div class="container">
                 <div class="site-footer__top">
@@ -1266,13 +1268,14 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
-                                    <a href="index.php"><img src="assets/images/resources/footer-logo.png" alt=""></a>
+                                    <a href="index.php"><img src="assets/images/resources/footer-logo_11zon.webp" alt=""></a>
                                 </div>
                                 <div class="footer-widget__about-text-box">
-                                    <p class="footer-widget__about-text">Caring You because your Life is important.Let Your Money Work For You & Secured You...</p>
+                                    
+                                    <p class="footer-widget__about-text">Let Your Money Work For You & Secured You...</p>
                                 </div>
                                 <div class="site-footer__social">
-                                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                                    
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
                                     <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                                 </div>
@@ -1311,7 +1314,7 @@ if(isset($_POST['submit1'])){
                             <div class="footer-widget__column footer-widget__newsletter">
                                 <h3 class="footer-widget__title">Newsletter</h3>
                                 <p class="footer-widget__newsletter-text">Subscribe our newsletter to get our <br>
-                                    latest update & news.</p>
+                                    latest update.</p>
                                 <form class="footer-widget__newsletter-form">
                                     <div class="footer-widget__newsletter-input-box">
                                         <input type="email" placeholder="Email address" name="email">
@@ -1336,8 +1339,8 @@ if(isset($_POST['submit1'])){
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text" style="float:left;">© All Copyright 2022 by <a href="#">Insurance & Finance Consultant.</a>
-                                </p> <p class="site-footer__bottom-text" style="float:right;"><a href="https://tectignis.in">Designed By Tectignis IT Solutions.</a></p>
+                                <p class="site-footer__bottom-text" style="float:left;">© All Copyright 2022 by <a href="#">Vaishali Enterprises</a>
+                                </p> <p class="site-footer__bottom-text" style="float:right;"><a href="https://tectignis.in" target="_blank">Designed By Tectignis IT Solutions.</a></p>
                             </div>
                            
                         </div>
@@ -1358,7 +1361,7 @@ if(isset($_POST['submit1'])){
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.php" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="143"
+                <a href="index.php" aria-label="logo image"><img src="assets/images/resources/logo-2-11zon.webp" width="143"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -1377,10 +1380,9 @@ if(isset($_POST['submit1'])){
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                  
+                    <a href="https://www.facebook.com" class="fab fa-facebook-square"></a>
+                    <a href="https://www.instagram.com" class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
@@ -1437,7 +1439,11 @@ if(isset($_POST['submit1'])){
     <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
 
 
-
+<script>
+    $(".activeclass").click(function(){
+        $(this).addClass('current');
+    });
+</script>
     <!-- template js -->
     <script src="assets/js/insur.js"></script>
 </body>
