@@ -1318,7 +1318,7 @@ if(isset($_POST['submit'])){
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
                                 <p class="site-footer__bottom-text" style="float:left;">© All Copyright 2022 by <a href="#">Insurance & Finance Consultant.</a>
-                                </p> <p class="site-footer__bottom-text" style="float:right;"><a href="#">Designed By Tectignis IT Solutions.</a></p>
+                                </p> <p class="site-footer__bottom-text" style="float:right;"><a href="https://tectignis.in">Designed By Tectignis IT Solutions.</a></p>
                             </div>
                            
                         </div>
