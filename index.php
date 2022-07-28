@@ -1211,7 +1211,7 @@ if(isset($_POST['submit1'])){
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
                                             <div class="testimonial-one__shape-1">
@@ -1241,7 +1241,7 @@ if(isset($_POST['submit1'])){
                                             <p class="testimonial-one__text">Great local insurance company for personal and business related insurance. Get immediate insurance proof and easy payment options. Our mission is to help people manage the risks of everyday life, recover from the unexpected and realize their dreams.</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
