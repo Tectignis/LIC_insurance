@@ -41,7 +41,7 @@ if(isset($_POST['submit1'])){
       }
     }
    if( mail($sendTo,$subject,$emailText, "From:" .$from)){
-  echo"message send sucessfully!";
+  echo "<script>alert('message send sucessfully!')</script>";
    
    }else{
       echo "$sendTo $subject $emailText $from";
