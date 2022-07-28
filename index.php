@@ -7,7 +7,7 @@ if(isset($_POST['submit1'])){
     $select=$_POST['select'];
       
   $from = 'Enquiry <'.$email.'>' . "\r\n";
-  $sendTo = "Enquiry <dkeshari094@gmail.com>";
+  $sendTo = 'Enquiry <dkeshari094@gmail.com>';
   $subject = 'Contact Form';
   // $fields = array( 'name' => 'name' );
   $from = 'Aayushi water purifier';
@@ -796,12 +796,12 @@ if(isset($_POST['submit1'])){
                             </div>
                             <div class="get-insurance__tab">
                                 <div class="get-insurance__tab-box tabs-box">
-                                    <ul class="tab-buttons clearfix list-unstyled">
+                                    <!-- <ul class="tab-buttons clearfix list-unstyled">
                                         <li data-tab="#home2" class="tab-btn active-btn"><span>Home</span></li>
                                         <li data-tab="#vehicles" class="tab-btn"><span>Vehicles</span></li>
                                         <li data-tab="#health" class="tab-btn"><span>health</span></li>
                                         <li data-tab="#life" class="tab-btn"><span>Life</span></li>
-                                    </ul>
+                                    </ul> -->
                                     <div class="tabs-content">
                                         <!--tab-->
                                         <div class="tab active-tab" id="home2">
@@ -832,7 +832,7 @@ if(isset($_POST['submit1'])){
                                             </div>
                                         </div>
                                         <!--tab-->
-                                        <div class="tab" id="vehicles">
+                                        <!-- <div class="tab" id="vehicles">
                                             <div class="get-insurance__content">
                                                 <form class="get-insurance__form">
                                                     <div class="get-insurance__content-box">
@@ -858,9 +858,9 @@ if(isset($_POST['submit1'])){
                                                         Now</button>
                                                 </form>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <!--tab-->
-                                        <div class="tab" id="health">
+                                        <!-- <div class="tab" id="health">
                                             <div class="get-insurance__content">
                                                 <form class="get-insurance__form">
                                                     <div class="get-insurance__content-box">
@@ -886,9 +886,9 @@ if(isset($_POST['submit1'])){
                                                         Now</button>
                                                 </form>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <!--tab-->
-                                        <div class="tab" id="life">
+                                        <!-- <div class="tab" id="life">
                                             <div class="get-insurance__content">
                                                 <form class="get-insurance__form">
                                                     <div class="get-insurance__content-box">
@@ -914,7 +914,7 @@ if(isset($_POST['submit1'])){
                                                         </button>
                                                 </form>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
