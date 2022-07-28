@@ -69,13 +69,13 @@ if(isset($_POST['submit'])){
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Home One || Insur ||  </title>
+    <title> Vaishali || Enterprises ||  </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Insur HTML 5 Template " />
+    <meta name="description" content="Insurance & Finance Consultant. " />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -139,7 +139,7 @@ if(isset($_POST['submit'])){
                                 <li>
                                 <i class="fas fa-phone"></i>
                                     <div class="text">
-                                        <p> <a href="tel:9200368090">+92 (003) 68-090</a></p>
+                                        <p> <a href="https://wa.me/91 9082391945">+91 9082391945</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -147,7 +147,7 @@ if(isset($_POST['submit'])){
                                         <span class="icon-email"></span>
                                     </i>
                                     <div class="text">
-                                        <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                        <p><a href="mailto:vaishalienterprises922@gmail.com">vaishalienterprises922@gmail.com</a></p>
                                     </div>
                                 </li>
                             </ul>
@@ -265,7 +265,7 @@ if(isset($_POST['submit'])){
                                     <div class="main-slider__content">
                                         <h3 class="main-slider__title">Insurance <br> for the better <br> family
                                             <span>life.</span></h3>
-                                        <p class="main-slider__text"><b>Save Once... and realise Your Life Goals..</b> </p>
+                                        <h3 class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </h3>
                                         <div class="main-slider__btn-box">
                                             <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
                                         </div>
@@ -1250,7 +1250,7 @@ if(isset($_POST['submit'])){
                                     <a href="index.php"><img src="assets/images/resources/footer-logo.png" alt=""></a>
                                 </div>
                                 <div class="footer-widget__about-text-box">
-                                    <p class="footer-widget__about-text">Caring You because your Life is important.</p>
+                                    <p class="footer-widget__about-text">Caring You because your Life is important.Let Your Money Work For You & Secured You...</p>
                                 </div>
                                 <div class="site-footer__social">
                                     <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
@@ -1268,7 +1268,7 @@ if(isset($_POST['submit'])){
                                             <span class="icon-email"></span>
                                         </div>
                                         <div class="text">
-                                            <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                            <p><a href="mailto:vaishalienterprises922@gmail.com">vaishalienterprises922@gmail.com</a></p>
                                         </div>
                                     </li>
                                     <li>
@@ -1276,7 +1276,7 @@ if(isset($_POST['submit'])){
                                             <span class="icon-pin"></span>
                                         </div>
                                         <div class="text">
-                                            <p>30 Commercial Road Fratton, Australia</p>
+                                            <p>Shop No.3, Suyash Society, sec.10, k.k Navi Mumbai-400709</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -1296,7 +1296,7 @@ if(isset($_POST['submit'])){
                                 <form class="footer-widget__newsletter-form">
                                     <div class="footer-widget__newsletter-input-box">
                                         <input type="email" placeholder="Email address" name="email">
-                                        <button type="submit" class="footer-widget__newsletter-btn"><i
+                                        <button type="submit" name="submit" class="footer-widget__newsletter-btn"><i
                                                 class="far fa-paper-plane"></i></button>
                                     </div>
                                 </form>
@@ -1305,7 +1305,7 @@ if(isset($_POST['submit'])){
                                         <span class="icon-telephone"></span>
                                     </div>
                                     <div class="footer-widget__phone-text">
-                                        <a href="tel:9200368090">+92 (003) 68-090</a>
+                                        <a href="tel:+91 9082391945">+91 9082391945</a>
                                         <p>Call to Our Experts</p>
                                     </div>
                                 </div>
@@ -1317,9 +1317,10 @@ if(isset($_POST['submit'])){
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text">© All Copyright 2022 by <a href="#">Insur.com</a>
-                                </p>
+                                <p class="site-footer__bottom-text" style="float:left;">© All Copyright 2022 by <a href="#">Insurance & Finance Consultant.</a>
+                                </p> <p class="site-footer__bottom-text" style="float:right;"><a href="#">Designed By Tectignis IT Solutions.</a></p>
                             </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -1348,11 +1349,11 @@ if(isset($_POST['submit'])){
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@insur.com</a>
+                    <a href="mailto:vaishalienterprises922@gmail.com">vaishalienterprises922@gmail.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+91 9082391945">+91 9082391945</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
