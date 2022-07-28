@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['submit'])){
+if(isset($_POST['submit1'])){
     $status=1;
     $name=$_POST['name'];  
     $email=$_POST['email'];    
@@ -41,7 +41,7 @@ if(isset($_POST['submit'])){
       }
     }
    if( mail($sendTo,$subject,$emailText, "From:" .$from)){
-  echo"message send sucessfully!";
+    echo "<script>alert('message send sucessfully!')</script>";
    
    }else{
       echo "$sendTo $subject $emailText $from";
@@ -833,7 +833,7 @@ if(isset($_POST['submit'])){
                                                         </div>
                                                     </div>
                                                     
-                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
+                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit1">Get a Quote
                                                         Now</button>
                                                 </form>
                                             </div>
