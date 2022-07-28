@@ -198,7 +198,7 @@ if(isset($_POST['submit1'])){
                                          <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                         <ul class="main-menu__list">
                                             <li class="activeclass">
-                                                <a href="index.php">Home </a>
+                                                <a href="#home">Home </a>
                                             </li>
                                             <li class="dropdown activeclass">
                                                 <a href="#insurance">Insurance</a>
@@ -281,7 +281,7 @@ if(isset($_POST['submit1'])){
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
-                                    <div class="main-slider__content">
+                                    <div class="main-slider__content" id="home">
                                     <h2>Insurance for the <br>  better family
                                             <span>life.</span></h2>
                                         <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
