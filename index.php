@@ -813,7 +813,7 @@ if(isset($_POST['submit1'])){
                                         <!--tab-->
                                         <div class="tab active-tab" id="home2">
                                             <div class="get-insurance__content">
-                                                <form class="get-insurance__form">
+                                                <form class="get-insurance__form" method="post">
                                                     <div class="get-insurance__content-box">
                                                         <div class="get-insurance__input-box">
                                                             <input type="text" placeholder="Full name" name="name">
