@@ -88,7 +88,7 @@ if(isset($_POST['submit1'])){
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Vaishali || Enterprises ||  </title>
+    <title>|| Vaishali Enterprises ||  </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -258,7 +258,7 @@ if(isset($_POST['submit1'])){
                 }}'>
                 <div class="swiper-wrapper">
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide"  id="home">
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/page-header-bg.webp);height:420px;" ></div>
                         <!-- /.image-layer -->
@@ -270,7 +270,7 @@ if(isset($_POST['submit1'])){
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
-                                    <div class="main-slider__content" id="home">
+                                    <div class="main-slider__content">
                                     <h2>Insurance for the <br>  better family
                                             <span>life.</span></h2>
                                         <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
@@ -482,7 +482,8 @@ if(isset($_POST['submit1'])){
                                     </div>
                                 </li>
                             </ul>
-                            <p class="about-one__text-2">The insurance contract or agreement is a contract whereby the insurer promises to pay benefits to the insured or on their behalf to a third party if certain defined events occur. Subject to the "fortuity principle", the event must be uncertain. The uncertainty can be either as to when the event will happen </p>
+                            <p class="about-one__text-2">The insurance contract or agreement is a contract whereby the insurer promises to pay benefits to the insured or on their behalf to a third party if certain defined events do. Subject to the" fortuity principle", the event must be uncertain. The query can be either as to when the event will be
+                            </p>
                            
                         </div>
                     </div>
@@ -534,7 +535,7 @@ if(isset($_POST['submit1'])){
                                         <span class="icon-drive"></span>
                                     </div>
                                     <h2 class="service-one__title" id="car"><a href="#">Car insurance</a></h2>
-                                    <p class="service-one__text">The fastest growing sector in India as it is compulsory for all new cars. The value of the car, state where the car is registered and the year of manufacture. This amount can be reduced by asking the insurer for a no claim bonus (NCB) if no claim is made for insurance in previous year.</p>
+                                    <p class="service-one__text">The fastest growing sector in India as it is mandatory for all new cars to get insurance. Value of the car, state where the car is registered and year of manufacture. This amount can be reduced by the insurer's request for a no-claim bonus (NCB) if no claim has occurred in the previous year.</p>
                                 </div>
                             </div>
                         </div>
@@ -550,7 +551,8 @@ if(isset($_POST['submit1'])){
                                         <span class="icon-family"></span>
                                     </div>
                                     <h2 class="service-one__title" id="life"><a href="#">Life insurance</a></h2>
-                                    <p class="service-one__text">A life insurance plan is a contract between an insurance policyholder, where the insurer promises to pay a sum of money in exchange for a premium after set period or upon the death of an insured person. Life insurance offers you and your family financial. </p>
+                                    <p class="service-one__text">A life insurance plan is a contract between policyholders where the insurer agrees to pay a certain amount of money in exchange for premiums after a specified period of time or upon the death of the insured. Life insurance offers financial resources for you and your family.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -566,7 +568,7 @@ if(isset($_POST['submit1'])){
                                         <span class="icon-home"></span>
                                     </div>
                                     <h2 class="service-one__title" id="home"><a href="#">Home insurance</a></h2>
-                                    <p class="service-one__text">Home insurance policy covers damage to the home and its contents against all the 12 perils specified under standard fire insurance policy including fire, lightning, explosion, aircraft damage, and impact damage.</p>
+                                    <p class="service-one__text"> Home insurance covers damage to your home and its contents against all 12 perils listed in a standard fire policy, including fire, lightning, explosion, aircraft damage and impact damage.</p>
                                 </div>
                             </div>
                         </div>
@@ -583,7 +585,8 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <h2 class="service-one__title" id="health"><a href="#">Health insurance</a>
                                     </h2>
-                                    <p class="service-one__text">Health insurance policy is a product that protects you against the financial implications of a wide variety of health-related expenses, ranging from those caused by minor illnesses and injuries to critical diseases.</p>
+                                    <p class="service-one__text">Health insurance is a product that protects you from the financial consequences of a wide range of health-related expenses, from minor illnesses and injuries to critical illnesses.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -600,7 +603,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <h2 class="service-one__title" id="business"><a href="#">Business
                                             insurance</a></h2>
-                                    <p class="service-one__text">Business Insurance Policy (CGL) protects your organization and your business against any liability arising due to bodily injury, any personal injury caused to a third-party.Business insurance protects businesses from any financial loss
+                                    <p class="service-one__text">A Business Insurance Policy (CGL) protects your organization and your business against any liability arising from bodily injury, any injury caused to a third party. Business insurance protects businesses against any financial loss.
 
                                     </p>
                                 </div>
@@ -618,7 +621,7 @@ if(isset($_POST['submit1'])){
                                         <span class="icon-fire"></span>
                                     </div>
                                     <h2 class="service-one__title" id="fire"><a href="#">Fire insurance</a></h2>
-                                    <p class="service-one__text">Fire insurance is property insurance that provides additional coverage for loss or damage to a structure damaged or destroyed in a fire.Fire insurance may be capped at a rate that is less than the cost of the losses accrued, fire insurance policy</p>
+                                    <p class="service-one__text">Fire insurance is property insurance that provides additional coverage for loss or damage to a structure damaged or destroyed in a fire. Fire insurance may be limited at a rate that is less than the cost of incurred losses, fire insurance</p>
                                 </div>
                             </div>
                         </div>
@@ -635,7 +638,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <h2 class="service-one__title" id="marriage"><a href="#">Marriage
                                             insurance</a></h2>
-                                    <p class="service-one__text">Wedding is an auspicious event that marks a beginning of a new chapter in your life. It is the starting point of creating a family of your own. It is a once in a lifetime event that continues to bring you joy for the rest of your life. </p>
+                                    <p class="service-one__text">A wedding is an auspicious event that marks the beginning of a new chapter in your life. It is the starting point for creating your own family. It's a once-in-a-lifetime event that brings you joy for the rest of your life. </p>
                                 </div>
                             </div>
                         </div>
@@ -652,7 +655,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <h2 class="service-one__title"id="travel" ><a href="#">Travel insurance</a>
                                     </h2>
-                                    <p class="service-one__text">Travel insurance is a unique product that offers you financial help in case something were to go wrong while you’re travelling. It covers a range of scenarios, including medical and dental emergencies, theft of your money</p>
+                                    <p class="service-one__text">Travel insurance is a unique product that offers you financial assistance in case something goes wrong while traveling. It covers a number of scenarios, including medical and dental emergencies, theft of your money.</p>
                                 </div>
                             </div>
                         </div>
