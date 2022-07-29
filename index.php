@@ -197,36 +197,25 @@ if(isset($_POST['submit1'])){
                                     <div class="">
                                          <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                         <ul class="main-menu__list">
-                                            <li class="activeclass">
+                                            <li class="scrollToLink">
                                                 <a href="#home">Home </a>
                                             </li>
-                                            <li class="dropdown activeclass">
+                                            <li class="scrollToLink">
                                                 <a href="#insurance">Insurance</a>
                                                
                                             </li>
-                                            <li class="dropdown activeclass">
+                                            <li class="scrollToLink">
                                                 <a href="#services">Services</a>
-                                                <ul>
-                                                    
-                                                    <li><a href="#car">Car insurance</a></li>
-                                                    <li><a href="#life">Life insurance</a></li>
-                                                    <li><a href="#home">Home insurance</a>
-                                                    </li>
-                                                    <li><a href="#health">Health insurance</a></li>
-                                                    <li><a href="#business">Business insurance</a></li>
-                                                    <li><a href="#fire">Fire insurance</a></li>
-                                                    <li><a href="#marriage">Marriage insurance</a></li>
-                                                    <li><a href="#travel">Travel insurance</a></li>
-                                                </ul>
+                                                
                                             </li>
-                                            <li class="dropdown activeclass">
+                                            <li class="scrollToLink">
                                                 <a href="#team">Team</a>
                                                 
                                             </li>
-                                            <li class="activeclass">
+                                            <li class="scrollToLink">
                                                 <a href="#about">About </a>
                                             </li>
-                                            <li class="activeclass">
+                                            <li class="scrollToLink">
                                                 <a href="#contact">Contact </a>
                                             </li>
                                         </ul>
@@ -1438,14 +1427,11 @@ if(isset($_POST['submit1'])){
 
 
 <script>
-    $(".activeclass").click(function(){
-        $(this).addClass('current');
+    $(".scrollToLink").click(function(){
+        $(this).addClass('.current');
     });
 </script>
     <!-- template js -->
     <script src="assets/js/insur.js"></script>
 </body>
-
-
-<!-- Mirrored from layerdrops.com/insurhtml/main-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jul 2022 09:08:03 GMT -->
 </html>
