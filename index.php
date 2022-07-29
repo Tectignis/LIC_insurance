@@ -783,9 +783,7 @@ if(isset($_POST['submit1'])){
                                 data-wow-duration="2500ms">
                                 <img src="assets/images/resources/get-insurance-img-1.webp" alt="">
                             </div>
-                            <div class="get-insurance__author">
-                                <p>Aleesha Rose</p>
-                            </div>
+                            
                             <div class="get-insurance__circle"></div>
                             <div class="get-insurance__shape-1 float-bob-x">
                                 <img src="assets/images/shapes/get-insurance-shape-1.webp" alt="">
