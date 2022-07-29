@@ -274,9 +274,7 @@ if(isset($_POST['submit1'])){
                                     <h2>Insurance for the <br>  better family
                                             <span>life.</span></h2>
                                         <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
-                                        <div class="main-slider__btn-box">
-                                            <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -299,9 +297,7 @@ if(isset($_POST['submit1'])){
                                     <h2>Insurance for the <br>  better family
                                             <span>life.</span></h2>
                                         <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
-                                        <div class="main-slider__btn-box">
-                                            <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -324,9 +320,7 @@ if(isset($_POST['submit1'])){
                                     <h2>Insurance for the <br>  better family
                                             <span>life.</span></h2>
                                         <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
-                                        <div class="main-slider__btn-box">
-                                            <a href="#" class="thm-btn main-slider__btn">Let’s Get Started</a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
