@@ -990,7 +990,7 @@ if(isset($_POST['submit1'])){
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
-                                    <img src="assets/images/shapes/t1.jpg" alt="">
+                                    <img src="assets/images/testimonial/vaishali.webp" alt="">
                                 </div>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
