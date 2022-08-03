@@ -193,7 +193,7 @@ if(isset($_POST['submit1'])){
                         <div class="main-menu__wrapper-inner clearfix">
                             <div class="main-menu__left">
                                 <div class="main-menu__logo">
-                                    <h4>Vaishali Enterprise </h4>
+                                    <h4><b>Vaishali Enterprise</b> </h4>
                                      <!-- <a href="index.php"><img src="assets/images/brand/Untitled design (1).png" alt="" style="width:200px;"></a>  -->
                                 </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div class="main-menu__main-menu-box">
