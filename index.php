@@ -193,8 +193,9 @@ if(isset($_POST['submit1'])){
                         <div class="main-menu__wrapper-inner clearfix">
                             <div class="main-menu__left">
                                 <div class="main-menu__logo">
+                                    <h4>Vaishali Enterprise </h4>
                                      <!-- <a href="index.php"><img src="assets/images/brand/Untitled design (1).png" alt="" style="width:200px;"></a>  -->
-                                </div>
+                                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <div class="main-menu__main-menu-box">
                                     <div class="">
                                          <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
@@ -526,7 +527,7 @@ if(isset($_POST['submit1'])){
                                 <div class="service-one__img">
                                     <img src="assets/images/shapes/car1.jpg" alt="">
                                 </div>
-                                <div class="service-one__content">
+                                <div class="service-one__content" style="height:345px;">
                                     <div class="services-one__icon">
                                         <span class="icon-drive"></span>
                                     </div>
@@ -542,7 +543,7 @@ if(isset($_POST['submit1'])){
                                 <div class="service-one__img">
                                     <img src="assets/images/shapes/blog-1.jpg" alt="">
                                 </div>
-                                <div class="service-one__content">
+                                <div class="service-one__content" style="height:330px;">
                                     <div class="services-one__icon">
                                         <span class="icon-family"></span>
                                     </div>
@@ -559,7 +560,7 @@ if(isset($_POST['submit1'])){
                                 <div class="service-one__img">
                                     <img src="assets/images/shapes/blog-2.jpg" alt="">
                                 </div>
-                                <div class="service-one__content">
+                                <div class="service-one__content" style="height:330px;">
                                     <div class="services-one__icon">
                                         <span class="icon-home"></span>
                                     </div>
@@ -575,7 +576,7 @@ if(isset($_POST['submit1'])){
                                 <div class="service-one__img">
                                     <img src="assets/images/shapes/medi1.webp" alt="">
                                 </div>
-                                <div class="service-one__content">
+                                <div class="service-one__content" style="height:345px;">
                                     <div class="services-one__icon">
                                         <span class="icon-heart-beat"></span>
                                     </div>
@@ -593,7 +594,7 @@ if(isset($_POST['submit1'])){
                                 <div class="service-one__img">
                                     <img src="assets/images/shapes/s2.webp" alt="">
                                 </div>
-                                <div class="service-one__content">
+                                <div class="service-one__content" style="height:330px;">
                                     <div class="services-one__icon">
                                         <span class="icon-briefcase"></span>
                                     </div>
@@ -612,7 +613,7 @@ if(isset($_POST['submit1'])){
                                 <div class="service-one__img">
                                     <img src="assets/images/shapes/s3.webp" alt="">
                                 </div>
-                                <div class="service-one__content">
+                                <div class="service-one__content" style="height:330px;">
                                     <div class="services-one__icon">
                                         <span class="icon-fire"></span>
                                     </div>
@@ -628,7 +629,7 @@ if(isset($_POST['submit1'])){
                                 <div class="service-one__img">
                                     <img src="assets/images/shapes/s4.webp" alt="">
                                 </div>
-                                <div class="service-one__content">
+                                <div class="service-one__content" style="height:330px;">
                                     <div class="services-one__icon">
                                         <span class="icon-ring"></span>
                                     </div>
@@ -645,7 +646,7 @@ if(isset($_POST['submit1'])){
                                 <div class="service-one__img">
                                     <img src="assets/images/shapes/s5.webp" alt="">
                                 </div>
-                                <div class="service-one__content">
+                                <div class="service-one__content" style="height:330px;">
                                     <div class="services-one__icon">
                                         <span class="icon-plane"></span>
                                     </div>
@@ -1254,7 +1255,7 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
-                                    <a href="index.php"><img src="assets/images/resources/footer-logo_11zon.webp" alt=""></a>
+                                    <a href="index.php"><h3 style="color:white;">| Vaishali Enterprise |</h3></a>
                                 </div>
                                 <div class="footer-widget__about-text-box">
                                     
@@ -1299,16 +1300,7 @@ if(isset($_POST['submit1'])){
                        
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div class="footer-widget__column footer-widget__newsletter">
-                                <h3 class="footer-widget__title">Newsletter</h3>
-                                <p class="footer-widget__newsletter-text">Subscribe our newsletter to get our <br>
-                                    latest update.</p>
-                                <form class="footer-widget__newsletter-form">
-                                    <div class="footer-widget__newsletter-input-box">
-                                        <input type="email" placeholder="Email address" name="email">
-                                        <button type="submit" name="submit" class="footer-widget__newsletter-btn"><i
-                                                class="far fa-paper-plane"></i></button>
-                                    </div>
-                                </form>
+                                
                                 <div class="footer-widget__phone">
                                     <div class="footer-widget__phone-icon">
                                         <span class="icon-telephone"></span>
