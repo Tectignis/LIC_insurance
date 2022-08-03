@@ -90,9 +90,9 @@ if(isset($_POST['submit1'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>|| Vaishali Enterprises ||  </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/brand/Untitled-design.webp" />
+    <link rel="icon" type="image/png" sizes="32x32" href="aassets/images/brand/Untitled-design.webp" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/brand/Untitled-design.webp"/>
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Insurance & Finance Consultant. " />
 
@@ -176,9 +176,11 @@ if(isset($_POST['submit1'])){
                             <div class="main-header__top-social-box">
                                 <div class="main-header__top-social">
                                     
-                                    <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook"></i></a>
                                     
-                                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2"><i class="fab fa-instagram"></i></a>
+
+                                    <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
                                 </div>
                             </div> 
                         </div>
@@ -191,7 +193,7 @@ if(isset($_POST['submit1'])){
                         <div class="main-menu__wrapper-inner clearfix">
                             <div class="main-menu__left">
                                 <div class="main-menu__logo">
-                                    <a href="index.php"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                                     <!-- <a href="index.php"><img src="assets/images/brand/Untitled design (1).png" alt="" style="width:200px;"></a>  -->
                                 </div>
                                 <div class="main-menu__main-menu-box">
                                     <div class="">
@@ -993,9 +995,11 @@ if(isset($_POST['submit1'])){
                                     <img src="assets/images/testimonial/vaishali.webp" alt="">
                                 </div>
                                 <ul class="list-unstyled team-one__social">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook-f"></i></a></li>
                                     
-                                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2"><i class="fab fa-instagram"></i></a></li>
+
+                                    <li><a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="team-one__content">
@@ -1258,8 +1262,9 @@ if(isset($_POST['submit1'])){
                                 </div>
                                 <div class="site-footer__social">
                                     
-                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1363,8 +1368,9 @@ if(isset($_POST['submit1'])){
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
                   
-                    <a href="https://www.facebook.com" class="fab fa-facebook-square"></a>
-                    <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+                    <a href="https://www.facebook.com/vaishali.salunkhe.9003" class="fab fa-facebook-square"></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2" class="fab fa-instagram"></a>
+                    <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
