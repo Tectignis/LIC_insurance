@@ -8,7 +8,7 @@ if(isset($_POST['submit1'])){
     $mob_number=$_POST['mob_number'];  
     $select=$_POST['select'];
 
-$from = 'Enquiry <yadavpriya1425@gmail.com>' . "\r\n";
+$from = 'Enquiry <snehal7039@gmail.com>' . "\r\n";
 $sendTo = 'Enquiry <'.$email.'>';
 $subject = 'Contact form';
 // $fields = array( 'name' => 'name' );
