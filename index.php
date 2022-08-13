@@ -1,100 +1,19 @@
-<?php
-
-if(isset($_POST['submit1'])){
-    $status=1;
-    $name=$_POST['name'];  
-    $email=$_POST['email'];    
-    $select=$_POST['select'];
-      
-  $from = 'Enquiry <'.$email.'>' . "\r\n";
-  $sendTo = 'Enquiry <vaishalienterprises922@gmail.com>';
-  $subject = 'Contact Form';
-  // $fields = array( 'name' => 'name' );
-  $from = 'Aayushi water purifier';
-  $from .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-  
-  
-  $emailText = '
-  <html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="x-apple-disable-message-reformatting"> 
-      <title></title>
-      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
-      <style>
-          html,
-  body {
-      margin: 0 auto !important;
-      padding: 0 !important;
-      height: 100% !important;
-      width: 100% !important;
-      background: #f1f1f1;
-  }
-  * {
-      -ms-text-size-adjust: 100%;
-      -webkit-text-size-adjust: 100%;
-  }
-  
-      </style>
-  </head>
-  <body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
-  <div style="font-family: Helvetica,Arial,sans-serif;min-width:1000px;overflow:auto;line-height:2">
-  <div style="margin:50px auto;width:70%;padding:20px 0">
-    <div style="border-bottom:1px solid #eee">
-      <a href="" style="font-size:1.4em;color: #00466a;text-decoration:none;font-weight:600">Agreerent</a>
-    </div>
-    <p style="font-size:1.1em">Hi '.$name.'</p>
-    <p>Please enter below OTP to verify your Email id.</p>
-    <h2 style="background: #00466a;margin: 0 auto;width: max-content;padding: 0 10px;color: #fff;border-radius: 4px;">'.$select.'</h2>
-    <p style="font-size:0.9em;">Regards,<br />Your Brand</p>
-    <hr style="border:none;border-top:1px solid #eee" />
-    <div style="float:right;padding:8px 0;color:#aaa;font-size:0.8em;line-height:1;font-weight:300">
-      <p>Your Brand Inc</p>
-      <p>1600 Amphitheatre Parkway</p>
-      <p>California</p>
-    </div>
-  </div>
-  </div>
-  </body>
-  </html>';
-  
-  try{
-    foreach($_POST as $key => $value){
-      if(isset($fields[$key])){
-        $emailText.="$fields[$key]: $value\n";
-      }
-    }
-   if( mail($sendTo,$subject,$emailText, "From:" .$from)){
-    echo "<script>alert('message send sucessfully!')</script>";
-   
-   }else{
-      echo "$sendTo $subject $emailText $from";
-   }
-  }
-  catch(\Exception $e){
-    echo "not done";
-  }
- 
-  }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 
-<!-- Mirrored from layerdrops.com/insurhtml/main-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jul 2022 09:08:03 GMT -->
+<!-- Mirrored from layerdrops.com/insurhtml/main-html/index-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jul 2022 09:06:58 GMT -->
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Vaishali Enterprises  </title>
+    <title> Vaishali Interprises </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/brand/Untitled-design.webp" />
-    <link rel="icon" type="image/png" sizes="32x32" href="aassets/images/brand/Untitled-design.webp" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/brand/Untitled-design.webp"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Insurance & Finance Consultant. " />
+    <meta name="description" content="Insur HTML 5 Template " />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -127,7 +46,6 @@ if(isset($_POST['submit1'])){
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
     <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css">
-
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/insur.css" />
     <link rel="stylesheet" href="assets/css/insur-responsive.css" />
@@ -176,36 +94,34 @@ if(isset($_POST['submit1'])){
                             <div class="main-header__top-social-box">
                                 <div class="main-header__top-social">
                                     
-                                    <a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/vaishali.salunkhe.9003" target="_blank"><i class="fab fa-facebook"></i></a>
                                     
-                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2" target="_blank"><i class="fab fa-instagram"></i></a>
 
-                                    <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
+                                    <a href="https://t.me/vtsinsuranceconsultant" target="_blank"><i class="fab fa-telegram"></i></a>
                                 </div>
                             </div> 
                         </div>
                     </div>
                 </div>
             </div>
-            <nav class="main-menu clearfix">
+              <nav class="main-menu clearfix">
                 <div class="main-menu__wrapper clearfix">
                     <div class="container">
                         <div class="main-menu__wrapper-inner clearfix">
                             <div class="main-menu__left">
                                 <div class="main-menu__logo">
-                                    <h4><b>Vaishali Enterprise</b> </h4>
-                                     <!-- <a href="index.php"><img src="assets/images/brand/Untitled design (1).png" alt="" style="width:200px;"></a>  -->
-                                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                                </div>
                                 <div class="main-menu__main-menu-box">
-                                    <div class="">
-                                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                                        <ul class="main-menu__list">
-                                            <li class="scrollToLink">
+                                    <div class="main-menu__main-menu-box-inner">
+                                        <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                        <ul class="main-menu__list one-page-scroll-menu">
+                                            <li class="dropdown current megamenu scrollToLink">
                                                 <a href="#home">Home </a>
                                             </li>
-                                            <li class="scrollToLink">
+                                             <li class="scrollToLink">
                                                 <a href="#insurance">Insurance</a>
-                                               
                                             </li>
                                             <li class="scrollToLink">
                                                 <a href="#services">Services</a>
@@ -224,15 +140,25 @@ if(isset($_POST['submit1'])){
                                         </ul>
                                     </div>
                                     <div class="main-menu__main-menu-box-search-get-quote-btn">
-                                      
-                                        <div class="main-menu__main-menu-box-get-quote-btn-box" >
-                                            <a href="#contact"
+                                       
+                                        <div class="main-menu__main-menu-box-get-quote-btn-box">
+                                            <a href="#QUOTE"
                                                 class="thm-btn main-menu__main-menu-box-get-quote-btn">Get a Quote</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                          
+                            <div class="main-menu__right">
+                                <div class="main-menu__call">
+                                    <div class="main-menu__call-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="main-menu__call-content">
+                                        <a href="tel:9200368090">+92 (003) 68-090</a>
+                                        <p>Call to Our Experts</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -244,8 +170,8 @@ if(isset($_POST['submit1'])){
         </div><!-- /.stricky-header -->
 
         <!--Main Slider Start-->
-        <section class="main-slider clearfix">
-            <div class="swiper-container thm-swiper__slider" style="height:430px;" data-swiper-options='{"slidesPerView": 1, "loop": true,
+        <section class="main-slider clearfix" id="home">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
                 "effect": "fade",
                 "pagination": {
                 "el": "#main-slider-pagination",
@@ -352,7 +278,7 @@ if(isset($_POST['submit1'])){
                 <div class="feature-one__inner">
                     <div class="row">
                         <!--Feature One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms" id="insurance">
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
                                     <div class="feature-one__icon">
@@ -360,7 +286,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
                                     </div>
                                     <h3 class="feature-one__title"><a href="#">Life Insurance</a></h3>
                                     <p class="feature-one__text"> The life insurance calculator gives you the 
@@ -372,7 +298,7 @@ if(isset($_POST['submit1'])){
                         </div>
                         <!--Feature One Single End-->
                         <!--Feature One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms" id="insurance">
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
                                     <div class="feature-one__icon">
@@ -380,7 +306,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
                                     </div>
                                     <h3 class="feature-one__title"><a href="#">Business Insurance</a></h3>
                                     <p class="feature-one__text">Business Insurance Policy (CGL) protects your organization and your business against any liability arising due to bodily injury, property damage or any personal injury caused to a third-party.</p>
@@ -389,7 +315,7 @@ if(isset($_POST['submit1'])){
                         </div>
                         <!--Feature One Single End-->
                         <!--Feature One Single Start-->
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms" id="insurance">
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
                                     <div class="feature-one__icon">
@@ -397,7 +323,7 @@ if(isset($_POST['submit1'])){
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
                                     </div>
                                     <h3 class="feature-one__title"><a href="#">Home Insurance 
                                     </a></h3>
@@ -413,9 +339,9 @@ if(isset($_POST['submit1'])){
         <!--Feature One End-->
 
         <!--About One Start-->
-        <section class="about-one">
+        <section class="about-one" id="about">
             <div class="about-one-bg wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"
-                style="background-image: url(assets/images/backgrounds/about-one-bg.webp);"></div>
+                style="background-image: url(assets/images/backgrounds/about-one-bg.png);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
@@ -490,7 +416,7 @@ if(isset($_POST['submit1'])){
         <!--About One End-->
 
         <!--Services One Start-->
-        <section class="services-one">
+        <section class="services-one" id="insurance">
             <div class="services-one__top">
                 <div class="container">
                     <div class="row">
@@ -663,6 +589,7 @@ if(isset($_POST['submit1'])){
         </section>
         <!--Services One End-->
 
+
         <!--Why Choose One Start-->
         <section class="why-choose-one">
             <div class="why-choose-one-shape-1"
@@ -774,8 +701,8 @@ if(isset($_POST['submit1'])){
         </section>
         <!--Why Choose One End-->
 
-        <!--Get Insurance Start-->
-        <section class="get-insurance">
+          <!--Get Insurance Start-->
+          <section class="get-insurance"id="QUOTE" >
             <div class="get-insurance-bg"
                 style="background-image: url(assets/images/backgrounds/get-insurance-bg.webp);"></div>
             <div class="container">
@@ -793,7 +720,7 @@ if(isset($_POST['submit1'])){
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6" id="contact">
+                    <div class="col-xl-6">
                         <div class="get-insurance__right">
                             <div class="section-title text-left">
                                 <div class="section-sub-title-box">
@@ -819,7 +746,7 @@ if(isset($_POST['submit1'])){
                                         <!--tab-->
                                         <div class="tab active-tab" id="home2">
                                             <div class="get-insurance__content">
-                                                <form class="get-insurance__form" method="post">
+                                                <form action="mail.php" class="get-insurance__form" method="post">
                                                     <div class="get-insurance__content-box">
                                                         <div class="get-insurance__input-box">
                                                             <input type="text" placeholder="Full name" name="name">
@@ -827,6 +754,10 @@ if(isset($_POST['submit1'])){
                                                         <div class="get-insurance__input-box">
                                                             <input type="email" placeholder="Email address"
                                                                 name="email">
+                                                        </div>
+                                                        <div class="get-insurance__input-box">
+                                                            <input type="tel" placeholder="Contact Number"
+                                                                name="mob_number">
                                                         </div>
                                                         <div class="get-insurance__input-box">
                                                             <select class="selectpicker" name="select"
@@ -938,12 +869,8 @@ if(isset($_POST['submit1'])){
         </section>
         <!--Get Insurance End-->
 
-        <!--Counter One Start-->
-     
-        <!--Counter One End-->
-
-        <!--Team One Start-->
-        <section class="team-one">
+          <!--Team One Start-->
+          <section class="team-one">
             <div class="team-one__shape-1 float-bob-y">
                 <img src="assets/images/shapes/team-one-shape-1.webp" alt="">
             </div>
@@ -1004,7 +931,7 @@ if(isset($_POST['submit1'])){
                                 </ul>
                             </div>
                             <div class="team-one__content">
-                                <p class="team-one__sub-title">Manager</p>
+                                <p class="team-one__sub-title">Owner</p>
                                 <h3 class="team-one__name"><a href="#">Vaishali Salunkhe</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
@@ -1043,8 +970,13 @@ if(isset($_POST['submit1'])){
         </section>
         <!--Team One End-->
 
-        <!--Testimonial One Start-->
-        <section class="testimonial-one">
+
+
+
+        <!--Team One End-->
+
+          <!--Testimonial One Start-->
+          <section class="testimonial-one">
             <div class="testimonial-one-shape-2 float-bob-y">
                 <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
             </div>
@@ -1239,14 +1171,100 @@ if(isset($_POST['submit1'])){
         </section>
         <!--Testimonial One End-->
 
-        <!--News One Start-->
-      
-        <!--News One End-->
+              <!--Contact Page Start-->
+              <section class="contact-page" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="contact-page__left">
+                                <div class="section-title text-left">
+                                    <div class="section-sub-title-box">
+                                        <p class="section-sub-title">Contact us</p>
+                                        <div class="section-title-shape-1">
+                                            <img src="assets/images/shapes/section-title-shape-1.png" alt="">
+                                        </div>
+                                        <div class="section-title-shape-2">
+                                            <img src="assets/images/shapes/section-title-shape-2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h2 class="section-title__title">Feel free to get in touch with experts</h2>
+                                </div>
+                                <div class="contact-page__call-email">
+                                    <div class="contact-page__call-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-page__call-email-content">
+                                        <h4>
+                                            <a href="https://wa.me/91 9082391945">+91 9082391945</a>
+                                            <a href="mailto:vaishalienterprises922@gmail.com">vaishalienterprises922@gmail.com</a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <p class="contact-page__location-text">
 
-       
+                                    Shop No.3, Suyash Society, sec.10, k.k Navi Mumbai-400709
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="contact-page__right">
+                                <div class="contact-page__form">
+                                    <form action="mail.php" method="post" 
+                                    
+                                    class="comment-one__form contact-form-validated" novalidate="novalidate">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="comment-form__input-box">
+                                                    <input type="text" placeholder="Your name" name="name">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="comment-form__input-box">
+                                                    <input type="email" placeholder="Email address" name="email">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="comment-form__input-box">
+                                                    <input type="text" placeholder="Phone number" name="phone">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="comment-form__input-box">
+                                                    <input type="text" placeholder="Subject" name="subject">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-12">
+                                                <div class="comment-form__input-box text-message-box">
+                                                    <textarea name="message" placeholder="Write a message"></textarea>
+                                                </div>
+                                                <div class="comment-form__btn-box">
+                                                    <button type="submit" class="thm-btn comment-form__btn">Send a Message</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Contact Page End-->
+    
+                 <!--Google Map Start-->
+        <section class="google-map-two">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.2076432947365!2d73.00465641507097!3d19.09854458707495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c18d23a43063%3A0xc40491427a3d4bef!2sVAISHALI%20ENTERPRISES!5e0!3m2!1sen!2sin!4v1659683597357!5m2!1sen!2sin" width="600" height="450"
+                class="google-map__two" allowfullscreen></iframe>
 
-        <!--Site Footer Start-->
-        <footer class="site-footer">
+        </section>
+        <!--Google Map End-->
+
+
+         <!--Site Footer Start-->
+         <footer class="site-footer">
             <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.webp);">
             </div>
             <div class="container">
@@ -1255,7 +1273,7 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
-                                    <a href="index.php"><h3 style="color:white;">| Vaishali Enterprise |</h3></a>
+                                    <a href="index.php"><h3 style="color:white;"> Vaishali Enterprise </h3></a>
                                 </div>
                                 <div class="footer-widget__about-text-box">
                                     
@@ -1319,7 +1337,7 @@ if(isset($_POST['submit1'])){
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
                                 <p class="site-footer__bottom-text" style="float:left;">© All Copyright 2022 by <a href="#">Vaishali Enterprises</a>
-                                </p> <p class="site-footer__bottom-text" style="float:right;"><a href="https://tectignis.in" target="_blank">Designed By Tectignis IT Solutions.</a></p>
+                                </p> <p class="site-footer__bottom-text" style="float:right;">Designed By <a href="https://tectignis.in" target="_blank"><b>Tectignis IT Solutions.</b></a></p>
                             </div>
                            
                         </div>
@@ -1328,7 +1346,6 @@ if(isset($_POST['submit1'])){
             </div>
         </footer>
         <!--Site Footer End-->
-
 
     </div><!-- /.page-wrapper -->
 
@@ -1340,7 +1357,7 @@ if(isset($_POST['submit1'])){
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.php" aria-label="logo image"><img src="assets/images/resources/logo-2-11zon.webp" width="143"
+                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="143"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -1350,19 +1367,19 @@ if(isset($_POST['submit1'])){
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:vaishalienterprises922@gmail.com">vaishalienterprises922@gmail.com</a>
+                    <a href="mailto:needhelp@packageName__.com">needhelp@insur.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:+91 9082391945">+91 9082391945</a>
+                    <a href="tel:666-888-0000">666 888 0000</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                  
-                    <a href="https://www.facebook.com/vaishali.salunkhe.9003" class="fab fa-facebook-square"></a>
-                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2" class="fab fa-instagram"></a>
-                    <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
@@ -1419,12 +1436,9 @@ if(isset($_POST['submit1'])){
     <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
 
 
-<script>
-    $(".scrollToLink").click(function(){
-        $(this).addClass('.current');
-    });
-</script>
     <!-- template js -->
     <script src="assets/js/insur.js"></script>
 </body>
+
+
 </html>
