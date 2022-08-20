@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Vaishali Interprises </title>
+    <title> Vaishali Enterprises </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -486,7 +486,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                                 <div class="why-choose-one__list-title-inner">
                                                     <h3 class="why-choose-one__list-title">Best Rates & Coverage</h3>
                                                 </div>
-                                                <div class="why-choose-one__list-text-box">
+                                                <div class="why-choose-one__list-text-box" >
                                                     <p class="why-choose-one__list-text">We help you discover any protection inclusions that are ideal for you.</p>
                                                 </div>
                                             </div>
