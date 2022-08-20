@@ -10,7 +10,7 @@ if(isset($_POST['submit1'])){
 
 
     $from = 'Enquiry <dkeshari094@gmail.com>' . "\r\n";
-$sendTo = 'Enquiry <'.$Email.'>';
+$sendTo = 'Enquiry <'.$email.'>';
 $subject = 'Your New Password';
 // $fields = array( 'name' => 'name' );
 $from = 'Tectignis IT Solution: 1.0' . "\r\n";
