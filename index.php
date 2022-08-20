@@ -1362,8 +1362,8 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
 
          <!--Site Footer Start-->
          <footer class="site-footer">
-            <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.webp);">
-            </div>
+            <!-- <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.webp);">
+            </div> -->
             <div class="container">
                 <div class="site-footer__top">
                     <div class="row">
