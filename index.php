@@ -427,7 +427,7 @@
 
 For this we are providing the expert, genuine and honest services for our clients since 2007 in Mumbai. We are providing our best services which include life insurance, health insurance and general insurance.
 
-As we are working with one of the best Insurance Companies like LIC, Star & Health Allied, Reliance Insurance,etc. we will make sure that you should have enough insurance for your future dreams.
+As we are working with one of the best Insurance Companies like LIC, Star & Health Allied, Reliance Insurance,niva bhupa,icici Lombardi etc. we will make sure that you should have enough insurance for your future dreams.
                             </p>
                             <!-- The insurance contract or agreement is a contract whereby the insurer promises to pay benefits to the insured or on their behalf to a third party if certain defined events do. Subject to the" fortuity principle", the event must be uncertain. The query can be either as to when the event will be -->
                         </div>
