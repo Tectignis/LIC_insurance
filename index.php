@@ -1337,7 +1337,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                                     <textarea name="message" placeholder="Write a message"></textarea>
                                                 </div>
                                                 <div class="comment-form__btn-box">
-                                                    <button type="submit" class="thm-btn comment-form__btn">Send a Message</button>
+                                                    <button type="submit" class="thm-btn comment-form__btn" name="submitt" >Send a Message</button>
                                                 </div>
                                             </div>
                                         </div>
