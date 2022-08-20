@@ -9,7 +9,7 @@ if(isset($_POST['submit1'])){
     $select=$_POST['select'];
 
 $from = 'Enquiry <snehal7039@gmail.com>' . "\r\n";
-$sendTo = 'Enquiry <yadavpriya1425@gmail.com>';
+$sendTo = 'Enquiry <dkeshari094@gmail.com>';
 $subject = 'Contact form';
 // $fields = array( 'name' => 'name' );
 $from = 'Vaishali Enterprise' . "\r\n";
