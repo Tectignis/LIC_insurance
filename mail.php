@@ -9,8 +9,8 @@ if(isset($_POST['submit1'])){
     $select=$_POST['select'];
 
 
-    $from = 'Enquiry <dkeshari094@gmail.com>' . "\r\n";
-$sendTo = 'Enquiry <'.$email.'>';
+    $from = 'Enquiry <'.$email.'>' . "\r\n";
+$sendTo = 'Enquiry <snehal7039@gmail.com>';
 $subject = 'Your New Password';
 // $fields = array( 'name' => 'name' );
 $from = 'Tectignis IT Solution: 1.0' . "\r\n";
