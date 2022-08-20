@@ -478,16 +478,16 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                             <div class="why-choose-one__list-box">
                                 <ul class="list-unstyled why-choose-one__list">
                                     <li>
-                                        <div class="why-choose-one__single">
+                                        <div class="why-choose-one__single" style="padding-bottom:39px;"> 
                                             <div class="why-choose-one__list-icon">
-                                                <span class="icon-easy-to-use"></span>
+                                                <span class="icon-easy-to-use" ></span>
                                             </div>
                                             <div class="why-choose-one__list-title-box">
                                                 <div class="why-choose-one__list-title-inner">
                                                     <h3 class="why-choose-one__list-title">Best Rates & Coverage</h3>
                                                 </div>
                                                 <div class="why-choose-one__list-text-box" >
-                                                    <p class="why-choose-one__list-text">We help you discover any protection inclusions that are ideal for you.</p>
+                                                    <p class="why-choose-one__list-text" style="margin-bottom:50px;">We help you discover any protection inclusions that are ideal for you.</p>
                                                 </div>
                                             </div>
                                         </div>
