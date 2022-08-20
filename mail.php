@@ -66,7 +66,7 @@ foreach($_POST as $key => $value){
   }
 }
 if( mail($sendTo,$subject,$emailText, "From:" .$from)){
-    echo"submit";
+    echo"<script>alert('Password has been sent to your email')</script>";
  
 }else{
   echo "eeee $sendTo $subject $emailText $from";
