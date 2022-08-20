@@ -120,20 +120,25 @@
                                             <li class="dropdown current megamenu scrollToLink">
                                                 <a href="#home">Home </a>
                                             </li>
-                                             <li class="scrollToLink">
-                                                <a href="#insurance">Insurance</a>
+                                            <li class="scrollToLink">
+                                                <a href="#about">About </a>
+                                            </li>
+                                           
+                                            <li class="scrollToLink">
+                                                <a href="#features">Features</a>
                                             </li>
                                             <li class="scrollToLink">
                                                 <a href="#services">Services</a>
-                                                
                                             </li>
+                                             <!-- <li class="scrollToLink">
+                                                <a href="#insurance">Insurance</a>
+                                            </li> -->
+                                           
                                             <li class="scrollToLink">
                                                 <a href="#team">Team</a>
                                                 
                                             </li>
-                                            <li class="scrollToLink">
-                                                <a href="#about">About </a>
-                                            </li>
+                                            
                                             <li class="scrollToLink">
                                                 <a href="#contact">Contact </a>
                                             </li>
@@ -154,7 +159,10 @@
                                         <i class="fas fa-phone"></i>
                                     </div>
                                     <div class="main-menu__call-content">
-                                        <a href="tel:9200368090">+92 (003) 68-090</a>
+                                        <a href="tel:9200368090">
+                                        +91 9082391945
+                                        </a>
+                                        <!-- +92 (003) 68-090 -->
                                         <p>Call to Our Experts</p>
                                     </div>
                                 </div>
@@ -200,9 +208,9 @@
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="main-slider__content">
-                                    <h2>Insurance for the <br>  better family
-                                            <span>life.</span></h2>
-                                        <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
+                                    <h2>Vaishali Enterprises <br>  Insurance And Finance Consultancy</h2>
+                                            
+                                        <br><p class="main-slider__text"><b>Getting insurance is now much easier...</b> </p>
                                         
                                     </div>
                                 </div>
@@ -222,10 +230,10 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
-                                    <div class="main-slider__content">
-                                    <h2>Insurance for the <br>  better family
-                                            <span>life.</span></h2>
-                                        <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
+                                <div class="main-slider__content">
+                                    <h2>Vaishali Enterprises <br>  Insurance And Finance Consultancy</h2>
+                                            
+                                        <br><p class="main-slider__text"><b>Getting insurance is now much easier...</b> </p>
                                         
                                     </div>
                                 </div>
@@ -245,10 +253,10 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
-                                    <div class="main-slider__content">
-                                    <h2>Insurance for the <br>  better family
-                                            <span>life.</span></h2>
-                                        <br><p class="main-slider__text"><b>Let Your Money Work For You & Secured You...</b> </p>
+                                <div class="main-slider__content">
+                                    <h2>Vaishali Enterprises <br>  Insurance And Finance Consultancy</h2>
+                                            
+                                        <br><p class="main-slider__text"><b>Getting insurance is now much easier...</b> </p>
                                         
                                     </div>
                                 </div>
@@ -296,20 +304,25 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Feature One Single End-->
+
+
+                       
+                        <!-- Feature One Single End-->
                         <!--Feature One Single Start-->
                         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
                                     <div class="feature-one__icon">
-                                        <span class="icon-cashback"></span>
+                                        <span class="icon-heart-beat"></span>
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
                                         <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
                                     </div>
-                                    <h3 class="feature-one__title"><a href="#">Business Insurance</a></h3>
-                                    <p class="feature-one__text">Business Insurance Policy (CGL) protects your organization and your business against any liability arising due to bodily injury, property damage or any personal injury caused to a third-party.</p>
+                                    <h2 class="feature-one__title" id="health"><a href="#">Health Insurance</a>
+                                    </h2>
+                                    <p class="feature-one__text">Health insurance is a product that protects you from the financial consequences of a wide range of health-related expenses, from minor illnesses and injuries to critical illnesses.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -325,13 +338,14 @@
                                     <div class="feature-one__shape">
                                         <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
                                     </div>
-                                    <h3 class="feature-one__title"><a href="#">Home Insurance 
-                                    </a></h3>
-                                    <p class="feature-one__text">Home insurance policy covers damage to the home and its contents against all the 12 perils specified under standard fire insurance policy including fire, lightning, explosion, aircraft damage, and impact damage.</p>
+                                     <h2 class="feature-one__title" id="business"><a href="#">Mutual Funds</a></h2>
+                                    <p class="feature-one__text"> A mutual fund is a company that pools money from many investors and invests the money in securities such as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio. Investors buy shares in mutual funds.
+
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <!--Feature One Single End-->
+                       
                     </div>
                 </div>
             </div>
@@ -355,7 +369,7 @@
                                     <img src="assets/images/shapes/b2.webp" alt="">
                                 </div>
                                 <div class="about-one__experience">
-                                    <h2 class="about-one__experience-year">20</h2>
+                                    <h2 class="about-one__experience-year">15</h2>
                                     <p class="about-one__experience-text">Years of <br> Experience</p>
                                 </div>
                                 <div class="about-one__shape-1">
@@ -405,193 +419,25 @@
                                     </div>
                                 </li>
                             </ul>
-                            <p class="about-one__text-2">The insurance contract or agreement is a contract whereby the insurer promises to pay benefits to the insured or on their behalf to a third party if certain defined events do. Subject to the" fortuity principle", the event must be uncertain. The query can be either as to when the event will be
+                            <p class="about-one__text-2">
+                            Insurance services is field where we are assuring the future of your family in your presence as well as in your absence. We will not let your family be alone.
+
+
+
+
+For this we are providing the expert, genuine and honest services for our clients since 2007 in Mumbai. We are providing our best services which include life insurance, health insurance and general insurance.
+
+As we are working with one of the best Insurance Companies like LIC, Star & Health Allied, Reliance Insurance,etc. we will make sure that you should have enough insurance for your future dreams.
                             </p>
-                           
+                            <!-- The insurance contract or agreement is a contract whereby the insurer promises to pay benefits to the insured or on their behalf to a third party if certain defined events do. Subject to the" fortuity principle", the event must be uncertain. The query can be either as to when the event will be -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--About One End-->
-
-        <!--Services One Start-->
-        <section class="services-one" id="insurance">
-            <div class="services-one__top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="services-one__top-left">
-                                <div class="section-title text-left">
-                                    <div class="section-sub-title-box">
-                                        <p class="section-sub-title">Our services</p>
-                                        <div class="section-title-shape-1">
-                                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
-                                        </div>
-                                        <div class="section-title-shape-2">
-                                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
-                                        </div>
-                                    </div>
-                                    <h2 class="section-title__title">We’re covering all the insurance fields</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="services-one__top-right">
-                                <p class="services-one__top-text">Live a Long Life with Protection. We insure quality. We GO Where You Go. A Business of Caring. We'll chase the recession </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="services-one__bottom">
-                <div class="services-one__container">
-                    <div class="row" id="services">
-                        <!--Services One Single Start-->
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/car1.jpg" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:345px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-drive"></span>
-                                    </div>
-                                    <h2 class="service-one__title" id="car"><a href="#">Car insurance</a></h2>
-                                    <p class="service-one__text">The fastest growing sector in India as it is mandatory for all new cars to get insurance. Value of the car, state where the car is registered and year of manufacture. This amount can be reduced by the insurer's request for a no-claim bonus (NCB) if no claim has occurred in the previous year.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/blog-1.jpg" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:330px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-family"></span>
-                                    </div>
-                                    <h2 class="service-one__title" id="life"><a href="#">Life insurance</a></h2>
-                                    <p class="service-one__text">A life insurance plan is a contract between policyholders where the insurer agrees to pay a certain amount of money in exchange for premiums after a specified period of time or upon the death of the insured. Life insurance offers financial resources for you and your family.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/blog-2.jpg" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:330px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-home"></span>
-                                    </div>
-                                    <h2 class="service-one__title" id="home"><a href="#">Home insurance</a></h2>
-                                    <p class="service-one__text"> Home insurance covers damage to your home and its contents against all 12 perils listed in a standard fire policy, including fire, lightning, explosion, aircraft damage and impact damage.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/medi1.webp" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:345px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-heart-beat"></span>
-                                    </div>
-                                    <h2 class="service-one__title" id="health"><a href="#">Health insurance</a>
-                                    </h2>
-                                    <p class="service-one__text">Health insurance is a product that protects you from the financial consequences of a wide range of health-related expenses, from minor illnesses and injuries to critical illnesses.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/s2.webp" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:330px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-briefcase"></span>
-                                    </div>
-                                    <h2 class="service-one__title" id="business"><a href="#">Business
-                                            insurance</a></h2>
-                                    <p class="service-one__text">A Business Insurance Policy (CGL) protects your organization and your business against any liability arising from bodily injury, any injury caused to a third party. Business insurance protects businesses against any financial loss.
-
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/s3.webp" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:330px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-fire"></span>
-                                    </div>
-                                    <h2 class="service-one__title" id="fire"><a href="#">Fire insurance</a></h2>
-                                    <p class="service-one__text">Fire insurance is property insurance that provides additional coverage for loss or damage to a structure damaged or destroyed in a fire. Fire insurance may be limited at a rate that is less than the cost of incurred losses, fire insurance</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/s4.webp" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:330px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-ring"></span>
-                                    </div>
-                                    <h2 class="service-one__title" id="marriage"><a href="#">Marriage
-                                            insurance</a></h2>
-                                    <p class="service-one__text">A wedding is an auspicious event that marks the beginning of a new chapter in your life. It is the starting point for creating your own family. It's a once-in-a-lifetime event that brings you joy for the rest of your life. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/s5.webp" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:330px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-plane"></span>
-                                    </div>
-                                    <h2 class="service-one__title"id="travel" ><a href="#">Travel insurance</a>
-                                    </h2>
-                                    <p class="service-one__text">Travel insurance is a unique product that offers you financial assistance in case something goes wrong while traveling. It covers a number of scenarios, including medical and dental emergencies, theft of your money.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Services One Single End-->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Services One End-->
-
-
-        <!--Why Choose One Start-->
-        <section class="why-choose-one">
+  <!--Why Choose One Start-->
+  <section class="why-choose-one">
             <div class="why-choose-one-shape-1"
                 style="background-image: url(assets/images/shapes/why-choose-one-shape-1.webp);"></div>
             <div class="why-choose-one-shape-2 float-bob-y">
@@ -700,6 +546,451 @@
             </div>
         </section>
         <!--Why Choose One End-->
+
+        <!-- Features -->
+        <section class="features-one" id="features" style="margin-top:50px;">
+            <div class="services-one__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="services-one__top-left">
+                                <div class="section-title text-left">
+                                    <div class="section-sub-title-box">
+                                    <p class="section-sub-title">Our Features</p>
+                                        <div class="section-title-shape-1">
+                                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
+                                        </div>
+                                        <div class="section-title-shape-2">
+                                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="services-one__bottom">
+                <div class="services-one__container">
+                    <div class="row" id="features">
+                        <!--Services One Single Start-->
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px; margin-left:200px;">
+                            <div class="services-one__single">
+                                <div class="service-one__content">
+                                    <h2 class="service-one__title" id="life"><a href="">Customize Products</a></h2>  
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px; margin-left:90px;">
+                            <div class="services-one__single">
+                                <div class="service-one__content">
+                                    <h2 class="service-one__title" id="life"><a href=""> Easy Online Insurance</a></h2>  
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px; margin-left:200px;">
+                            <div class="services-one__single">
+                                <div class="service-one__content">
+                                    <h2 class="service-one__title" id="life"><a href="">Flexible Insurance</a></h2>  
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px; margin-left:90px;">
+                            <div class="services-one__single">
+                                <div class="service-one__content">
+                                    <h2 class="service-one__title" id="life"><a href="">Quality & Superior Services</a></h2>  
+                                </div>
+                            </div>
+                        </div>
+                     
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+        <!-- Features End -->
+
+        <!--Services One Start-->
+        <section class="services-one" id="insurance">
+            <div class="services-one__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="services-one__top-left">
+                                <div class="section-title text-left">
+                                    <div class="section-sub-title-box">
+                                        <p class="section-sub-title">Our services</p>
+                                        <div class="section-title-shape-1">
+                                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
+                                        </div>
+                                        <div class="section-title-shape-2">
+                                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <h2 class="section-title__title">We’re covering all the insurance fields</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-6">
+                            <div class="services-one__top-right">
+                                <p class="services-one__top-text">Live a Long Life with Protection. We insure quality. We GO Where You Go. A Business of Caring. We'll chase the recession </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-one__bottom">
+                <div class="services-one__container">
+                    <div class="row" id="services" style="margin-left:50px;">
+                        <!--Services One Single Start-->
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px;">
+                            <div class="services-one__single">
+                                <div class="service-one__img">
+                                    <img src="assets/images/shapes/blog-1.jpg" alt="">
+                                </div>
+                                <div class="service-one__content" style="height:330px;">
+                                    <div class="services-one__icon">
+                                        <span class="icon-family"></span>
+                                    </div>
+                                    <h2 class="service-one__title" id="life"><a href="#">Life insurance</a></h2>
+                                    <p class="service-one__text">A life insurance plan is a contract between policyholders where the insurer agrees to pay a certain amount of money in exchange for premiums after a specified period of time or upon the death of the insured. Life insurance offers financial resources for you and your family.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Services One Single End-->
+                        <!--Services One Single Start-->
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" style="width:350px;">
+                            <div class="services-one__single">
+                                <div class="service-one__img">
+                                    <img src="assets/images/shapes/medi1.webp" alt="">
+                                </div>
+                                <div class="service-one__content" style="height:345px;">
+                                    <div class="services-one__icon">
+                                        <span class="icon-heart-beat"></span>
+                                    </div>
+                                    <h2 class="service-one__title" id="health"><a href="#">Health insurance</a>
+                                    </h2>
+                                    <p class="service-one__text">Health insurance is a product that protects you from the financial consequences of a wide range of health-related expenses, from minor illnesses and injuries to critical illnesses.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <!--Services One Single End-->
+                        <!--Services One Single Start-->
+                        <!-- <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="services-one__single">
+                                <div class="service-one__img">
+                                    <img src="assets/images/shapes/blog-2.jpg" alt="">
+                                </div>
+                                <div class="service-one__content" style="height:330px;">
+                                    <div class="services-one__icon">
+                                        <span class="icon-home"></span>
+                                    </div>
+                                     <h2 class="service-one__title" id="business"><a href="#">Mutual Funds</a></h2>
+                                    <p class="service-one__text"> A mutual fund is a company that pools money from many investors and invests the money in securities such as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio. Investors buy shares in mutual funds.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!--Services One Single End-->
+                        <!--Services One Single Start-->
+                        <div class="col-xl-3 col-lg- col-md-6 wow fadeInUp" data-wow-delay="100ms" style="width:350px;">
+                            <div class="services-one__single">
+                                <div class="service-one__img">
+                                    <img src="assets/images/shapes/car1.jpg" alt="">
+                                </div>
+                                <div class="service-one__content" style="height:345px;">
+                                    <div class="services-one__icon">
+                                        <span class="icon-drive"></span>
+                                    </div>
+                                    <h2 class="service-one__title" id="car"><a href="#">Vehicle insurance</a></h2>
+                                    <p class="service-one__text">The fastest growing sector in India as it is mandatory for all new cars to get insurance. Value of the car, state where the car is registered and year of manufacture. This amount can be reduced by the insurer's request for a no-claim bonus (NCB) if no claim has occurred in the previous year.</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                     </div>
+                        <!--Services One Single End-->
+                        <!--Services One Single Start-->
+                    <div class="row" id="services" style="margin-left:65px;">
+                          <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms" style="width:350px; ">
+                            <div class="services-one__single">
+                                <div class="service-one__img">
+                                    <img src="assets/images/shapes/s3.webp" alt="" style="height:240px;">
+                                </div>
+                                <div class="service-one__content" style="height:330px;">
+                                    <div class="services-one__icon">
+                                        <span class="icon-fire"></span>
+                                    </div>
+                                    <h2 class="service-one__title" id="fire"><a href="#">Fire insurance</a></h2>
+                                    <p class="service-one__text">Fire insurance is property insurance that provides additional coverage for loss or damage to a structure damaged or destroyed in a fire. Fire insurance may be limited at a rate that is less than the cost of incurred losses, fire insurance</p>
+                                </div>
+                            </div>
+                        </div>
+                     
+                        <!--Services One Single End-->
+                        <!--Services One Single Start-->
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms" style="width:350px;">
+                            <div class="services-one__single">
+                                <div class="service-one__img">
+                                    <img src="assets/images/shapes/mf.webp" alt="">
+                                </div>
+                                <div class="service-one__content" style="height:330px;">
+                                    <div class="services-one__icon">
+                                        <span class="icon-briefcase"></span>
+                                    </div>
+                                    <h2 class="service-one__title" id="business"><a href="#">Mutual Funds</a></h2>
+                                    <p class="service-one__text"> A mutual fund is a company that pools money from many investors and invests the money in securities such as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio. Investors buy shares in mutual funds.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Services One Single End-->
+                        <!--Services One Single Start-->
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms" style="width:350px;">
+                            <div class="services-one__single">
+                                <div class="service-one__img">
+                                    <img src="assets/images/shapes/loan.webp" alt="" style="height:240px;">
+                                </div>
+                                <div class="service-one__content" style="height:330px;">
+                                    <div class="services-one__icon">
+                                        <span class="icon-coin"></span>
+                                    </div>
+                                    <h2 class="service-one__title" id="marriage"><a href="#">Loan</a></h2>
+                                    <p class="service-one__text">A loan is a form of debt incurred by an individual or other entity. The lender—usually a corporation, financial institution, or government—advances a sum of money to the borrower. In return, the borrower agrees to a certain set of terms including any finance charges, interest, repayment date, and other conditions </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Services One Single End-->
+                        <!--Services One Single Start-->
+                        <!-- <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms">
+                            <div class="services-one__single">
+                                <div class="service-one__img">
+                                    <img src="assets/images/shapes/s5.webp" alt="">
+                                </div>
+                                <div class="service-one__content" style="height:330px;">
+                                    <div class="services-one__icon">
+                                        <span class="icon-plane"></span>
+                                    </div>
+                                    <h2 class="service-one__title"id="travel" ><a href="#">Travel insurance</a>
+                                    </h2>
+                                    <p class="service-one__text">Travel insurance is a unique product that offers you financial assistance in case something goes wrong while traveling. It covers a number of scenarios, including medical and dental emergencies, theft of your money.</p>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!--Services One Single End-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Services One End-->
+
+
+           <!--Testimonial One Start-->
+           <section class="testimonial-one">
+            <div class="testimonial-one-shape-2 float-bob-y">
+                <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
+            </div>
+            <div class="testimonial-one-shape-3 float-bob-y">
+                <img src="assets/images/shapes/testimonial-one-shape-3.webp" alt="">
+            </div>
+            <div class="container">
+                <div class="testimonial-one__top">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="testimonial-one__top-left">
+                                <div class="section-title text-left">
+                                    <div class="section-sub-title-box">
+                                        <p class="section-sub-title">testimonials</p>
+                                        <div class="section-title-shape-1">
+                                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
+                                        </div>
+                                        <div class="section-title-shape-2">
+                                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <h2 class="section-title__title">What our customers are <br> talking about</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="testimonial-one__top-right">
+                                <p class="testimonial-one__top-text">Always helpful and always available. The folks at (IC) are my insurance people, for everything…cars, boats, houses and that makes my life easier. Peace of mind would be enough, I Definitely recommend this family agency!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-one__bottom">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="owl-carousel owl-theme thm-owl__carousel testimonial-one__carousel"
+                                data-owl-options='{
+                                "loop": true,
+                                "autoplay": true,
+                                "margin": 30,
+                                "nav": false,
+                                "dots": false,
+                                "smartSpeed": 500,
+                                "autoplayTimeout": 10000,
+                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                                "responsive": {
+                                    "0": {
+                                        "items": 1
+                                    },
+                                    "768": {
+                                        "items": 2
+                                    },
+                                    "992": {
+                                        "items": 2
+                                    },
+                                    "1200": {
+                                        "items": 2
+                                    }
+                                }
+                            }'>
+                                <div class="item">
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__single-inner">
+                                            <div class="testimonial-one__shape-1">
+                                                <!-- <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt=""> -->
+                                            </div>
+                                            <div class="testimonial-one__client-info">
+                                                <div class="testimonial-one__client-img-box">
+                                                    <img src="assets/images/shapes/t5.webp" alt="">
+                                                    <div class="testimonial-one__quote">
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-one__client-content">
+                                                    <div class="testimonial-one__client-review">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        
+                                                    </div>
+                                                    <div class="testimonial-one__client-details">
+                                                        <h3 class="testimonial-one__client-name">Sarika Bhosale</h3>
+                                                        <p class="testimonial-one__client-sub-title">director</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="testimonial-one__text">Our goal is to epitomize the dedicated local independent insurance agency. We prioritize listening to our clients then educate and advise them on the best coverage options and provide the most competitive price in the insurance marketplace.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__single-inner">
+                                            <div class="testimonial-one__shape-1">
+                                                <!-- <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt=""> -->
+                                            </div>
+                                            <div class="testimonial-one__client-info">
+                                                <div class="testimonial-one__client-img-box">
+                                                    <img src="assets/images/shapes/t4.webp" alt="">
+                                                    <div class="testimonial-one__quote">
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-one__client-content">
+                                                    <div class="testimonial-one__client-review">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div>
+                                                    <div class="testimonial-one__client-details">
+                                                        <h3 class="testimonial-one__client-name">Reema Varma</h3>
+                                                        <p class="testimonial-one__client-sub-title">director</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="testimonial-one__text"> (the company) is committed to improving the quality of our community by insuring your life’s hard work. Setting a standard of excellence, our professional staff will help you understand your current and future risk exposures by building a lifelong relationship.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__single-inner">
+                                            <div class="testimonial-one__shape-1">
+                                                <img src="assets/images/shapes/testimonial-one-shape-1.webp" alt="">
+                                            </div>
+                                            <div class="testimonial-one__client-info">
+                                                <div class="testimonial-one__client-img-box">
+                                                    <img src="assets/images/shapes/t6.webp" alt="">
+                                                    <div class="testimonial-one__quote">
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-one__client-content">
+                                                    <div class="testimonial-one__client-review">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        
+                                                    </div>
+                                                    <div class="testimonial-one__client-details">
+                                                        <h3 class="testimonial-one__client-name">Aditya Shinde</h3>
+                                                        <p class="testimonial-one__client-sub-title">director</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="testimonial-one__text">This agency does a fantastic job finding me the right coverage and insurance company at a very competitive price every time my insurance renews. Very happy with them as my agent  all of your information will be  secure and private!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="item">
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__single-inner">
+                                            <div class="testimonial-one__shape-1">
+                                                <img src="assets/images/shapes/testimonial-one-shape-1.webp" alt="">
+                                            </div>
+                                            <div class="testimonial-one__client-info">
+                                                <div class="testimonial-one__client-img-box">
+                                                    <img src="assets/images/shapes/t7.webp" alt="">
+                                                    <div class="testimonial-one__quote">
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-one__client-content">
+                                                    <div class="testimonial-one__client-review">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        
+                                                    </div>
+                                                    <div class="testimonial-one__client-details">
+                                                        <h3 class="testimonial-one__client-name">Snehal Ambvale</h3>
+                                                        <p class="testimonial-one__client-sub-title">director</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="testimonial-one__text">Great local insurance company for personal and business related insurance. Get immediate insurance proof and easy payment options. Our mission is to help people manage the risks of everyday life, recover from the unexpected and realize their dreams.</p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Testimonial One End-->
 
           <!--Get Insurance Start-->
           <section class="get-insurance"id="QUOTE" >
@@ -920,7 +1211,7 @@
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
-                                    <img src="assets/images/testimonial/vaishali.webp" alt="">
+                                    <img src="assets/images/testimonial/v.webp" alt="" style="height:500px;">
                                 </div>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook-f"></i></a></li>
@@ -931,7 +1222,7 @@
                                 </ul>
                             </div>
                             <div class="team-one__content">
-                                <p class="team-one__sub-title">Owner</p>
+                                <p class="team-one__sub-title">proprietor</p>
                                 <h3 class="team-one__name"><a href="#">Vaishali Salunkhe</a></h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
@@ -975,201 +1266,7 @@
 
         <!--Team One End-->
 
-          <!--Testimonial One Start-->
-          <section class="testimonial-one">
-            <div class="testimonial-one-shape-2 float-bob-y">
-                <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
-            </div>
-            <div class="testimonial-one-shape-3 float-bob-y">
-                <img src="assets/images/shapes/testimonial-one-shape-3.webp" alt="">
-            </div>
-            <div class="container">
-                <div class="testimonial-one__top">
-                    <div class="row">
-                        <div class="col-xl-6">
-                            <div class="testimonial-one__top-left">
-                                <div class="section-title text-left">
-                                    <div class="section-sub-title-box">
-                                        <p class="section-sub-title">testimonials</p>
-                                        <div class="section-title-shape-1">
-                                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
-                                        </div>
-                                        <div class="section-title-shape-2">
-                                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
-                                        </div>
-                                    </div>
-                                    <h2 class="section-title__title">What our customers are <br> talking about</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6">
-                            <div class="testimonial-one__top-right">
-                                <p class="testimonial-one__top-text">Always helpful and always available. The folks at (IC) are my insurance people, for everything…cars, boats, houses and that makes my life easier. Peace of mind would be enough, I Definitely recommend this family agency!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-one__bottom">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="owl-carousel owl-theme thm-owl__carousel testimonial-one__carousel"
-                                data-owl-options='{
-                                "loop": true,
-                                "autoplay": true,
-                                "margin": 30,
-                                "nav": false,
-                                "dots": false,
-                                "smartSpeed": 500,
-                                "autoplayTimeout": 10000,
-                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                                "responsive": {
-                                    "0": {
-                                        "items": 1
-                                    },
-                                    "768": {
-                                        "items": 2
-                                    },
-                                    "992": {
-                                        "items": 2
-                                    },
-                                    "1200": {
-                                        "items": 2
-                                    }
-                                }
-                            }'>
-                                <div class="item">
-                                    <div class="testimonial-one__single">
-                                        <div class="testimonial-one__single-inner">
-                                            <div class="testimonial-one__shape-1">
-                                                <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
-                                            </div>
-                                            <div class="testimonial-one__client-info">
-                                                <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t5.webp" alt="">
-                                                    <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
-                                                            alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="testimonial-one__client-content">
-                                                    <div class="testimonial-one__client-review">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        
-                                                    </div>
-                                                    <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Sarikha Bhosale</h3>
-                                                        <p class="testimonial-one__client-sub-title">director</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="testimonial-one__text">Our goal is to epitomize the dedicated local independent insurance agency. We prioritize listening to our clients then educate and advise them on the best coverage options and provide the most competitive price in the insurance marketplace.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-one__single">
-                                        <div class="testimonial-one__single-inner">
-                                            <div class="testimonial-one__shape-1">
-                                                <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
-                                            </div>
-                                            <div class="testimonial-one__client-info">
-                                                <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t4.webp" alt="">
-                                                    <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
-                                                            alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="testimonial-one__client-content">
-                                                    <div class="testimonial-one__client-review">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </div>
-                                                    <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Reema Varma</h3>
-                                                        <p class="testimonial-one__client-sub-title">director</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="testimonial-one__text"> (the company) is committed to improving the quality of our community by insuring your life’s hard work. Setting a standard of excellence, our professional staff will help you understand your current and future risk exposures by building a lifelong relationship.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="testimonial-one__single">
-                                        <div class="testimonial-one__single-inner">
-                                            <div class="testimonial-one__shape-1">
-                                                <img src="assets/images/shapes/testimonial-one-shape-1.webp" alt="">
-                                            </div>
-                                            <div class="testimonial-one__client-info">
-                                                <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t6.webp" alt="">
-                                                    <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
-                                                            alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="testimonial-one__client-content">
-                                                    <div class="testimonial-one__client-review">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        
-                                                    </div>
-                                                    <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Aditya Shinde</h3>
-                                                        <p class="testimonial-one__client-sub-title">director</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="testimonial-one__text">This agency does a fantastic job finding me the right coverage and insurance company at a very competitive price every time my insurance renews. Very happy with them as my agent  all of your information will be  secure and private!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="item">
-                                    <div class="testimonial-one__single">
-                                        <div class="testimonial-one__single-inner">
-                                            <div class="testimonial-one__shape-1">
-                                                <img src="assets/images/shapes/testimonial-one-shape-1.webp" alt="">
-                                            </div>
-                                            <div class="testimonial-one__client-info">
-                                                <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t7.webp" alt="">
-                                                    <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
-                                                            alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="testimonial-one__client-content">
-                                                    <div class="testimonial-one__client-review">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        
-                                                    </div>
-                                                    <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Snehal Ambvale</h3>
-                                                        <p class="testimonial-one__client-sub-title">director</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="testimonial-one__text">Great local insurance company for personal and business related insurance. Get immediate insurance proof and easy payment options. Our mission is to help people manage the risks of everyday life, recover from the unexpected and realize their dreams.</p>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Testimonial One End-->
+     
 
               <!--Contact Page Start-->
               <section class="contact-page" id="contact">
@@ -1202,7 +1299,7 @@
                                 </div>
                                 <p class="contact-page__location-text">
 
-                                    Shop No.3, Suyash Society, sec.10, k.k Navi Mumbai-400709
+                                    Shop No.3, Suyash Society, sec.10, Koparkhairane,Navi Mumbai-400709
                                     </p>
                             </div>
                         </div>
@@ -1304,7 +1401,7 @@
                                             <span class="icon-pin"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Shop No.3, Suyash Society, sec.10, k.k Navi Mumbai-400709</p>
+                                            <p>Shop No.3, Suyash Society, sec.10, Koparkhairane, Navi Mumbai-400709</p>
                                         </div>
                                     </li>
                                 </ul>
