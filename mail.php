@@ -75,7 +75,6 @@ catch(\Exception $e){
 echo "not done";
 }
 
-
 }
 ?>
 
@@ -88,6 +87,7 @@ if(isset($_POST['submitt'])){
     $email=$_POST['email'];  
     $phone=$_POST['phone'];  
     $subject=$_POST['subject'];
+    $message=$_POST['message'];
 
 $from = 'Enquiry <'.$email.'>' . "\r\n";
 $sendTo = 'Enquiry <yadavpriya1425@gmail.com>';
@@ -123,8 +123,12 @@ body {
 <body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
 <div style="font-family: Helvetica,Arial,sans-serif;min-width:1000px;overflow:auto;line-height:2">
 <div style="margin:50px auto;width:70%;padding:20px 0">
-<p style="font-size:1.1em">Hi '.$name.'</p>
-<p>Please enter below password</p>
+<p style="font-size:1.1em">'.$name.'</p>
+<p style="font-size:1.1em">'.$email.'</p>
+<p style="font-size:1.1em">'.$phone.'</p>
+<p style="font-size:1.1em">'.$subject.'</p>
+<p style="font-size:1.1em">'.$message.'</p>
+
 <h2 style="background: #00466a;margin: 0 auto;width: max-content;padding: 0 10px;color: #fff;border-radius: 4px;"></h2>
 <p style="font-size:0.9em;">Regards,<br />Your Brand</p>
 <hr style="border:none;border-top:1px solid #eee" />
