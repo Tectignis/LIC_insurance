@@ -764,7 +764,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                 </div>
                                 <div class="service-one__content" style="height:330px;">
                                     <div class="services-one__icon">
-                                        <span class="icon-coin"></span>
+                                        <span class="icon-insurance"></span>
                                     </div>
                                     <h2 class="service-one__title" id="marriage"><a href="#">Loan</a></h2>
                                     <p class="service-one__text">A loan is a form of debt incurred by an individual or other entity. The lender—usually a corporation, financial institution, or government—advances a sum of money to the borrower. In return, the borrower agrees to a certain set of terms including any finance charges, interest, repayment date, and other conditions </p>
