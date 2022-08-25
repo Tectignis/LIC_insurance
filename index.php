@@ -866,7 +866,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t5.webp" alt="">
+                                                    <img src="assets/images/shapes/t6.webp" alt="">
                                                     <div class="testimonial-one__quote">
                                                         <img src="assets/images/testimonial/testimonial-1-quote.webp"
                                                             alt="">
@@ -877,50 +877,22 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                       
                                                         
                                                     </div>
                                                     <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Sarika Bhosale</h3>
-                                                        <p class="testimonial-one__client-sub-title">director</p>
+                                                        <h3 class="testimonial-one__client-name">Vikaram Godse</h3>
+                                                        <!-- <p class="testimonial-one__client-sub-title">director</p> -->
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text">Our goal is to epitomize the dedicated local independent insurance agency. We prioritize listening to our clients then educate and advise them on the best coverage options and provide the most competitive price in the insurance marketplace.</p>
+                                            <p class="testimonial-one__text">I am impressed by services. Quick and quality services are provided by Vaishali Enterprises . Also timely reminder helps me to pay the due on time. Thank you mam.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="testimonial-one__single">
-                                        <div class="testimonial-one__single-inner">
-                                            <div class="testimonial-one__shape-1">
-                                                <!-- <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt=""> -->
-                                            </div>
-                                            <div class="testimonial-one__client-info">
-                                                <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/t4.webp" alt="">
-                                                    <div class="testimonial-one__quote">
-                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
-                                                            alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="testimonial-one__client-content">
-                                                    <div class="testimonial-one__client-review">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </div>
-                                                    <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Reema Varma</h3>
-                                                        <p class="testimonial-one__client-sub-title">director</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <p class="testimonial-one__text"> (the company) is committed to improving the quality of our community by insuring your life’s hard work. Setting a standard of excellence, our professional staff will help you understand your current and future risk exposures by building a lifelong relationship.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                          
                                 <div class="item">
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
@@ -945,11 +917,13 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                                     </div>
                                                     <div class="testimonial-one__client-details">
                                                         <h3 class="testimonial-one__client-name">Aditya Shinde</h3>
-                                                        <p class="testimonial-one__client-sub-title">director</p>
+                                                        <!-- <p class="testimonial-one__client-sub-title">director</p> -->
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text">This agency does a fantastic job finding me the right coverage and insurance company at a very competitive price every time my insurance renews. Very happy with them as my agent  all of your information will be  secure and private!</p>
+                                            <p class="testimonial-one__text">Vaishali madam is very frank and knowledgeable person. She always try to be update with time. She have updated softwares and experience people with her..Her expertise help us to take a right decision as far as ensurance is considered.
+
+I am glad by meeting her.</p>
                                         </div>
                                     </div>
                                 </div>
