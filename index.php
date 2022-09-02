@@ -927,7 +927,43 @@ I am glad by meeting her.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="item">
+
+                                <div class="item">
+                                    <div class="testimonial-one__single">
+                                        <div class="testimonial-one__single-inner">
+                                            <div class="testimonial-one__shape-1">
+                                                <img src="assets/images/shapes/testimonial-one-shape-1.webp" alt="">
+                                            </div>
+                                            <div class="testimonial-one__client-info">
+                                                <div class="testimonial-one__client-img-box">
+                                                    <img src="assets/images/shapes/ajit.webp" alt="">
+                                                    <div class="testimonial-one__quote">
+                                                        <img src="assets/images/testimonial/testimonial-1-quote.webp"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="testimonial-one__client-content">
+                                                    <div class="testimonial-one__client-review">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        
+                                                    </div>
+                                                    <div class="testimonial-one__client-details">
+                                                        <h3 class="testimonial-one__client-name">Ajit pawar</h3>
+                                                        <!-- <p class="testimonial-one__client-sub-title">director</p> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="testimonial-one__text">Vaishali mam is very nice person. She gave nice presentations and reasonable quotations as compared to others. She give a logic behind each & every option available for an individual.She have good speaking power & she is good in analytics as well 
+
+Thank you for being my best financial consultant.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
                                             <div class="testimonial-one__shape-1">
@@ -946,18 +982,20 @@ I am glad by meeting her.</p>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
                                                         
                                                     </div>
                                                     <div class="testimonial-one__client-details">
-                                                        <h3 class="testimonial-one__client-name">Snehal Ambvale</h3>
-                                                        <p class="testimonial-one__client-sub-title">director</p>
+                                                        <h3 class="testimonial-one__client-name"> Tejasvi kishor yadav</h3>
+                                                        <!-- <p class="testimonial-one__client-sub-title">director</p> -->
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="testimonial-one__text">Great local insurance company for personal and business related insurance. Get immediate insurance proof and easy payment options. Our mission is to help people manage the risks of everyday life, recover from the unexpected and realize their dreams.</p>
+                                            <p class="testimonial-one__text">One of the best consultant with great communication skills. Thank you mam for giving correct advices on correct time.keep guiding people in same manner & protect the family with cover of Insurance !!!! Keep it up..</p>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                     </div>
