@@ -24,7 +24,6 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
         rel="stylesheet">
 
-
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
@@ -49,23 +48,28 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/insur.css" />
     <link rel="stylesheet" href="assets/css/insur-responsive.css" />
+    <style>
+        @media screen and (max-width: 600px) {
+  #features {
+    justify-content: end;
+  } 
+  .contacth4{
+    font-size:13px;
+  }
+ 
+ }
+        </style>
 </head>
 
-<body class="custom-cursor">
 
+<body class="custom-cursor">
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
-
-
-
-
 
     <div class="preloader">
         <div class="preloader__image"></div>
     </div>
     <!-- /.preloader -->
-
-
     <div class="page-wrapper">
         <header class="main-header clearfix">
             <div class="main-header__top">
@@ -76,7 +80,7 @@
                                 <li>
                                 <i class="fas fa-phone"></i>
                                     <div class="text">
-                                        <p> <a href="https://wa.me/91 9082391945">+91 9082391945</a></p>
+                                        <p> <a href="https://wa.me/+91 9082391945">+91 9082391945</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -110,8 +114,8 @@
                     <div class="container">
                         <div class="main-menu__wrapper-inner clearfix">
                             <div class="main-menu__left">
-                                <div class="main-menu__logo">
-                                    <a href="index.html"><img src="assets/images/resources/logo-1.png" alt=""></a>
+                                <div class="main-menu__logo dgdfgdf">
+                                    <a href="index.html"><img src="assets/images/resources/logo2.png" alt="" style="width:80px; height:80px; padding:0px;"></a>
                                 </div>
                                 <div class="main-menu__main-menu-box">
                                     <div class="main-menu__main-menu-box-inner">
@@ -647,7 +651,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
             </div>
             <div class="services-one__bottom">
                 <div class="services-one__container">
-                    <div class="row" id="services" style="margin-left:50px;">
+                    <div class="row" id="services"style="justify-content:center;">
                         <!--Services One Single Start-->
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px;">
                             <div class="services-one__single">
@@ -716,12 +720,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                 </div>
                             </div>
                         </div>
-                        </div>
-                        </div>
-                     </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                    <div class="row" id="services" style="margin-left:65px;">
+           
                           <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="600ms" style="width:350px; ">
                             <div class="services-one__single">
                                 <div class="service-one__img">
@@ -789,7 +788,13 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                             </div>
                         </div> -->
                         <!--Services One Single End-->
-                    </div>
+                
+                        </div>
+                        </div>
+                     </div>
+                        <!--Services One Single End-->
+                        <!--Services One Single Start-->
+                   
                 </div>
             </div>
         </section>
@@ -936,7 +941,7 @@ I am glad by meeting her.</p>
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
-                                                    <img src="assets/images/shapes/ajit.webp" alt="">
+                                                    <img src="assets/images/shapes/t6.webp" alt="">
                                                     <div class="testimonial-one__quote">
                                                         <img src="assets/images/testimonial/testimonial-1-quote.webp"
                                                             alt="">
@@ -1191,7 +1196,7 @@ Thank you for being my best financial consultant.</p>
                         </div>
                     </div>
                     <h2 class="section-title__title">Meet our experienced <br> team people</h2><br>
-                    <br><h4 >Caring You because your Life is important.</h4>
+                    <br><h4>Caring You because your Life is important.</h4>
                 </div>
             </div>
                     <!--Team One Single Start-->
@@ -1303,9 +1308,9 @@ Thank you for being my best financial consultant.</p>
                                         <i class="fas fa-phone"></i>
                                     </div>
                                     <div class="contact-page__call-email-content">
-                                        <h4>
+                                        <h4 class="contacth4">
                                             <a href="https://wa.me/91 9082391945">+91 9082391945</a>
-                                            <a href="mailto:vaishalienterprises922@gmail.com">vaishalienterprises922@gmail.com</a>
+                                            <a href="mailto:vaishalienterprises922@gmail.com"style="word-wrap: anywhere;">vaishalienterprises922@gmail.com</a>
                                         </h4>
                                     </div>
                                 </div>
@@ -1448,7 +1453,6 @@ Thank you for being my best financial consultant.</p>
                                 <p class="site-footer__bottom-text" style="float:left;">© All Copyright 2022 by <a href="#">Vaishali Enterprises</a>
                                 </p> <p class="site-footer__bottom-text" style="float:right;">Designed By <a href="https://tectignis.in" target="_blank"><b>Tectignis IT Solutions.</b></a></p>
                             </div>
-                           
                         </div>
                     </div>
                 </div>
@@ -1476,19 +1480,25 @@ Thank you for being my best financial consultant.</p>
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@insur.com</a>
+  <a href="mailto:vaishalienterprises922@gmail.com
+">vaishalienterprises922@gmail.com
+</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:666-888-0000">+91 9082391945</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
+<!--                     
                     <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-telegram"></a>
+                    <a href="#" class="fab fa-instagram"></a> -->
+
+                    <a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
