@@ -433,7 +433,7 @@ For this we are providing the expert, genuine and honest services for our client
 
 As we are working with one of the best Insurance Companies like LIC, Star & Health Allied, Reliance Insurance,niva bhupa,icici Lombardi etc. we will make sure that you should have enough insurance for your future dreams.
                             </p>
-                            <!-- The insurance contract or agreement is a contract whereby the insurer promises to pay benefits to the insured or on their behalf to a third party if certain defined events do. Subject to the" fortuity principle", the event must be uncertain. The query can be either as to when the event will be -->
+                           
                         </div>
                     </div>
                 </div>
@@ -688,23 +688,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                         </div>
                       
                         <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <!-- <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/blog-2.jpg" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:330px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-home"></span>
-                                    </div>
-                                     <h2 class="service-one__title" id="business"><a href="#">Mutual Funds</a></h2>
-                                    <p class="service-one__text"> A mutual fund is a company that pools money from many investors and invests the money in securities such as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio. Investors buy shares in mutual funds.
-                                    </p>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!--Services One Single End-->
+                      
                         <!--Services One Single Start-->
                         <div class="col-xl-3 col-lg- col-md-6 wow fadeInUp" data-wow-delay="100ms" style="width:350px;">
                             <div class="services-one__single">
@@ -771,24 +755,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                             </div>
                         </div>
                         <!--Services One Single End-->
-                        <!--Services One Single Start-->
-                        <!-- <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="800ms">
-                            <div class="services-one__single">
-                                <div class="service-one__img">
-                                    <img src="assets/images/shapes/s5.webp" alt="">
-                                </div>
-                                <div class="service-one__content" style="height:330px;">
-                                    <div class="services-one__icon">
-                                        <span class="icon-plane"></span>
-                                    </div>
-                                    <h2 class="service-one__title"id="travel" ><a href="#">Travel insurance</a>
-                                    </h2>
-                                    <p class="service-one__text">Travel insurance is a unique product that offers you financial assistance in case something goes wrong while traveling. It covers a number of scenarios, including medical and dental emergencies, theft of your money.</p>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!--Services One Single End-->
-                
+                        
                         </div>
                         </div>
                      </div>
@@ -1044,12 +1011,7 @@ Thank you for being my best financial consultant.</p>
                             </div>
                             <div class="get-insurance__tab">
                                 <div class="get-insurance__tab-box tabs-box">
-                                    <!-- <ul class="tab-buttons clearfix list-unstyled">
-                                        <li data-tab="#home2" class="tab-btn active-btn"><span>Home</span></li>
-                                        <li data-tab="#vehicles" class="tab-btn"><span>Vehicles</span></li>
-                                        <li data-tab="#health" class="tab-btn"><span>health</span></li>
-                                        <li data-tab="#life" class="tab-btn"><span>Life</span></li>
-                                    </ul> -->
+                                   
                                     <div class="tabs-content">
                                         <!--tab-->
                                         <div class="tab active-tab" id="home2">
@@ -1083,90 +1045,7 @@ Thank you for being my best financial consultant.</p>
                                                 </form>
                                             </div>
                                         </div>
-                                        <!--tab-->
-                                        <!-- <div class="tab" id="vehicles">
-                                            <div class="get-insurance__content">
-                                                <form class="get-insurance__form">
-                                                    <div class="get-insurance__content-box">
-                                                        <div class="get-insurance__input-box">
-                                                            <input type="text" placeholder="Full name" name="name">
-                                                        </div>
-                                                        <div class="get-insurance__input-box">
-                                                            <input type="email" placeholder="Email address"
-                                                                name="email">
-                                                        </div>
-                                                        <div class="get-insurance__input-box">
-                                                            <select class="selectpicker"
-                                                                aria-label="Default select example">
-                                                                <option selected>Select type of insurance</option>
-                                                                <option value="1">Car insurance</option>
-                                                                <option value="2">Life insurance</option>
-                                                                <option value="3">Home insurance</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
-                                                        Now</button>
-                                                </form>
-                                            </div>
-                                        </div> -->
-                                        <!--tab-->
-                                        <!-- <div class="tab" id="health">
-                                            <div class="get-insurance__content">
-                                                <form class="get-insurance__form">
-                                                    <div class="get-insurance__content-box">
-                                                        <div class="get-insurance__input-box">
-                                                            <input type="text" placeholder="Full name" name="name">
-                                                        </div>
-                                                        <div class="get-insurance__input-box">
-                                                            <input type="email" placeholder="Email address"
-                                                                name="email">
-                                                        </div>
-                                                        <div class="get-insurance__input-box">
-                                                            <select class="selectpicker"
-                                                                aria-label="Default select example">
-                                                                <option selected>Select type of insurance</option>
-                                                                <option value="1">Car insurance</option>
-                                                                <option value="2">Life insurance</option>
-                                                                <option value="3">Home insurance</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
-                                                        Now</button>
-                                                </form>
-                                            </div>
-                                        </div> -->
-                                        <!--tab-->
-                                        <!-- <div class="tab" id="life">
-                                            <div class="get-insurance__content">
-                                                <form class="get-insurance__form">
-                                                    <div class="get-insurance__content-box">
-                                                        <div class="get-insurance__input-box">
-                                                            <input type="text" placeholder="Full name" name="name">
-                                                        </div>
-                                                        <div class="get-insurance__input-box">
-                                                            <input type="email" placeholder="Email address"
-                                                                name="email">
-                                                        </div>
-                                                        <div class="get-insurance__input-box">
-                                                            <select class="selectpicker"
-                                                                aria-label="Default select example">
-                                                                <option selected>Select service</option>
-                                                                <option value="1">service One</option>
-                                                                <option value="2">service Two</option>
-                                                                <option value="3">service Three</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <button type="submit" class="thm-btn get-insurance__btn" name="submit">Get a Quote
-                                                        </button>
-                                                </form>
-                                            </div>
-                                        </div> -->
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -1199,30 +1078,7 @@ Thank you for being my best financial consultant.</p>
                     <br><h4>Caring You because your Life is important.</h4>
                 </div>
             </div>
-                    <!--Team One Single Start-->
-                    <!-- <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="team-one__single">
-                            <div class="team-one__img">
-                                <div class="team-one__img-box">
-                                    <img src="assets/images/shapes/t2.jpg" alt="">
-                                </div>
-                                <ul class="list-unstyled team-one__social">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-one__content">
-                                <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="#">Vedant Naidu</a></h3>
-                                <ul class="list-unstyled team-one__social-two">
-                                    <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!--Team One Single End-->
+                  
                     <!--Team One Single Start-->
                     <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="team-one__single">
@@ -1247,31 +1103,7 @@ Thank you for being my best financial consultant.</p>
                             </div>
                         </div>
                     </div>
-                    <!--Team One Single End-->
-                    <!--Team One Single Start-->
-                    <!-- <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                        <div class="team-one__single">
-                            <div class="team-one__img">
-                                <div class="team-one__img-box">
-                                    <img src="assets/images/shapes/t3.jpg" alt="">
-                                </div>
-                                <ul class="list-unstyled team-one__social">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-one__content">
-                                <p class="team-one__sub-title">Manager</p>
-                                <h3 class="team-one__name"><a href="#">Aniket Nangare</a></h3>
-                                <ul class="list-unstyled team-one__social-two">
-                                    <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!--Team One Single End-->
+                 
                 </div>
                 
             </div>
