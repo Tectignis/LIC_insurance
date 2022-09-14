@@ -1,21 +1,4 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Utility
-# Cards
-# Common
-# Form
-# Navigations
-# Animations
-# Mobile Nav
-# Search Popup
-# Page Header
-# Google Map
-# Client Carousel
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Common
---------------------------------------------------------------*/
+
 :root {
   --insur-font: 'DM Sans', sans-serif;
   --insur-reey-font: "reeyregular";
@@ -189,9 +172,7 @@ ul {
   z-index: -1;
 }
 
-/*--------------------------------------------------------------
-# Custom Cursor
---------------------------------------------------------------*/
+
 .custom-cursor__cursor {
   width: 25px;
   height: 25px;
@@ -422,25 +403,7 @@ ul {
   align-items: center;
   text-align: center;
 }
-/* 
-.preloader__image {
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: flipInY;
-  animation-name: flipInY;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 60px auto;
-  width: 100%;
-  height: 100%;
-} */
 
-/* scroll to top */
 .scroll-to-top {
   display: inline-block;
   width: 45px;
@@ -473,9 +436,6 @@ ul {
 }
 
 
-/*--------------------------------------------------------------
-# Navigations One
---------------------------------------------------------------*/
 .main-header {
   position: relative;
   display: block;
@@ -1089,9 +1049,6 @@ ul {
   }
 }
 
-/*--------------------------------------------------------------
-# Mobile Nav
---------------------------------------------------------------*/
 .mobile-nav__wrapper {
   position: fixed;
   top: 0;
@@ -1273,7 +1230,6 @@ ul {
   color: var(--insur-base);
 }
 
-/* no menu after 2rd level dropdown */
 .mobile-nav__content .main-menu__list>li>ul>li>ul>li>a>button,
 .mobile-nav__content .main-menu__list>li>ul>li>ul>li>ul {
   display: none !important;
@@ -1399,9 +1355,7 @@ ul {
 
 
 
-/*--------------------------------------------------------------
-# Home Showcase
---------------------------------------------------------------*/
+
 .home-showcase {
   margin-top: -31px;
   margin-bottom: -31px;
@@ -1511,9 +1465,7 @@ ul {
 
 
 
-/*--------------------------------------------------------------
-# Navigations Two
---------------------------------------------------------------*/
+
 .main-header-two {
   width: 100%;
   background: transparent;
@@ -1806,9 +1758,7 @@ ul {
   display: none;
 }
 
-/*--------------------------------------------------------------
-# Navigations Three
---------------------------------------------------------------*/
+
 .main-header-three {
   position: relative;
   display: block;
@@ -1909,9 +1859,7 @@ ul {
   display: none;
 }
 
-/*--------------------------------------------------------------
-# Search Popup
---------------------------------------------------------------*/
+
 .search-popup {
   position: fixed;
   top: 0;
@@ -2015,9 +1963,6 @@ ul {
   display: none;
 }
 
-/*--------------------------------------------------------------
-# Main Slider
---------------------------------------------------------------*/
 .main-slider {
   position: relative;
   display: block;
@@ -2223,9 +2168,7 @@ ul {
   margin-bottom: 10px;
 }
 
-/*--------------------------------------------------------------
-# Main Slider Two
---------------------------------------------------------------*/
+
 .main-slider-two {
   position: relative;
   display: block;
@@ -2505,9 +2448,7 @@ ul {
   border: 2px solid rgba(var(--insur-white-rgb), 1);
 }
 
-/*--------------------------------------------------------------
-# Main Slider Three
---------------------------------------------------------------*/
+
 .main-slider-three {
   position: relative;
   display: block;
@@ -2684,9 +2625,7 @@ ul {
   margin-bottom: 10px;
 }
 
-/*--------------------------------------------------------------
-# Feature One
---------------------------------------------------------------*/
+
 .feature-one {
   position: relative;
   display: block;
@@ -2859,9 +2798,6 @@ ul {
   color: #97a2b7;
 }
 
-/*--------------------------------------------------------------
-# About One
---------------------------------------------------------------*/
 .about-one {
   position: relative;
   display: block;
@@ -3106,9 +3042,6 @@ ul {
   line-height: 16px;
 }
 
-/*--------------------------------------------------------------
-# Services One
---------------------------------------------------------------*/
 .services-one {
   position: relative;
   display: block;
@@ -3283,9 +3216,7 @@ ul {
   line-height: 24px;
 }
 
-/*--------------------------------------------------------------
-# Why Choose One
---------------------------------------------------------------*/
+
 .why-choose-one {
   position: relative;
   display: block;
@@ -3503,9 +3434,7 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
 }
 
-/*--------------------------------------------------------------
-# Get Insurance
---------------------------------------------------------------*/
+
 .get-insurance {
   position: relative;
   display: block;
@@ -3874,9 +3803,7 @@ ul {
   border: none;
 }
 
-/*--------------------------------------------------------------
-# Counter One
---------------------------------------------------------------*/
+
 .counter-one {
   position: relative;
   display: block;
@@ -3987,9 +3914,6 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
 }
 
-/*--------------------------------------------------------------
-# Team One
---------------------------------------------------------------*/
 .team-one {
   position: relative;
   display: block;
@@ -4074,7 +3998,6 @@ ul {
   right: 0;
   content: "";
   border-radius: 20px;
-  /* background-color: rgba(var(--insur-black-rgb), .50); */
   -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
   -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
   transform: perspective(400px) rotateX(90deg) scaleY(0.5);
@@ -4245,9 +4168,7 @@ ul {
   font-weight: 700;
 }
 
-/*--------------------------------------------------------------
-# Testimonial One
---------------------------------------------------------------*/
+
 .testimonial-one {
   position: relative;
   display: block;
@@ -4482,9 +4403,6 @@ ul {
   visibility: visible;
 }
 
-/*--------------------------------------------------------------
-# News One
---------------------------------------------------------------*/
 .news-one {
   position: relative;
   display: block;
@@ -4706,9 +4624,6 @@ ul {
   color: var(--insur-primary);
 }
 
-/*--------------------------------------------------------------
-# Tracking
---------------------------------------------------------------*/
 .tracking {
   position: relative;
   display: block;
@@ -4820,9 +4735,7 @@ ul {
 
 
 
-/*--------------------------------------------------------------
-# Site Footer
---------------------------------------------------------------*/
+
 .site-footer {
   position: relative;
   display: block;
@@ -5245,9 +5158,6 @@ ul {
   color: var(--insur-white);
 }
 
-/*--------------------------------------------------------------
-# Feature Two
---------------------------------------------------------------*/
 .feature-two {
   position: relative;
   display: block;
@@ -5417,9 +5327,7 @@ ul {
   color: var(--insur-white);
 }
 
-/*--------------------------------------------------------------
-# About Two
---------------------------------------------------------------*/
+
 .about-two {
   position: relative;
   display: block;
@@ -5667,9 +5575,7 @@ ul {
   display: none;
 }
 
-/*--------------------------------------------------------------
-# Services Two
---------------------------------------------------------------*/
+
 .services-two {
   position: relative;
   display: block;
@@ -5863,9 +5769,7 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
 }
 
-/*--------------------------------------------------------------
-# Work Together
---------------------------------------------------------------*/
+
 .work-together {
   position: relative;
   display: block;
@@ -6088,9 +5992,6 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
 }
 
-/*--------------------------------------------------------------
-# Site Footer
---------------------------------------------------------------*/
 .cta-one {
   position: relative;
   display: block;
@@ -6218,9 +6119,6 @@ ul {
   padding: 120px 0 120px;
 }
 
-/*--------------------------------------------------------------
-# Brand One
---------------------------------------------------------------*/
 .brand-one {
   position: relative;
   display: block;
@@ -6271,9 +6169,7 @@ ul {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Get Insuracne Two
---------------------------------------------------------------*/
+
 .get-insuracne-two {
   position: relative;
   display: block;
@@ -6684,9 +6580,6 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
 }
 
-/*--------------------------------------------------------------
-# Process
---------------------------------------------------------------*/
 .process {
   position: relative;
   display: block;
@@ -6915,9 +6808,6 @@ ul {
   left: inherit;
 }
 
-/*--------------------------------------------------------------
-# Testimonial Two
---------------------------------------------------------------*/
 .testimonial-two {
   position: relative;
   display: block;
@@ -7272,9 +7162,7 @@ ul {
   display: none;
 }
 
-/*--------------------------------------------------------------
-# News Two
---------------------------------------------------------------*/
+
 .news-two {
   position: relative;
   display: block;
@@ -7470,9 +7358,6 @@ ul {
   padding-right: 3px;
 }
 
-/*--------------------------------------------------------------
-# Google Map
---------------------------------------------------------------*/
 .google-map {
   position: relative;
   display: block;
@@ -7489,9 +7374,6 @@ ul {
 }
 
 
-/*--------------------------------------------------------------
-# Feature Three
---------------------------------------------------------------*/
 .feature-three {
   position: relative;
   display: block;
@@ -7610,9 +7492,6 @@ ul {
   color: var(--insur-white);
 }
 
-/*--------------------------------------------------------------
-# Site Footer
---------------------------------------------------------------*/
 .about-three {
   position: relative;
   display: block;
@@ -7804,9 +7683,6 @@ ul {
   margin-left: 20px;
 }
 
-/*--------------------------------------------------------------
-# Services Three
---------------------------------------------------------------*/
 .services-three {
   position: relative;
   display: block;
@@ -7948,9 +7824,6 @@ ul {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Benefits
---------------------------------------------------------------*/
 .benefits {
   position: relative;
   display: block;
@@ -8070,9 +7943,6 @@ ul {
   margin-left: 10px;
 }
 
-/*--------------------------------------------------------------
-# Testimonial Three
---------------------------------------------------------------*/
 .testimonial-three {
   position: relative;
   display: block;
@@ -8292,9 +8162,7 @@ ul {
   display: none;
 }
 
-/*--------------------------------------------------------------
-# Download
---------------------------------------------------------------*/
+
 .download {
   position: relative;
   display: block;
@@ -8450,9 +8318,6 @@ ul {
   width: auto;
 }
 
-/*--------------------------------------------------------------
-# We Provide
---------------------------------------------------------------*/
 .we-provide {
   position: relative;
   display: block;
@@ -8743,9 +8608,7 @@ ul {
   border-radius: var(--insur-bdr-radius);
 }
 
-/*--------------------------------------------------------------
-# News Three
---------------------------------------------------------------*/
+
 .news-three {
   position: relative;
   display: block;
@@ -8904,9 +8767,7 @@ ul {
   color: var(--insur-white);
 }
 
-/*--------------------------------------------------------------
-# Page Header
---------------------------------------------------------------*/
+
 .page-header {
   position: relative;
   display: block;
@@ -9001,9 +8862,6 @@ ul {
   color: var(--insur-base);
 }
 
-/*--------------------------------------------------------------
-# News Carousel Page
---------------------------------------------------------------*/
 .news-carousel-page {
   position: relative;
   display: block;
@@ -9062,9 +8920,6 @@ ul {
   display: none;
 }
 
-/*--------------------------------------------------------------
-# News Sidebar
---------------------------------------------------------------*/
 .news-sidebar {
   position: relative;
   display: block;
@@ -9317,9 +9172,6 @@ ul {
   position: absolute;
 }
 
-/*--------------------------------------------------------------
-# Sidebar
---------------------------------------------------------------*/
 @media (max-width: 991px) {
   .sidebar {
     margin-top: 50px;
@@ -9690,9 +9542,7 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
 }
 
-/*--------------------------------------------------------------
-# Blog Details
---------------------------------------------------------------*/
+
 .news-details {
   position: relative;
   display: block;
@@ -9938,9 +9788,7 @@ ul {
   color: var(--insur-white);
 }
 
-/*--------------------------------------------------------------
-## Comments
---------------------------------------------------------------*/
+
 .comment-one__title,
 .comment-form__title {
   margin: 0;
@@ -10055,9 +9903,7 @@ ul {
   height: 180px;
 }
 
-/*--------------------------------------------------------------
-# Contact Page
---------------------------------------------------------------*/
+
 .contact-page {
   position: relative;
   display: block;
@@ -10157,16 +10003,12 @@ ul {
 }
 
 
-/*--------------------------------------------------------------
-# CTA Three
---------------------------------------------------------------*/
+
 .cta-three {
   padding: 0 0 0;
 }
 
-/*--------------------------------------------------------------
-# Google Map
---------------------------------------------------------------*/
+
 .google-map-two {
   position: relative;
   display: block;
@@ -10183,9 +10025,6 @@ ul {
 
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
 .portfolio {
   position: relative;
   display: block;
@@ -10382,9 +10221,6 @@ ul {
   color: var(--insur-primary);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
 .portfolio-details {
   position: relative;
   display: block;
@@ -10647,9 +10483,7 @@ ul {
   text-align: right;
 }
 
-/*--------------------------------------------------------------
-# Similar Portfolio
---------------------------------------------------------------*/
+
 .similar-portfolio {
   position: relative;
   display: block;
@@ -10660,27 +10494,20 @@ ul {
   margin-left: 0;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Carousel
---------------------------------------------------------------*/
+
 .portfolio-carousel-page {
   position: relative;
   display: block;
   padding: 120px 0 133px;
 }
 
-/*--------------------------------------------------------------
-# Insurance Page One
---------------------------------------------------------------*/
 .insurance-page-one {
   position: relative;
   display: block;
   padding: 120px 0 90px;
 }
 
-/*--------------------------------------------------------------
-# Insurance Page Two
---------------------------------------------------------------*/
+
 .insurance-page-two {
   position: relative;
   display: block;
@@ -10716,9 +10543,6 @@ ul {
   color: var(--insur-black);
 }
 
-/*--------------------------------------------------------------
-# Why Choose Two
---------------------------------------------------------------*/
 .why-choose-two {
   position: relative;
   display: block;
@@ -10854,9 +10678,6 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
 }
 
-/*--------------------------------------------------------------
-# Site Footer
---------------------------------------------------------------*/
 .benefits-two {
   position: relative;
   display: block;
@@ -10940,9 +10761,6 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
 }
 
-/*--------------------------------------------------------------
-# Feature Four
---------------------------------------------------------------*/
 .feature-four {
   position: relative;
   display: block;
@@ -11205,9 +11023,7 @@ ul {
   color: var(--insur-primary);
 }
 
-/*--------------------------------------------------------------
-# FaQ One
---------------------------------------------------------------*/
+
 .faq-one {
   position: relative;
   display: block;
@@ -11224,9 +11040,6 @@ ul {
   margin-bottom: 20px;
 }
 
-/*--------------------------------------------------------------
-# About Four
---------------------------------------------------------------*/
 .about-four {
   position: relative;
   display: block;
@@ -11332,9 +11145,6 @@ ul {
   color: var(--insur-base);
 }
 
-/*--------------------------------------------------------------
-# CTA Four
---------------------------------------------------------------*/
 .cta-four {
   padding: 120px 0 120px;
   background-color: var(--insur-white);
@@ -11355,16 +11165,12 @@ ul {
   ;
 }
 
-/*--------------------------------------------------------------
-# Team Two
---------------------------------------------------------------*/
+
 .team-two {
   padding: 0 0 90px;
 }
 
-/*--------------------------------------------------------------
-# Team Page
---------------------------------------------------------------*/
+
 .team-page {
   padding: 135px 0 70px;
 }
@@ -11381,16 +11187,12 @@ ul {
   margin-bottom: 43px;
 }
 
-/*--------------------------------------------------------------
-# Team Page Carousel
---------------------------------------------------------------*/
+
 .team-page-carousel {
   padding: 135px 0 133px;
 }
 
-/*--------------------------------------------------------------
-# Team Details
---------------------------------------------------------------*/
+
 .team-details {
   position: relative;
   display: block;
@@ -11624,9 +11426,7 @@ ul {
 }
 
 
-/*--------------------------------------------------------------
-# Message One
---------------------------------------------------------------*/
+
 .message-one {
   position: relative;
   display: block;
@@ -11691,9 +11491,7 @@ ul {
   height: 180px;
 }
 
-/*--------------------------------------------------------------
-# Testimonial Page
---------------------------------------------------------------*/
+
 .testimonial-page {
   position: relative;
   display: block;
@@ -11708,9 +11506,7 @@ ul {
   margin-bottom: 30px;
 }
 
-/*--------------------------------------------------------------
-# Testimonial Carousel Page
---------------------------------------------------------------*/
+
 .testimonial-carousel-page {
   position: relative;
   display: block;
@@ -11721,9 +11517,7 @@ ul {
   margin-bottom: 30px;
 }
 
-/*--------------------------------------------------------------
-# Contact Page
---------------------------------------------------------------*/
+
 .contact-page--two {
   background-color: var(--insur-extra);
   overflow: hidden;
@@ -11776,9 +11570,6 @@ ul {
   background-color: var(--insur-white);
 }
 
-/*--------------------------------------------------------------
-## Error Page
---------------------------------------------------------------*/
 .error-page {
   position: relative;
   display: block;
@@ -11912,9 +11703,7 @@ ul {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
+
 .pricing {
   position: relative;
   display: block;
@@ -12203,9 +11992,7 @@ ul {
   transition-timing-function: linear;
 }
 
-/*--------------------------------------------------------------
-# Boxed Version
---------------------------------------------------------------*/
+
 
 body.boxed-wrapper {
   background-color: var(--ambed-extra, #f2f5f9);
@@ -12227,7 +12014,6 @@ body.boxed-wrapper {
 }
 
 
-/* insur get balance updated css */
 
 .get-insurance__progress-range .irs-single,
 .get-insurance__progress-range .irs-from,
