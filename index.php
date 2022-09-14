@@ -656,7 +656,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px;">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/shapes/blog-1.jpg" alt="">
+                                    <img src="assets/images/shapes/blog-1.webp" alt="">
                                 </div>
                                 <div class="service-one__content" style="height:330px;">
                                     <div class="services-one__icon">
@@ -693,7 +693,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                         <div class="col-xl-3 col-lg- col-md-6 wow fadeInUp" data-wow-delay="100ms" style="width:350px;">
                             <div class="services-one__single">
                                 <div class="service-one__img">
-                                    <img src="assets/images/shapes/car1.jpg" alt="">
+                                    <img src="assets/images/shapes/car1.webp" alt="">
                                 </div>
                                 <div class="service-one__content" style="height:345px;">
                                     <div class="services-one__icon">
