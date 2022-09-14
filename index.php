@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <!-- <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" /> -->
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    
     <!-- <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" /> -->
     <!-- <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" /> -->
     <!-- <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" /> -->
