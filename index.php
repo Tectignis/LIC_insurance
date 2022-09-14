@@ -80,7 +80,7 @@
                                 <li>
                                 <i class="fas fa-phone"></i>
                                     <div class="text">
-                                        <p> <a href="https://wa.me/+91 9082391945">+91 9082391945</a></p>
+                                        <p> <a href="https://wa.me/+91 9082391945" target="_blank">+91 9082391945</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -1084,7 +1084,7 @@ Thank you for being my best financial consultant.</p>
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
-                                    <img src="assets/images/testimonial/v.webp" alt="" style="height:500px;">
+                                    <img src="assets/images/testimonial/v.webp" alt="">
                                 </div>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook-f"></i></a></li>
@@ -1141,7 +1141,7 @@ Thank you for being my best financial consultant.</p>
                                     </div>
                                     <div class="contact-page__call-email-content">
                                         <h4 class="contacth4">
-                                            <a href="https://wa.me/91 9082391945">+91 9082391945</a>
+                                            <a href="https://wa.me/91 9082391945" target="_blank">+91 9082391945</a>
                                             <a href="mailto:vaishalienterprises922@gmail.com"style="word-wrap: anywhere;">vaishalienterprises922@gmail.com</a>
                                         </h4>
                                     </div>
@@ -1227,9 +1227,9 @@ Thank you for being my best financial consultant.</p>
                                 </div>
                                 <div class="site-footer__social">
                                     
-                                    <a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
+                                    <a href="https://www.facebook.com/vaishali.salunkhe.9003" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://t.me/vtsinsuranceconsultant" target="_blank"><i class="fab fa-telegram"></i></a>
                                 </div>
                             </div>
                         </div>
