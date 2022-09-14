@@ -78,9 +78,9 @@
                         <div class="main-header__top-address">
                             <ul class="list-unstyled main-header__top-address-list">
                                 <li>
-                                <i class="fas fa-phone"></i>
+                                <i class="fas fa-phone" style="transform: rotate(90deg);"></i>
                                     <div class="text">
-                                        <p> <a href="https://wa.me/+91 9082391945">+91 9082391945</a></p>
+                                        <p> <a href="tel:+919082391945">+91 9082391945</a></p>
                                     </div>
                                 </li>
                                 <li>
@@ -121,7 +121,7 @@
                                     <div class="main-menu__main-menu-box-inner">
                                         <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                         <ul class="main-menu__list one-page-scroll-menu">
-                                            <li class="dropdown current megamenu scrollToLink">
+                                            <li class="current megamenu scrollToLink">
                                                 <a href="#home">Home </a>
                                             </li>
                                             <li class="scrollToLink">
@@ -160,7 +160,7 @@
                             <div class="main-menu__right">
                                 <div class="main-menu__call">
                                     <div class="main-menu__call-icon">
-                                        <i class="fas fa-phone"></i>
+                                        <i class="fas fa-phone" style="transform: rotate(90deg);"></i>
                                     </div>
                                     <div class="main-menu__call-content">
                                         <a href="tel:9200368090">
@@ -1084,7 +1084,7 @@ Thank you for being my best financial consultant.</p>
                         <div class="team-one__single">
                             <div class="team-one__img">
                                 <div class="team-one__img-box">
-                                    <img src="assets/images/testimonial/v.webp" alt="" style="height:500px;">
+                                    <img src="assets/images/testimonial/v.webp" alt="">
                                 </div>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook-f"></i></a></li>
@@ -1137,11 +1137,11 @@ Thank you for being my best financial consultant.</p>
                                 </div>
                                 <div class="contact-page__call-email">
                                     <div class="contact-page__call-icon">
-                                        <i class="fas fa-phone"></i>
+                                        <i class="fas fa-phone" style="transform: rotate(90deg);"></i>
                                     </div>
                                     <div class="contact-page__call-email-content">
                                         <h4 class="contacth4">
-                                            <a href="https://wa.me/91 9082391945">+91 9082391945</a>
+                                            <a href="tel:919082391945">+91 9082391945</a>
                                             <a href="mailto:vaishalienterprises922@gmail.com"style="word-wrap: anywhere;">vaishalienterprises922@gmail.com</a>
                                         </h4>
                                     </div>
@@ -1227,9 +1227,9 @@ Thank you for being my best financial consultant.</p>
                                 </div>
                                 <div class="site-footer__social">
                                     
-                                    <a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook"></i></a>
-                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
+                                    <a href="https://www.facebook.com/vaishali.salunkhe.9003" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://t.me/vtsinsuranceconsultant" target="_blank"><i class="fab fa-telegram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -1270,7 +1270,7 @@ Thank you for being my best financial consultant.</p>
                                         <span class="icon-telephone"></span>
                                     </div>
                                     <div class="footer-widget__phone-text">
-                                        <a href="tel:+91 9082391945">+91 9082391945</a>
+                                        <a href="tel:+919082391945">+91 9082391945</a>
                                         <p>Call to Our Experts</p>
                                     </div>
                                 </div>
