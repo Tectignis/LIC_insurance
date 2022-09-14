@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from layerdrops.com/insurhtml/main-html/index-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Jul 2022 09:06:58 GMT -->
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -63,10 +60,7 @@
     <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div>
 
-    <!-- <div class="preloader">
-        <div class="preloader__image"></div>
-    </div> -->
-    <!-- /.preloader -->
+    
     <div class="page-wrapper">
         <header class="main-header clearfix">
             <div class="main-header__top">
@@ -131,9 +125,7 @@
                                             <li class="scrollToLink">
                                                 <a href="#services">Services</a>
                                             </li>
-                                             <!-- <li class="scrollToLink">
-                                                <a href="#insurance">Insurance</a>
-                                            </li> -->
+                                           
                                            
                                             <li class="scrollToLink">
                                                 <a href="#team">Team</a>
@@ -163,7 +155,6 @@
                                         <a href="tel:9200368090">
                                         +91 9082391945
                                         </a>
-                                        <!-- +92 (003) 68-090 -->
                                         <p>Call to Our Experts</p>
                                     </div>
                                 </div>
@@ -175,10 +166,9 @@
         </header>
 
         <div class="stricky-header stricked-menu main-menu">
-            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-        </div><!-- /.stricky-header -->
+            <div class="sticky-header__content"></div>
+        </div>
 
-        <!--Main Slider Start-->
         <section class="main-slider clearfix" id="home">
             <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
                 "effect": "fade",
@@ -199,7 +189,6 @@
                     <div class="swiper-slide"  id="home">
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/page-header-bg.webp);height:420px;" ></div>
-                        <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
                             <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:420px;">
@@ -222,7 +211,6 @@
                     <div class="swiper-slide">
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-2-3.webp);height:420px; "></div>
-                        <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
                             <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:420px;">
@@ -245,7 +233,6 @@
                     <div class="swiper-slide">
                         <div class="image-layer"
                             style="background-image: url(assets/images/backgrounds/main-slider-3-1.webp);height:420px;"></div>
-                        <!-- /.image-layer -->
 
                         <div class="main-slider-shape-1 float-bob-x">
                             <img src="assets/images/shapes/main-slider-shape-1.webp" alt="" style="height:420px;">
@@ -264,10 +251,7 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-                <!-- If we need navigation buttons -->
                 <div class="main-slider__nav">
                     <div class="swiper-button-prev" id="main-slider__swiper-button-next">
                         <i class="icon-right-arrow"></i>
@@ -279,14 +263,10 @@
 
             </div>
         </section>
-        <!--Main Slider End-->
-
-        <!--Feature One Start-->
         <section class="feature-one">
             <div class="container">
                 <div class="feature-one__inner">
                     <div class="row">
-                        <!--Feature One Single Start-->
                         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
@@ -306,10 +286,6 @@
                             </div>
                         </div>
 
-
-                       
-                        <!-- Feature One Single End-->
-                        <!--Feature One Single Start-->
                         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
@@ -327,8 +303,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Feature One Single End-->
-                        <!--Feature One Single Start-->
+                      
                         <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                             <div class="feature-one__single">
                                 <div class="feature-one__single-inner">
@@ -351,9 +326,6 @@
                 </div>
             </div>
         </section>
-        <!--Feature One End-->
-
-        <!--About One Start-->
         <section class="about-one" id="about">
             <div class="about-one-bg wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"
                 style="background-image: url(assets/images/backgrounds/about-one-bg.webp);"></div>
@@ -436,8 +408,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                 </div>
             </div>
         </section>
-        <!--About One End-->
-  <!--Why Choose One Start-->
+     
   <section class="why-choose-one">
             <div class="why-choose-one-shape-1"
                 style="background-image: url(assets/images/shapes/why-choose-one-shape-1.webp);"></div>
@@ -546,9 +517,6 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                 </div>
             </div>
         </section>
-        <!--Why Choose One End-->
-
-        <!-- Features -->
         <section class="features-one" id="features" style="margin-top:50px;">
             <div class="services-one__top">
                 <div class="container">
@@ -576,7 +544,6 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
             <div class="services-one__bottom">
                 <div class="services-one__container">
                     <div class="row" id="features">
-                        <!--Services One Single Start-->
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px; margin-left:200px;">
                             <div class="services-one__single">
                                 <div class="service-one__content">
@@ -615,9 +582,6 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
             </div>
         </section>
      
-        <!-- Features End -->
-
-        <!--Services One Start-->
         <section class="services-one" id="insurance">
             <div class="services-one__top">
                 <div class="container">
@@ -649,7 +613,6 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
             <div class="services-one__bottom">
                 <div class="services-one__container">
                     <div class="row" id="services"style="justify-content:center;">
-                        <!--Services One Single Start-->
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" style="width:350px;">
                             <div class="services-one__single">
                                 <div class="service-one__img">
@@ -665,8 +628,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                 </div>
                             </div>
                         </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
+                     
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" style="width:350px;">
                             <div class="services-one__single">
                                 <div class="service-one__img">
@@ -683,10 +645,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                 </div>
                             </div>
                         </div>
-                      
-                        <!--Services One Single End-->
-                      
-                        <!--Services One Single Start-->
+                    
                         <div class="col-xl-3 col-lg- col-md-6 wow fadeInUp" data-wow-delay="100ms" style="width:350px;">
                             <div class="services-one__single">
                                 <div class="service-one__img">
@@ -717,8 +676,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                             </div>
                         </div>
                      
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
+                    
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms" style="width:350px;">
                             <div class="services-one__single">
                                 <div class="service-one__img">
@@ -735,8 +693,6 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                 </div>
                             </div>
                         </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms" style="width:350px;">
                             <div class="services-one__single">
                                 <div class="service-one__img">
@@ -751,21 +707,16 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                 </div>
                             </div>
                         </div>
-                        <!--Services One Single End-->
                         
                         </div>
                         </div>
                      </div>
-                        <!--Services One Single End-->
-                        <!--Services One Single Start-->
+                        
                    
                 </div>
             </div>
         </section>
-        <!--Services One End-->
 
-
-           <!--Testimonial One Start-->
            <section class="testimonial-one">
             <div class="testimonial-one-shape-2 float-bob-y">
                 <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt="">
@@ -831,7 +782,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
                                             <div class="testimonial-one__shape-1">
-                                                <!-- <img src="assets/images/shapes/testimonial-one-shape-2.webp" alt=""> -->
+                                               
                                             </div>
                                             <div class="testimonial-one__client-info">
                                                 <div class="testimonial-one__client-img-box">
@@ -853,7 +804,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                                     </div>
                                                     <div class="testimonial-one__client-details">
                                                         <h3 class="testimonial-one__client-name">Vikaram Godse</h3>
-                                                        <!-- <p class="testimonial-one__client-sub-title">director</p> -->
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
@@ -886,7 +837,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                                     </div>
                                                     <div class="testimonial-one__client-details">
                                                         <h3 class="testimonial-one__client-name">Aditya Shinde</h3>
-                                                        <!-- <p class="testimonial-one__client-sub-title">director</p> -->
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -921,7 +872,7 @@ I am glad by meeting her.</p>
                                                     </div>
                                                     <div class="testimonial-one__client-details">
                                                         <h3 class="testimonial-one__client-name">Ajit pawar</h3>
-                                                        <!-- <p class="testimonial-one__client-sub-title">director</p> -->
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -957,7 +908,7 @@ Thank you for being my best financial consultant.</p>
                                                     </div>
                                                     <div class="testimonial-one__client-details">
                                                         <h3 class="testimonial-one__client-name"> Tejasvi kishor yadav</h3>
-                                                        <!-- <p class="testimonial-one__client-sub-title">director</p> -->
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
@@ -971,9 +922,7 @@ Thank you for being my best financial consultant.</p>
                 </div>
             </div>
         </section>
-        <!--Testimonial One End-->
 
-          <!--Get Insurance Start-->
           <section class="get-insurance"id="QUOTE" >
             <div class="get-insurance-bg"
                 style="background-image: url(assets/images/backgrounds/get-insurance-bg.webp);"></div>
@@ -1010,7 +959,6 @@ Thank you for being my best financial consultant.</p>
                                 <div class="get-insurance__tab-box tabs-box">
                                    
                                     <div class="tabs-content">
-                                        <!--tab-->
                                         <div class="tab active-tab" id="home2">
                                             <div class="get-insurance__content">
                                                 <form action="mail.php" class="get-insurance__form" method="post">
@@ -1051,9 +999,7 @@ Thank you for being my best financial consultant.</p>
                 </div>
             </div>
         </section>
-        <!--Get Insurance End-->
 
-          <!--Team One Start-->
           <section class="team-one">
             <div class="team-one__shape-1 float-bob-y">
                 <img src="assets/images/shapes/team-one-shape-1.webp" alt="">
@@ -1076,7 +1022,6 @@ Thank you for being my best financial consultant.</p>
                 </div>
             </div>
                   
-                    <!--Team One Single Start-->
                     <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="team-one__single">
                             <div class="team-one__img">
@@ -1105,16 +1050,7 @@ Thank you for being my best financial consultant.</p>
                 
             </div>
         </section>
-        <!--Team One End-->
 
-
-
-
-        <!--Team One End-->
-
-     
-
-              <!--Contact Page Start-->
               <section class="contact-page" id="contact">
                 <div class="container">
                     <div class="row">
@@ -1194,22 +1130,16 @@ Thank you for being my best financial consultant.</p>
                     </div>
                 </div>
             </section>
-            <!--Contact Page End-->
-    
-                 <!--Google Map Start-->
         <section class="google-map-two">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.2076432947365!2d73.00465641507097!3d19.09854458707495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c18d23a43063%3A0xc40491427a3d4bef!2sVAISHALI%20ENTERPRISES!5e0!3m2!1sen!2sin!4v1659683597357!5m2!1sen!2sin" width="600" height="450"
                 class="google-map__two" allowfullscreen></iframe>
 
         </section>
-        <!--Google Map End-->
 
 
-         <!--Site Footer Start-->
          <footer class="site-footer">
-            <!-- <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.webp);">
-            </div> -->
+           
             <div class="container">
                 <div class="site-footer__top">
                     <div class="row">
@@ -1287,14 +1217,11 @@ Thank you for being my best financial consultant.</p>
                 </div>
             </div>
         </footer>
-        <!--Site Footer End-->
 
-    </div><!-- /.page-wrapper -->
+    </div>
 
 
     <div class="mobile-nav__wrapper">
-        <!-- <div class="mobile-nav__overlay mobile-nav__toggler"></div> -->
-        <!-- /.mobile-nav__overlay -->
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
@@ -1302,10 +1229,7 @@ Thank you for being my best financial consultant.</p>
                 <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.webp" width="143"
                         alt="" /></a>
             </div>
-            <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
@@ -1320,39 +1244,30 @@ Thank you for being my best financial consultant.</p>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-<!--                     
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-telegram"></a>
-                    <a href="#" class="fab fa-instagram"></a> -->
-
                     <a href="https://www.facebook.com/vaishali.salunkhe.9003"><i class="fab fa-facebook"></i></a>
                                     <a href="https://www.instagram.com/invites/contact/?i=4gb6femm52wl&utm_content=ozcitq2"><i class="fab fa-instagram"></i></a>
                                     <a href="https://t.me/vtsinsuranceconsultant"><i class="fab fa-telegram"></i></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
+                </div>
+            </div>
 
 
 
         </div>
-        <!-- /.mobile-nav__content -->
+    
     </div>
-    <!-- /.mobile-nav__wrapper -->
 
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
         <div class="search-popup__content">
             <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <label for="search" class="sr-only">search here</label>
                 <input type="text" id="search" placeholder="Search Here..." />
                 <button type="submit" aria-label="search submit" class="thm-btn">
                     <i class="icon-magnifying-glass"></i>
                 </button>
             </form>
         </div>
-        <!-- /.search-popup__content -->
     </div>
-    <!-- /.search-popup -->
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
@@ -1384,7 +1299,6 @@ Thank you for being my best financial consultant.</p>
     <script src="assets/vendors/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
 
 
-    <!-- template js -->
     <script src="assets/js/insur.js"></script>
 </body>
 
