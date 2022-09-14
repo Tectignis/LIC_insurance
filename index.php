@@ -1292,7 +1292,7 @@ Thank you for being my best financial consultant.</p>
     <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
     <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
     <script src="assets/vendors/vegas/vegas.min.js"></script>
-    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <!-- <script src="assets/vendors/jquery-ui/jquery-ui.js"></script> -->
     <script src="assets/vendors/timepicker/timePicker.js"></script>
     <script src="assets/vendors/circleType/jquery.circleType.js"></script>
     <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
