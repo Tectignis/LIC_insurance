@@ -17,13 +17,10 @@
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
-
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
@@ -42,7 +39,7 @@
     <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
     <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
     <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <!-- <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" /> -->
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
     <!-- <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css"> -->
     <!-- template styles -->
