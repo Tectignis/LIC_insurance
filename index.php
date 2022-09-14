@@ -28,8 +28,8 @@
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <!-- <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" /> -->
+    <!-- <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" /> -->
     <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
     <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
     <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
-    <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css">
+    <!-- <link rel="stylesheet" href="assets/vendors/ion.rangeSlider/css/ion.rangeSlider.min.css"> -->
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/insur.css" />
     <link rel="stylesheet" href="assets/css/insur-responsive.css" />
