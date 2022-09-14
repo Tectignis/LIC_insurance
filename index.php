@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Vaishali Enterprises </title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.webp" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.webp" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.webp" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Insur HTML 5 Template " />
 
@@ -115,7 +115,7 @@
                         <div class="main-menu__wrapper-inner clearfix">
                             <div class="main-menu__left">
                                 <div class="main-menu__logo dgdfgdf">
-                                    <a href="index.html"><img src="assets/images/resources/logo2.png" alt="" style="width:80px; height:80px; padding:0px;"></a>
+                                    <a href="index.html"><img src="assets/images/resources/logo2.webp" alt="" style="width:80px; height:80px; padding:0px; margin-top:-27px;"></a>
                                 </div>
                                 <div class="main-menu__main-menu-box">
                                     <div class="main-menu__main-menu-box-inner">
@@ -298,7 +298,7 @@
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
                                     </div>
                                     <h3 class="feature-one__title"><a href="#">Life Insurance</a></h3>
                                     <p class="feature-one__text"> The life insurance calculator gives you the 
@@ -321,7 +321,7 @@
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
                                     </div>
                                     <h2 class="feature-one__title" id="health"><a href="#">Health Insurance</a>
                                     </h2>
@@ -340,7 +340,7 @@
                                     </div>
                                     <div class="feature-one__count"></div>
                                     <div class="feature-one__shape">
-                                        <img src="assets/images/shapes/feature-one-shape-1.png" alt="">
+                                        <img src="assets/images/shapes/feature-one-shape-1.webp" alt="">
                                     </div>
                                      <h2 class="feature-one__title" id="business"><a href="#">Mutual Funds</a></h2>
                                     <p class="feature-one__text"> A mutual fund is a company that pools money from many investors and invests the money in securities such as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio. Investors buy shares in mutual funds.
@@ -359,7 +359,7 @@
         <!--About One Start-->
         <section class="about-one" id="about">
             <div class="about-one-bg wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"
-                style="background-image: url(assets/images/backgrounds/about-one-bg.png);"></div>
+                style="background-image: url(assets/images/backgrounds/about-one-bg.webp);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
@@ -1127,10 +1127,10 @@ Thank you for being my best financial consultant.</p>
                                     <div class="section-sub-title-box">
                                         <p class="section-sub-title">Contact us</p>
                                         <div class="section-title-shape-1">
-                                            <img src="assets/images/shapes/section-title-shape-1.png" alt="">
+                                            <img src="assets/images/shapes/section-title-shape-1.webp" alt="">
                                         </div>
                                         <div class="section-title-shape-2">
-                                            <img src="assets/images/shapes/section-title-shape-2.png" alt="">
+                                            <img src="assets/images/shapes/section-title-shape-2.webp" alt="">
                                         </div>
                                     </div>
                                     <h2 class="section-title__title">Feel free to get in touch with experts</h2>
@@ -1302,7 +1302,7 @@ Thank you for being my best financial consultant.</p>
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="143"
+                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo2.webp" width="143"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
