@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="assets/css/insur.css" />
     <link rel="stylesheet" href="assets/css/insur-responsive.css" />
     <style>
-        @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
   #features {
     justify-content: end;
   } 
@@ -53,7 +53,12 @@
   }
  
  }
-        </style>
+ @media screen and (max-width: 480px) {
+    #mobilemap a{
+        /* background-image : url("assets\images\shapes\mobile-map.webp"); */
+    }
+        }
+     </style>
 </head>
 
 
@@ -1131,7 +1136,7 @@ Thank you for being my best financial consultant.</p>
                     </div>
                 </div>
             </section>
-        <section class="google-map-two">
+        <section class="google-map-two" id="mobilemap">
             <a href="https://goo.gl/maps/sjtePaWgJWPhEnYDA" target="_blank"><img rel="preconnect" 
                 src="assets\images\shapes\map.webp" width="600" height="450"
                 class="google-map__two" allowfullscreen></a>
