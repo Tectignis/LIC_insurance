@@ -1135,12 +1135,8 @@ Thank you for being my best financial consultant.</p>
             <a href="https://goo.gl/maps/sjtePaWgJWPhEnYDA" target="_blank"><img rel="preconnect" 
                 src="assets\images\shapes\map.webp" width="600" height="450"
                 class="google-map__two" allowfullscreen></a>
-
         </section>
-
-
          <footer class="site-footer">
-           
             <div class="container">
                 <div class="site-footer__top">
                     <div class="row">

@@ -1,3 +1,4 @@
+
 .fa,
 .fab,
 .fad,
@@ -131,9 +132,9 @@
 }
 
 @-webkit-keyframes fa-spin {
-    0 {
-        -webkit-transform: rotate(0);
-        transform: rotate(0)
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
     }
 
     to {
@@ -143,9 +144,9 @@
 }
 
 @keyframes fa-spin {
-    0 {
-        -webkit-transform: rotate(0);
-        transform: rotate(0)
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
     }
 
     to {
