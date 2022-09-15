@@ -1132,9 +1132,9 @@ Thank you for being my best financial consultant.</p>
                 </div>
             </section>
         <section class="google-map-two">
-            <iframe defer rel="preconnect" 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.2076432947365!2d73.00465641507097!3d19.09854458707495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c18d23a43063%3A0xc40491427a3d4bef!2sVAISHALI%20ENTERPRISES!5e0!3m2!1sen!2sin!4v1659683597357!5m2!1sen!2sin" width="600" height="450"
-                class="google-map__two" allowfullscreen></iframe>
+            <a href="https://goo.gl/maps/sjtePaWgJWPhEnYDA" target="_blank"><img rel="preconnect" 
+                src="assets\images\shapes\map.webp" width="600" height="450"
+                class="google-map__two" allowfullscreen></a>
 
         </section>
 
