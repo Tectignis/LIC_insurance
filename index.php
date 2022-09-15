@@ -53,9 +53,18 @@
   }
  
  }
+ .mobilemap{
+      display:none;
+    }
+    .google-map-two{
+        display:inline;
+    }
  @media screen and (max-width: 480px) {
-    #mobilemap a{
-        /* background-image : url("assets\images\shapes\mobile-map.webp"); */
+    .mobilemap{
+      display: inline;
+    }
+    .google-map-two{
+        display:none;
     }
         }
      </style>
@@ -784,7 +793,7 @@ As we are working with one of the best Insurance Companies like LIC, Star & Heal
                                     }
                                 }
                             }'>
-                                <div class="item">
+                                <div class="item"> 
                                     <div class="testimonial-one__single">
                                         <div class="testimonial-one__single-inner">
                                             <div class="testimonial-one__shape-1">
@@ -1136,7 +1145,12 @@ Thank you for being my best financial consultant.</p>
                     </div>
                 </div>
             </section>
-        <section class="google-map-two" id="mobilemap">
+            <section class="mobilemap">
+            <a href="https://goo.gl/maps/sjtePaWgJWPhEnYDA" target="_blank"><img rel="preconnect" 
+                src="assets\images\shapes\mobile-map.webp"
+                 allowfullscreen style="width:100%"></a>
+        </section>
+        <section class="google-map-two">
             <a href="https://goo.gl/maps/sjtePaWgJWPhEnYDA" target="_blank"><img rel="preconnect" 
                 src="assets\images\shapes\map.webp" width="600" height="450"
                 class="google-map__two" allowfullscreen></a>
