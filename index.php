@@ -67,6 +67,21 @@
         display:none;
     }
         }
+        .mobilefooter{
+      display:none;
+    }
+    .site-footer__bottom{
+        display:inline;
+    }
+        @media screen and (max-width: 480px) {
+    .mobilefooter{
+      display: inline;
+      text-align:center;
+    }
+    .site-footer__bottom{
+        display:none;
+    }
+        }
      </style>
 </head>
 
@@ -1247,6 +1262,16 @@ Thank you for being my best financial consultant.</p>
                                     <h3 class="footer-widget__open-hour-text">Mon – Sat: 8:00 am to 6:00 pm Sunday:
                                         Closed</h3>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobilefooter">
+                    <div class="row">
+                        <div class="col-xl-12">
+                             <div class="site-footer__bottom-inner">
+                                <p class="site-footer__bottom-text">© All Copyright 2022 by <a href="#">Vaishali Enterprises</a>
+                                </p> <p class="site-footer__bottom-text">Designed By <a href="https://tectignis.in" target="_blank"><b>Tectignis IT Solutions.</b></a></p>
                             </div>
                         </div>
                     </div>
