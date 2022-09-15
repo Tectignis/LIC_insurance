@@ -1081,9 +1081,9 @@ Thank you for being my best financial consultant.</p>
                                     </div>
                                 </div>
                                 <p class="contact-page__location-text">
-
+                                <a href="https://goo.gl/maps/sjtePaWgJWPhEnYDA" target="_blank">
                                     Shop No.3, Suyash Society, sec.10, Koparkhairane,Navi Mumbai-400709
-                                    </p>
+                                    </p></a>
                             </div>
                         </div>
                         <div class="col-xl-8 col-lg-7">
@@ -1161,10 +1161,55 @@ Thank you for being my best financial consultant.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="footer-widget__column footer-widget__newsletter">
+                            <h3 class="footer-widget__title">Navigation</h3>
+                            <ul class="footer-widget__contact-list list-unstyled clearfix">
+                            <li>
+                            <div class="text">
+                              <p><a href="#home">Home</a></p>   
+                            </div>
+                            </li>
+                            <li>
+                            <div class="text">
+                           <p><a href="#about">About Us</a></p>
+                        </div>
+                            </li>
+                            <li>
+                            <div class="text">
+                          <p> <a href="#features">Features</a></p>
+                        </div>
+                            </li>
+                            <li>
+                            <div class="text">
+                           <p><a href="#services">Services</a></p>
+                        </div>
+                            </li>
+                            <li>
+                            <div class="text">
+                            <p><a href="#team">Team</a></p>
+                        </di>
+                            </li>
+                            <li>
+                            <div class="text">
+                           <p><a href="#contact">Contact Us</a></p>
+                        </div>
+                            </li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="footer-widget__column footer-widget__contact clearfix">
-                                <h3 class="footer-widget__title">Contact</h3>
+                                <h3 class="footer-widget__title">Get In Touch</h3>
                                 <ul class="footer-widget__contact-list list-unstyled clearfix">
+                                    <li>
+                                    <div class="icon">
+                                        <span class="fas fa-phone" style="transform: rotate(90deg);"></span>
+                                    </div>
+                                    <div class="text">
+                                       <p> <a href="tel:+919082391945">+91 9082391945</a></p>
+                                    </div>
+                                    </li>
                                     <li>
                                         <div class="icon">
                                             <span class="icon-email"></span>
@@ -1178,7 +1223,7 @@ Thank you for being my best financial consultant.</p>
                                             <span class="icon-pin"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Shop No.3, Suyash Society, sec.10, Koparkhairane, Navi Mumbai-400709</p>
+                                            <p> <a href="https://goo.gl/maps/sjtePaWgJWPhEnYDA" target="_blank">Shop No.3, Suyash Society, sec.10, Koparkhairane, Navi Mumbai-400709</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -1186,21 +1231,6 @@ Thank you for being my best financial consultant.</p>
                                     <h3 class="footer-widget__open-hour-title">Open Hours</h3>
                                     <h3 class="footer-widget__open-hour-text">Mon – Sat: 8:00 am to 6:00 pm Sunday:
                                         Closed</h3>
-                                </div>
-                            </div>
-                        </div>
-                       
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                            <div class="footer-widget__column footer-widget__newsletter">
-                                
-                                <div class="footer-widget__phone">
-                                    <div class="footer-widget__phone-icon">
-                                        <span class="icon-telephone"></span>
-                                    </div>
-                                    <div class="footer-widget__phone-text">
-                                        <a href="tel:+919082391945">+91 9082391945</a>
-                                        <p>Call to Our Experts</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
