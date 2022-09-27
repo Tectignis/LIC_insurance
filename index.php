@@ -182,7 +182,7 @@
                                         <i class="fas fa-phone" style="transform: rotate(90deg);"></i>
                                     </div>
                                     <div class="main-menu__call-content">
-                                        <a href="tel:9200368090">
+                                        <a href="tel:9082391945">
                                         +91 9082391945
                                         </a>
                                         <p>Call to Our Experts</p>
