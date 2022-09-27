@@ -151,6 +151,12 @@
                                                 <a href="#about">About </a>
                                             </li>
                                            
+
+                                            <li class="scrollToLink">
+                                                <a href=".why-choose-one">Why</a>
+                                            </li>
+
+
                                             <li class="scrollToLink">
                                                 <a href="#features">Features</a>
                                             </li>
@@ -159,10 +165,10 @@
                                             </li>
                                            
                                            
-                                            <li class="scrollToLink">
+                                            <!-- <li class="scrollToLink">
                                                 <a href="#team">Team</a>
                                                 
-                                            </li>
+                                            </li> -->
                                             
                                             <li class="scrollToLink">
                                                 <a href="#contact">Contact </a>
