@@ -232,7 +232,7 @@
                                             
                                         <br><p class="main-slider__text"><b>Getting insurance is now much easier...</b> </p>
                                         <a href="vaishali Enterprises/index.html" target="_blank">
-                                        <button type="submit" class="thm-btn get-insurance__btn" name="submit1" >Digital Vcard </button></a>
+                                        <button type="submit" class="thm-btn get-insurance__btn" name="submit1" >Digital Card </button></a>
                                        
                                     </div>
                                 </div>
@@ -256,7 +256,7 @@
                                             
                                         <br><p class="main-slider__text"><b>Getting insurance is now much easier...</b> </p>
                                         <a href="vaishali Enterprises/index.html" target="_blank">
-                                        <button type="submit" class="thm-btn get-insurance__btn" name="submit1" >Digital Vcard </button></a>
+                                        <button type="submit" class="thm-btn get-insurance__btn" name="submit1" >Digital Card </button></a>
                                     </div>
                                 </div>
                             </div>
@@ -279,7 +279,7 @@
                                             
                                         <br><p class="main-slider__text"><b>Getting insurance is now much easier...</b> </p>
                                         <a href="vaishali Enterprises/index.html" target="_blank">
-                                        <button type="submit" class="thm-btn get-insurance__btn" name="submit1" >Digital Vcard </button></a>
+                                        <button type="submit" class="thm-btn get-insurance__btn" name="submit1" >Digital Card </button></a>
                                     </div>
                                 </div>
                             </div>
