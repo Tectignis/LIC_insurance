@@ -136,7 +136,9 @@
                         <div class="main-menu__wrapper-inner clearfix">
                             <div class="main-menu__left">
                                 <div class="main-menu__logo dgdfgdf">
-                                    <a href="index.html"><img src="assets/images/resources/logo2.webp" alt="" style="width:80px; height:80px; padding:0px; margin-top:-27px;"></a>
+                                    <a href="#"><img src="assets/images/resources/loggo.webp" alt="" style="width:80px; height:80px; padding:0px; margin-left:50px;margin-top:-27px;"></a>
+                                    <h6><b>Vaishali Enterprises</b></h6>
+                                    
                                 </div>
                                 <div class="main-menu__main-menu-box">
                                     <div class="main-menu__main-menu-box-inner">
